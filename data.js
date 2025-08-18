@@ -335,6 +335,46 @@ const unitsData = {
         question: "Teachers must be good role m__________ for students.",
         correct: ["models"],
       },
+       {
+    question: "The way a person b__________ in society is known as manners.",
+    correct: ["behaves"],
+  },
+  {
+    question: "It is p__________ manners for a junior to listen with arms folded while a parent or teacher speaks to him or her.",
+    correct: ["polite"],
+  },
+  {
+    question: "The list of good and bad manners is found in every society and c__________.",
+    correct: ["culture"],
+  },
+  {
+    question: "Although some manners are culture-specific, some are u__________.",
+    correct: ["universal"],
+  },
+  {
+    question: "Some people may accept b__________ in their society.",
+    correct: ["bad manners"],
+  },
+  {
+    question: "For getting on well in life, good manners are v__________ everywhere.",
+    correct: ["valued"],
+  },
+  {
+    question: "We say 'I'm s__________' to show r__________ to the other person.",
+    correct: ["sorry", "respect"],
+  },
+  {
+    question: "Home may be said to be the b__________ of manners.",
+    correct: ["birthplace"],
+  },
+  {
+    question: "Children i__________ their elder's manners.",
+    correct: ["imitate"],
+  },
+  {
+    question: "If the elders around them are rude, they will grow up to be c__________.",
+    correct: ["crude"],
+  },
     ],
 
     // MULTIPLE CHOICE QUESTIONS
@@ -1545,6 +1585,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
