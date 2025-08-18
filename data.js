@@ -416,21 +416,48 @@ initialLetters: [
     ],
 
     // GRAMMAR - Grammar rules and explanations
-    grammar: [
-      {
-        front: "Subject-Verb Agreement Rule",
-        back: "The subject and verb in a sentence must agree in number. Singular subjects take singular verbs, plural subjects take plural verbs. Example: 'The cat runs' vs 'The cats run'.",
-      },
-      {
-        front: "Comma Usage in Lists",
-        back: "Use commas to separate items in a series of three or more. The Oxford comma (before 'and') is optional but recommended for clarity. Example: 'I bought apples, oranges, and bananas.'",
-      },
-      {
-        front: "Apostrophe for Possession",
-        back: "Use an apostrophe + s for singular possession, and just an apostrophe for plural possession ending in s. Examples: 'The dog's bone' (singular), 'The dogs' bones' (plural).",
-      },
-    ],
+grammar: [
+  {
+    question: "1. All applicants ____ take an entrance examination.",
+    correct: ["must"],
   },
+  {
+    question: "2. ____ you ride a motorcycle?",
+    correct: ["can"],
+  },
+  {
+    question: "3. You look pale and sick. You ____ go and see a doctor.",
+    correct: ["should"],
+  },
+  {
+    question: "4. The elders of this generation _____ teach their children to be polite.",
+    correct: ["should"],
+  },
+  {
+    question: "5. You ______ smoke in public areas.",
+    correct: ["must"],
+  },
+  {
+    question: "6. The police have done as much as they ____ to find the missing boy.",
+    correct: ["can"],
+  },
+  {
+    question: "7. Students _____ leave the examination hall without permission.",
+    correct: ["must"],
+  },
+  {
+    question: "8. Although she is young, she _____ speak three languages.",
+    correct: ["can"],
+  },
+  {
+    question: "9. All passengers _____ wear seat belts when they are in a car or plane.",
+    correct: ["must"],
+  },
+  {
+    question: "10. If you are disturbed by this ringtone, you ____ change it.",
+    correct: ["can"],
+  },
+],
 
   // ==========================================
   // UNIT 2: EXAMPLE UNIT - POETRY ANALYSIS
@@ -1593,6 +1620,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
