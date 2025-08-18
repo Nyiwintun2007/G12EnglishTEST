@@ -414,6 +414,23 @@ initialLetters: [
         correct: 2,
       },
     ],
+        // GRAMMAR
+    grammar: [
+      {
+        front: "Capitalization in Poetry",
+        back: "Traditionally, each line of poetry begins with a capital letter, regardless of punctuation. Modern poetry may vary this rule for artistic effect.",
+      },
+      {
+        front: "Punctuation in Poetry",
+        back: "Poetry may use unconventional punctuation for rhythm and emphasis. End-stopped lines end with punctuation, while enjambed lines continue without pause.",
+      },
+      {
+        front: "Poetic License",
+        back: "Poets may bend grammar rules for meter, rhyme, or artistic effect. This includes unusual word order, archaic forms, or invented words.",
+      },
+    ],
+  },
+
 
   // ==========================================
   // UNIT 2: EXAMPLE UNIT - POETRY ANALYSIS
@@ -1576,6 +1593,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
