@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grade 12 English Flashcards</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <h1>Grade 12 English Review</h1>
+        <p>Interactive Flashcards & Practice Questions</p>
+      </header>
+
+      <!-- Navigation -->
+      <nav class="nav-container">
+        <div class="unit-selector">
+          <label for="unit-select">Select Unit:</label>
+          <select id="unit-select">
+            <option value="">Choose a unit...</option>
+          </select>
+        </div>
+        <div class="section-selector">
+          <button id="vocabulary-section" class="section-btn active">
+            📚 Vocabulary
+          </button>
+          <button id="short-questions-section" class="section-btn">
+            ❓ Short Questions
+          </button>
+          <button id="initial-letters-section" class="section-btn">
+            🔤 Initial Letters
+          </button>
+          <button id="multiple-choice-section" class="section-btn">
+            ✅ Multiple Choice
+          </button>
+          <button id="grammar-section" class="section-btn">📝 Grammar</button>
+        </div>
+      </nav>
+
+      <!-- Progress Bar -->
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <span class="progress-text" id="progress-text">0 / 0</span>
+      </div>
+
+      <!-- Main Content Area -->
+      <main class="main-content">
+        <!-- Welcome Screen -->
+        <div id="welcome-screen" class="screen active">
+          <div class="welcome-content">
+            <h2>Welcome to Grade 12 English Review</h2>
+            <p>
+              Select a unit from the dropdown above and choose a study section
+              to start!
+            </p>
+            <div class="features">
+              <div class="feature">
+                <h3>📚 Vocabulary Flashcards</h3>
+                <p>Learn key terms and definitions with flip cards</p>
+              </div>
+              <div class="feature">
+                <h3>❓ Short Questions</h3>
+                <p>Practice with question-answer flashcards</p>
+              </div>
+              <div class="feature">
+                <h3>🔤 Initial Letters</h3>
+                <p>Fill-in-the-blank exercises for word beginnings</p>
+              </div>
+              <div class="feature">
+                <h3>✅ Multiple Choice</h3>
+                <p>Test knowledge with multiple choice questions</p>
+              </div>
+              <div class="feature">
+                <h3>📝 Grammar</h3>
+                <p>Master grammar rules with interactive cards</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vocabulary Flashcards Screen -->
+        <div id="vocabulary-screen" class="screen">
+          <div class="flashcard-container">
+            <div class="flashcard" id="vocabulary-flashcard">
+              <div class="flashcard-front">
+                <div class="card-content" id="vocabulary-front"></div>
+                <div class="card-hint">Click to reveal definition</div>
+              </div>
+              <div class="flashcard-back">
+                <div class="card-content" id="vocabulary-back"></div>
+                <div class="card-hint">Click to see term</div>
+              </div>
+            </div>
+          </div>
+          <div class="flashcard-controls">
+            <button id="vocabulary-prev" class="control-btn">← Previous</button>
+            <button id="vocabulary-flip" class="control-btn primary">
+              Flip Card
+            </button>
+            <button id="vocabulary-next" class="control-btn">Next →</button>
+          </div>
+        </div>
+
+        <!-- Short Questions Screen -->
+        <div id="short-questions-screen" class="screen">
+          <div class="flashcard-container">
+            <div class="flashcard" id="short-questions-flashcard">
+              <div class="flashcard-front">
+                <div class="card-content" id="short-questions-front"></div>
+                <div class="card-hint">Click to reveal answer</div>
+              </div>
+              <div class="flashcard-back">
+                <div class="card-content" id="short-questions-back"></div>
+                <div class="card-hint">Click to see question</div>
+              </div>
+            </div>
+          </div>
+          <div class="flashcard-controls">
+            <button id="short-questions-prev" class="control-btn">
+              ← Previous
+            </button>
+            <button id="short-questions-flip" class="control-btn primary">
+              Flip Card
+            </button>
+            <button id="short-questions-next" class="control-btn">
+              Next →
+            </button>
+          </div>
+        </div>
+
+        <!-- Initial Letters Screen -->
+        <div id="initial-letters-screen" class="screen">
+          <div class="quiz-container">
+            <div class="question-container">
+              <div class="question-type">INITIAL LETTERS</div>
+              <div class="question-text" id="initial-letters-text"></div>
+              <div class="question-options">
+                <input
+                  type="text"
+                  id="initial-letters-input"
+                  class="fill-blank-input"
+                  placeholder="Type the first letter(s)..."
+                />
+              </div>
+            </div>
+            <div class="quiz-controls">
+              <button id="initial-letters-submit" class="control-btn primary">
+                Submit Answer
+              </button>
+              <button
+                id="initial-letters-next"
+                class="control-btn"
+                style="display: none"
+              >
+                Next Question
+              </button>
+            </div>
+            <div class="quiz-feedback" id="initial-letters-feedback"></div>
+          </div>
+        </div>
+
+        <!-- Multiple Choice Screen -->
+        <div id="multiple-choice-screen" class="screen">
+          <div class="quiz-container">
+            <div class="question-container">
+              <div class="question-type">MULTIPLE CHOICE</div>
+              <div class="question-text" id="multiple-choice-text"></div>
+              <div class="question-options" id="multiple-choice-options"></div>
+            </div>
+            <div class="quiz-controls">
+              <button id="multiple-choice-submit" class="control-btn primary">
+                Submit Answer
+              </button>
+              <button
+                id="multiple-choice-next"
+                class="control-btn"
+                style="display: none"
+              >
+                Next Question
+              </button>
+            </div>
+            <div class="quiz-feedback" id="multiple-choice-feedback"></div>
+          </div>
+        </div>
+
+        <!-- Grammar Screen -->
+        <div id="grammar-screen" class="screen">
+          <div class="flashcard-container">
+            <div class="flashcard" id="grammar-flashcard">
+              <div class="flashcard-front">
+                <div class="card-content" id="grammar-front"></div>
+                <div class="card-hint">Click to reveal explanation</div>
+              </div>
+              <div class="flashcard-back">
+                <div class="card-content" id="grammar-back"></div>
+                <div class="card-hint">Click to see rule</div>
+              </div>
+            </div>
+          </div>
+          <div class="flashcard-controls">
+            <button id="grammar-prev" class="control-btn">← Previous</button>
+            <button id="grammar-flip" class="control-btn primary">
+              Flip Card
+            </button>
+            <button id="grammar-next" class="control-btn">Next →</button>
+          </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="screen">
+          <div class="results-container">
+            <h2>Quiz Complete!</h2>
+            <div class="score-display">
+              <div class="score-circle">
+                <span id="final-score">0%</span>
+              </div>
+            </div>
+            <div class="score-details">
+              <p>Correct: <span id="correct-count">0</span></p>
+              <p>Total: <span id="total-count">0</span></p>
+            </div>
+            <div class="results-actions">
+              <button id="retry-quiz" class="control-btn">Try Again</button>
+              <button id="back-to-units" class="control-btn primary">
+                Back to Units
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>Grade 12 English Review System | Easy Manual Question Management</p>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
