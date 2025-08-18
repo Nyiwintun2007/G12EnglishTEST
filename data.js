@@ -469,24 +469,32 @@ initialLetters: [
     description: "Understanding poetic devices and analysis techniques",
 
     // VOCABULARY FLASHCARDS
-    vocabulary: [
-      {
-        front: "Alliteration",
-        back: "The repetition of the same consonant sound at the beginning of words in close succession. Example: 'Peter Piper picked a peck of pickled peppers.'",
-      },
-      {
-        front: "Rhyme Scheme",
-        back: "The pattern of rhymes at the end of each line of poetry, usually marked with letters (ABAB, AABB, etc.)",
-      },
-      {
-        front: "Iambic Pentameter",
-        back: "A rhythmic pattern in poetry consisting of five iambs (unstressed-stressed syllable pairs) per line. Common in Shakespeare's sonnets.",
-      },
-      {
-        front: "Meter",
-        back: "The rhythmic structure of poetry, determined by the pattern of stressed and unstressed syllables.",
-      },
-    ],
+  vocabulary: [
+    {
+      front: "stressful",
+      back: "Causing a lot of anxiety and worry. Example: Preparing for exams can be very stressful.",
+    },
+    {
+      front: "sympathy",
+      back: "Feeling of being sorry for someone who is in a bad situation. Example: I felt sympathy for the flood victims.",
+    },
+    {
+      front: "downhearted",
+      back: "Feeling sad and disappointed, especially because you have tried to achieve something but have failed. Example: She was downhearted after losing the competition.",
+    },
+    {
+      front: "contentment",
+      back: "Feeling of happiness or satisfaction. Example: He felt a sense of contentment after finishing his work.",
+    },
+    {
+      front: "passionate",
+      back: "Showing strong feelings of enthusiasm for something. Example: She is passionate about teaching children.",
+    },
+    {
+      front: "encounter",
+      back: "Experience something, especially problems. Example: We encountered many difficulties on our trip.",
+    },
+  ],
 
     // SHORT QUESTIONS
 shortQuestions: [
@@ -625,35 +633,51 @@ shortQuestions: [
 ],
 
 
-    // INITIAL LETTERS
-    initialLetters: [
-      {
-        question:
-          "The repetition of consonant sounds at the beginning of words: A___________",
-        correct: [
-          "a",
-          "al",
-          "all",
-          "alli",
-          "allit",
-          "allite",
-          "alliter",
-          "allitera",
-          "alliterat",
-          "alliterati",
-          "alliteratio",
-          "alliteration",
-        ],
-      },
-      {
-        question: "The pattern of rhymes in poetry: R____ S_____",
-        correct: ["r", "rh", "rhy", "rhym", "rhyme"],
-      },
-      {
-        question: "A poetic meter with five iambs per line: I_____ P_________",
-        correct: ["i", "ia", "iam", "iamb", "iambi", "iambic"],
-      },
-    ],
+initialLetters: [
+  { question: "According to the law of nature, nothing is c-------------.", correct: ["constant"] },
+  { question: "The storm is moving at a c------------- speed of 100 mph.", correct: ["constant"] },
+  { question: "Having a positive a------------- to life is a good way to find happiness.", correct: ["attitude"] },
+  { question: "All the teachers should have a------------- towards teaching profession.", correct: ["attitude"] },
+  { question: "Abuse and bully can lead to e------------- and physical pain of a child.", correct: ["emotional"] },
+  { question: "Doing p------------- exercise is good for health.", correct: ["physical"] },
+  { question: "There should be a good r------------- between the teachers and the parents.", correct: ["relationship"] },
+  { question: "The students felt d------------- due to the result of pilot test.", correct: ["depressed"] },
+  { question: "I e------------- you for your large group of friends.", correct: ["envy"] },
+  { question: "In the competitive environment such as workplace or school, you may feel d-------------.", correct: ["downhearted"] },
+  { question: "A good teacher can make the class e-------------. The students never feel bored.", correct: ["enjoyable"] },
+  { question: "We can find c------------- by living in a simple life.", correct: ["contentment"] },
+  { question: "The education system should encourage to realize the p------------- of every child.", correct: ["potential"] },
+  { question: "Life s------------- is one of the key element to achieve true happiness.", correct: ["satisfaction"] },
+  { question: "Job s------------- of teachers is related to the leadership style of principal.", correct: ["satisfaction"] },
+  { question: "We all should wear masks to p------------- COVID-19.", correct: ["protect"] },
+  { question: "As parents, we feel it is our duty to p------------- our family.", correct: ["protect"] },
+  { question: "Remember that you are not alone if you feel s-------------.", correct: ["stress"] },
+  { question: "Decision can be wrong when people are under s-------------.", correct: ["stress"] },
+  { question: "It was very g------------- of you because you donated a lot to the poor.", correct: ["generous"] },
+  { question: "The man use music and take m------------- to relax and feel peace.", correct: ["meditation"] },
+  { question: "The students need to a------------- academically in order to enter the labour market.", correct: ["achieve"] },
+  { question: "She is delighted with her success. Her eyes shine with h-------------.", correct: ["happiness"] },
+  { question: "Everyone in the class is e------------- of her having the chance to study abroad.", correct: ["envious"] },
+  { question: "The students should pay a------------- when the teacher is teaching.", correct: ["attention"] },
+  { question: "He has always been a c-------------, hard-working student.", correct: ["cheerful"] },
+  { question: "We should show our s------------- to the families of victims.", correct: ["sympathy"] },
+  { question: "The c------------- of education was different from time to time.", correct: ["concept"] },
+  { question: "We can feel r------------- when we listen to music and watch movie.", correct: ["relaxed"] },
+  { question: "The school should have a r------------- atmosphere for students and teachers.", correct: ["relaxed"] },
+  { question: "Spending time with family and friends can reduce s------------- feelings.", correct: ["stressful"] },
+  { question: "He tried as much as he could and finally he achieved s-------------.", correct: ["success"] },
+  { question: "The doctor s------------- a low sodium diet for patients with high blood pressure.", correct: ["suggested"] },
+  { question: "You should treat everyone k------------- to achieve true happiness.", correct: ["kindly"] },
+  { question: "It is reasonable to a------------- that every piece of writing is not literature.", correct: ["assume"] },
+  { question: "People should try to replace envy with s------------- or empathetic joy.", correct: ["sympathetic"] },
+  { question: "It is very important to keep c------------- in a state of emergency.", correct: ["calm"] },
+  { question: "If you work more than you can handle, it may lead to f-------------.", correct: ["fatigue"] },
+  { question: "If we e------------- negative emotions, our mood may not be good.", correct: ["encounter"] },
+  { question: "It is u------------- that the more you try, the more you succeed.", correct: ["undeniable"] },
+  { question: "He decided to donate his all p------------- to the poor.", correct: ["possessions"] },
+  { question: "The students should use the r------------- amount of time in sports.", correct: ["reasonable"] },
+],
+
 
     // MULTIPLE CHOICE
     multipleChoice: [
@@ -681,20 +705,73 @@ shortQuestions: [
     ],
 
     // GRAMMAR
-    grammar: [
-      {
-        front: "Capitalization in Poetry",
-        back: "Traditionally, each line of poetry begins with a capital letter, regardless of punctuation. Modern poetry may vary this rule for artistic effect.",
-      },
-      {
-        front: "Punctuation in Poetry",
-        back: "Poetry may use unconventional punctuation for rhythm and emphasis. End-stopped lines end with punctuation, while enjambed lines continue without pause.",
-      },
-      {
-        front: "Poetic License",
-        back: "Poets may bend grammar rules for meter, rhyme, or artistic effect. This includes unusual word order, archaic forms, or invented words.",
-      },
-    ],
+grammar: [
+  {
+    front: "Our principal wants to see an architect. He designed our school library.",
+    back: "Our principal wants to see the architect who designed our school library.",
+  },
+  {
+    front: "Win Win made a birthday cake. Nobody liked it.",
+    back: "Win Win made a birthday cake that nobody liked.",
+  },
+  {
+    front: "The woman spent the night at her friend's house. Her flat was burgled.",
+    back: "The woman whose flat was burgled spent the night at her friend’s house.",
+  },
+  {
+    front: "I met an old lady. She was one hundred and two years old.",
+    back: "I met an old lady who was one hundred and two years old.",
+  },
+  {
+    front: "The factory closed down last week. It was built twenty years ago.",
+    back: "The factory that was built twenty years ago closed down last week.",
+  },
+  {
+    front: "The picture has been stolen. It is worth two million kyats.",
+    back: "The picture that is worth two million kyats has been stolen.",
+  },
+  {
+    front: "We found a shop. It sold old records.",
+    back: "We found a shop that sold old records.",
+  },
+  {
+    front: "The police interrogated a man. His son had disappeared.",
+    back: "The police interrogated a man whose son had disappeared.",
+  },
+  {
+    front: "U Aung Myint often shouts at his employees. He has a bad temper.",
+    back: "U Aung Myint, who has a bad temper, often shouts at his employees.",
+  },
+  {
+    front: "We all climbed up the mountain except Mu Mu. She is afraid of heights.",
+    back: "We all climbed up the mountain except Mu Mu, who is afraid of heights.",
+  },
+  {
+    front: "My new flat is on the ninth floor. It has a terrific view.",
+    back: "My new flat, which has a terrific view, is on the ninth floor.",
+  },
+  {
+    front: "My aunt is a bit deaf. She cannot hear the phone ringing.",
+    back: "My aunt, who is a bit deaf, cannot hear the phone ringing.",
+  },
+  {
+    front: "Nilar works in the advertising department. She is my close friend.",
+    back: "Nilar, who is my close friend, works in the advertising department.",
+  },
+  {
+    front: "The Nile runs through several countries. It is the longest river in the world.",
+    back: "The Nile, which is the longest river in the world, runs through several countries.",
+  },
+  {
+    front: "Polar bears live in the Arctic. They weigh up to 720 kilos.",
+    back: "Polar bears, which weigh up to 720 kilos, live in the Arctic.",
+  },
+  {
+    front: "I want to introduce you to Daw Kathy. Her husband is a building contractor.",
+    back: "I want to introduce you to Daw Kathy, whose husband is a building contractor.",
+  },
+],
+
   },
 
   // ==========================================
@@ -1622,6 +1699,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
