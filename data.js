@@ -415,50 +415,6 @@ initialLetters: [
       },
     ],
 
-    // GRAMMAR - Grammar rules and explanations
-    initial letter: [
-      {
-        question: "1. All applicants ____ take an entrance examination.",
-        correct: ["must"],
-      },
-      {
-        question: "2. ____ you ride a motorcycle?",
-        correct: ["can"],
-      },
-      {
-        question: "3. You look pale and sick. You ____ go and see a doctor.",
-        correct: ["should"],
-      },
-      {
-        question: "4. The elders of this generation _____ teach their children to be polite.",
-        correct: ["should"],
-      },
-      {
-        question: "5. You ______ smoke in public areas.",
-        correct: ["must"],
-      },
-      {
-        question: "6. The police have done as much as they ____ to find the missing boy.",
-        correct: ["can"],
-      },
-      {
-        question: "7. Students _____ leave the examination hall without permission.",
-        correct: ["must"],
-      },
-      {
-        question: "8. Although she is young, she _____ speak three languages.",
-        correct: ["can"],
-      },
-      {
-        question: "9. All passengers _____ wear seat belts when they are in a car or plane.",
-        correct: ["must"],
-      },
-      {
-        question: "10. If you are disturbed by this ringtone, you ____ change it.",
-        correct: ["can"],
-      },
-    ],
-
   // ==========================================
   // UNIT 2: EXAMPLE UNIT - POETRY ANALYSIS
   // ==========================================
@@ -1620,6 +1576,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
