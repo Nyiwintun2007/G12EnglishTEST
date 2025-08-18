@@ -4300,39 +4300,691 @@ grammar: [
 
     // SHORT QUESTIONS - Question and answer pairs
     shortQuestions: [
-      {
-        front: "[Your question here]",
-        back: "[Your answer here]",
-      },
-      // Add more short questions here
+  {
+    front: "What are examples of fossil fuels and what are they used for?",
+    back: "Examples of fossil fuels are coal, oil, and gas, and we use them for our cars, trains, planes, machines, appliances, and many other energy-consuming vehicles and devices.",
+  },
+  {
+    front: "Why is it essential for us to use renewable energy instead of burning fossil fuels?",
+    back: "It is essential because the Earth is running out of fossil fuels, which means that there is a need for alternative sources of energy for large-scale use.",
+  },
+  {
+    front: "What are the two benefits of using renewable energy?",
+    back: "They can never run out or are inexhaustible, and they can be produced without causing CO2 emissions, air pollution, or global warming.",
+  },
+  {
+    front: "What are the drawbacks of using hydropower?",
+    back: "Water turbines can negatively affect aquatic wildlife, building dams causes flooding of land, and installation costs are high.",
+  },
+  {
+    front: "How is the process of creating wind power different from that of hydropower?",
+    back: "Unlike hydropower, wind power is relatively cheap and one of the most affordable forms of energy today.",
+  },
+  {
+    front: "How is electricity generated from the sun?",
+    back: "Sunlight hits the photovoltaic cells on specially designed panels to generate electricity.",
+  },
+  {
+    front: "What are the benefits of using solar energy for the environment?",
+    back: "It helps control air pollution, causes no noise, and uses renewable sunlight that will not get used up.",
+  },
+  {
+    front: "What is biomass?",
+    back: "Biomass is made from dead plant and animal materials.",
+  },
+  {
+    front: "How long does it take to form fossil fuels?",
+    back: "It takes hundreds of millions of years.",
+  },
+  {
+    front: "Where can the most active geothermal resources be found?",
+    back: "Near volcanoes.",
+  },
+  {
+    front: "Why is the amount of carbon dioxide in the atmosphere increasing dramatically?",
+    back: "Because we are consuming the world’s fossil fuels at an alarming rate.",
+  },
+  {
+    front: "How long have fossil fuels been burned?",
+    back: "For decades.",
+  },
+  {
+    front: "In which condition does the destruction of our environment not take place?",
+    back: "If fossil fuels are not used.",
+  },
+  {
+    front: "What is becoming more and more common worldwide now?",
+    back: "The use of renewable energy.",
+  },
+  {
+    front: "What does renewable energy refer to?",
+    back: "Energy produced using the sun, wind, water, etc., rather than fuels like oil, gas, and coal.",
+  },
+  {
+    front: "When is electricity generated in water turbines?",
+    back: "When moving water turns turbines.",
+  },
+  {
+    front: "What can water-powered turbines have on aquatic wildlife?",
+    back: "A negative effect.",
+  },
+  {
+    front: "Where and why are large turbines placed?",
+    back: "On top of hills or offshore to create wind power.",
+  },
+  {
+    front: "How is wind power considered?",
+    back: "It is considered one of the most affordable forms of energy today.",
+  },
+  {
+    front: "What is the disadvantage of wind power?",
+    back: "If the wind stops blowing, turbines stop working.",
+  },
+  {
+    front: "On what does the efficiency of solar panels depend?",
+    back: "Their location—the sunnier the place, the more efficient they are.",
+  },
+  {
+    front: "How is solar energy used in remote areas with no electricity grid?",
+    back: "It is a green alternative to power homes and buildings not connected to the grid.",
+  },
+  {
+    front: "Why do governments encourage citizens to turn to solar energy?",
+    back: "To adopt solar power systems.",
+  },
+  {
+    front: "How long has biomass energy been used?",
+    back: "Since humans first started burning wood for fire.",
+  },
+  {
+    front: "Why are some people worried that burning biomass causes global warming?",
+    back: "Because it produces greenhouse gases.",
+  },
+  {
+    front: "Why do people need energy sources?",
+    back: "For cars, trains, planes, machines, appliances, and many other devices.",
+  },
+  {
+    front: "What are the energy sources that people mainly rely on?",
+    back: "Fossil fuels such as coal, oil, and gas.",
+  },
+  {
+    front: "What has happened to the dangers of consuming fossil fuels in recent years?",
+    back: "A great deal of attention has been paid to them.",
+  },
+  {
+    front: "Why do people need to use alternative sources of energy widely?",
+    back: "Because the earth is running out of fossil fuels.",
+  },
+  {
+    front: "What are examples of renewable energy sources?",
+    back: "The sun, wind, water, waste, and heat.",
+  },
+  {
+    front: "Why are hydropower dams a source of renewable energy?",
+    back: "They provide an inexhaustible amount of energy as long as water flows.",
+  },
+  {
+    front: "Which effect can water-powered turbines have?",
+    back: "A negative effect on aquatic wildlife.",
+  },
+  {
+    front: "Write two drawbacks of hydropower.",
+    back: "Flooding of land behind dams and high installation costs.",
+  },
+  {
+    front: "Why are wind turbines built on higher or windy places?",
+    back: "To generate energy when wind turns the turbines.",
+  },
+  {
+    front: "How can modern windmills be utilized?",
+    back: "On a large or small scale.",
+  },
+  {
+    front: "What are the advantages of using wind turbines?",
+    back: "They are cheap, affordable, and do not harm the air or land.",
+  },
+  {
+    front: "When do wind turbines stop working?",
+    back: "When the wind stops blowing.",
+  },
+  {
+    front: "Where is solar energy mainly used?",
+    back: "In remote areas without access to an electricity grid.",
+  },
+  {
+    front: "What does converting sunlight into electricity bring?",
+    back: "Many benefits to the environment.",
+  },
+  {
+    front: "Why do people burn biomass?",
+    back: "To produce steam that turns turbines and generates electricity.",
+  },
+  {
+    front: "How is geothermal energy produced?",
+    back: "By using heat from within the Earth.",
+  },
+  {
+    front: "Which activities emit CO2 into the atmosphere?",
+    back: "Burning fossil fuels for heating, lighting, transport, electricity, or manufacturing.",
+  },
+  {
+    front: "What is the root cause of many environmental problems?",
+    back: "The consumption of huge amounts of fossil fuels.",
+  },
+  {
+    front: "What should governments do to reduce the negative impact on the environment?",
+    back: "They should develop renewable energy to completely replace fossil fuels.",
+  },
     ],
 
     // INITIAL LETTERS - Fill in the first letter(s)
     initialLetters: [
-      {
-        question: "[Description]: [First letter(s)]_____",
-        correct: ["letter1", "letters2", "word"], // Array of acceptable answers
-      },
-      // Add more initial letter questions here
+  {
+    question: "In recent years, the ice has been shrinking at an a_____ rate.",
+    correct: ["alarming"],
+  },
+  {
+    question: "He has been working in the same position for two d_____ at that company.",
+    correct: ["decades"],
+  },
+  {
+    question: "The storm and flood caused serious d_____ to the village.",
+    correct: ["destruction"],
+  },
+  {
+    question: "C_____ unhealthy food is the main source of all diseases.",
+    correct: ["Consuming"],
+  },
+  {
+    question: "There are many a_____ ways such as wind, water and air to generate energy and electricity.",
+    correct: ["alternative"],
+  },
+  {
+    question: "The cost of solar, wind and other forms of r_____ energy is getting cheaper.",
+    correct: ["renewable"],
+  },
+  {
+    question: "The world’s supply of oil and gas is not i_____.",
+    correct: ["inexhaustible"],
+  },
+  {
+    question: "Human e_____ of greenhouse gases are causing the Earth to warm.",
+    correct: ["emissions"],
+  },
+  {
+    question: "We can p_____ environmental problems by reducing the use of fossil fuels.",
+    correct: ["prevent"],
+  },
+  {
+    question: "If you u_____ your creative idea and imagination in the competition, you can be a winner.",
+    correct: ["utilise"],
+  },
+  {
+    question: "Electricity can be g_____ from sun, water, air or fossil fuels.",
+    correct: ["generated"],
+  },
+  {
+    question: "Hot water is converted to electricity by a t_____.",
+    correct: ["turbine"],
+  },
+  {
+    question: "The scientists are concerned that the machine will e_____ harmful radiation.",
+    correct: ["emit"],
+  },
+  {
+    question: "A p_____ is a chemical or biological substance which harms water, air, or land quality.",
+    correct: ["pollutant"],
+  },
+  {
+    question: "No one is perfect and everyone has some d_____.",
+    correct: ["drawbacks"],
+  },
+  {
+    question: "For the youths, i_____ an application on the phone is a very easy matter.",
+    correct: ["installing"],
+  },
+  {
+    question: "Electricity generation in the country is mainly from clean h_____.",
+    correct: ["hydropower"],
+  },
+  {
+    question: "To generate electricity, large wind turbines are usually placed on the o_____.",
+    correct: ["offshore"],
+  },
+  {
+    question: "Today, w_____ called wind turbines produce electricity for many communities.",
+    correct: ["windmills"],
+  },
+  {
+    question: "The restaurant serves good food and drink at a_____ prices.",
+    correct: ["affordable"],
+  },
+  {
+    question: "Burning coal can be h_____ to the natural environment.",
+    correct: ["harmful"],
+  },
+  {
+    question: "All countries have the right to protect themselves against external t_____.",
+    correct: ["threat"],
+  },
+  {
+    question: "Solar energy generates electricity by using designed panels which include p_____ cells.",
+    correct: ["photovoltaic"],
+  },
+  {
+    question: "Modern wind turbines are more e_____ and are able to produce wind power.",
+    correct: ["efficient"],
+  },
+  {
+    question: "E_____ can be said that accomplishing as much as possible with the least effort.",
+    correct: ["Efficiency"],
+  },
+  {
+    question: "All my friends and my family always e_____ me to try my best.",
+    correct: ["encourage"],
+  },
+  {
+    question: "The g_____ are trying to get sustainable energy system by using all alternative ways.",
+    correct: ["governments"],
+  },
+  {
+    question: "Civilized countries generally a_____ gold or silver as money.",
+    correct: ["adopt"],
+  },
+  {
+    question: "One d_____ of sleep deprivation for students is lack of concentration on their studies.",
+    correct: ["disadvantage"],
+  },
+  {
+    question: "Now, the use of social media is becoming more and more common w_____.",
+    correct: ["worldwide"],
+  },
+  {
+    question: "Biomass energy is based on biomass raw m_____, plants processed and burned to produce electricity.",
+    correct: ["materials"],
+  },
+  {
+    question: "It is time to b_____ our differences and be friends again.",
+    correct: ["bury"],
+  },
+  {
+    question: "The dustmen have not collected any r_____ in the hotel yet.",
+    correct: ["rubbish"],
+  },
+  {
+    question: "The disposal of wastes in the ground is referred to as l_____.",
+    correct: ["landfill"],
+  },
+  {
+    question: "If you put more g_____ gases into the atmosphere, you get more warming.",
+    correct: ["greenhouse"],
+  },
+  {
+    question: "Even a s_____ technology can change lifestyle of people around the world.",
+    correct: ["simple"],
+  },
+  {
+    question: "The v_____ have suddenly erupted and kill many people.",
+    correct: ["volcanoes"],
+  },
+  {
+    question: "One of the main reasons this has not been done before is because the i_____ cost is very large.",
+    correct: ["initial"],
+  },
+  {
+    question: "C_____ study both the nature of climates and the factors that cause climates to change.",
+    correct: ["Climatologists"],
+  },
+  {
+    question: "His speech had a powerful i_____ on many people.",
+    correct: ["impact"],
+  },
     ],
 
     // MULTIPLE CHOICE QUESTIONS
     multipleChoice: [
-      {
-        question: "[Your question here]",
-        options: ["[Option 1]", "[Option 2]", "[Option 3]", "[Option 4]"],
-        correct: 0, // Index of correct answer (0-3)
-      },
-      // Add more multiple choice questions here
+  {
+    question: "Leaving all the lights and appliances on all day is very -------------.",
+    options: ["energy-consuming", "cost-saving", "time-saving"],
+    correct: 0,
+  },
+  {
+    question: "Young children often ------------- their parents for support and guidance.",
+    options: ["turn on", "rely on", "rely for"],
+    correct: 1,
+  },
+  {
+    question: "The doctor said the rise in heart disease among young adults is quite -------------.",
+    options: ["relaxing", "alarming", "surprising"],
+    correct: 1,
+  },
+  {
+    question: "It rained heavily all night; -------------, the roads were flooded in the morning.",
+    options: ["for example", "as a result", "in contrast"],
+    correct: 1,
+  },
+  {
+    question: "The old bridge has been standing strong for several -------------.",
+    options: ["months", "weeks", "decades"],
+    correct: 2,
+  },
+  {
+    question: "The hurricane had a ------------- impact on the small coastal town.",
+    options: ["destructive", "destruction", "destroy"],
+    correct: 0,
+  },
+  {
+    question: "She put ------------- effort into preparing for the presentation.",
+    options: ["a little bit of", "hardly any", "a great deal of"],
+    correct: 2,
+  },
+  {
+    question: "We need to buy more milk; we’ve ------------- at home.",
+    options: ["found", "stored", "run out"],
+    correct: 2,
+  },
+  {
+    question: "Solar and wind energy are examples of ------------- energy sources that can be replenished naturally.",
+    options: ["limited", "renewable", "exhaustible"],
+    correct: 1,
+  },
+  {
+    question: "If you don't want to drive, cycling is a good ------------- mode of transportation.",
+    options: ["traditional", "alternative", "expensive"],
+    correct: 1,
+  },
+  {
+    question: "The sun's energy is often described as ------------- because it will not run out for billions of years.",
+    options: ["inexhaustible", "exhaustible", "temporary"],
+    correct: 0,
+  },
+  {
+    question: "To improve efficiency, it's important to ------------- available resources effectively.",
+    options: ["waste", "ignore", "utilise"],
+    correct: 2,
+  },
+  {
+    question: "To power the lights and appliances in your home, you need a steady supply of -------------.",
+    options: ["gas", "water", "electricity"],
+    correct: 2,
+  },
+  {
+    question: "Cars and factories ------------- harmful gases that contribute to air pollution.",
+    options: ["emit", "absorb", "collect"],
+    correct: 0,
+  },
+  {
+    question: "Dolphins and whales are examples of ------------- animals that live in the water.",
+    options: ["aquatic", "terrestrial", "aerial"],
+    correct: 0,
+  },
+  {
+    question: "You can stay out and play ------------- you finish your homework first.",
+    options: ["even if", "as long as", "unless"],
+    correct: 1,
+  },
+  {
+    question: "Wind ------------- are used to generate electricity by harnessing the power of the wind.",
+    options: ["engines", "motors", "turbines"],
+    correct: 2,
+  },
+  {
+    question: "Solar panels can ------------- electricity by converting sunlight into energy.",
+    options: ["generate", "consume", "store"],
+    correct: 0,
+  },
+  {
+    question: "The new housing project offers homes that are ------------- for middle-income families.",
+    options: ["expensive", "luxurious", "affordable"],
+    correct: 2,
+  },
+  {
+    question: "The increase in pollution poses a serious ------------- to the environment.",
+    options: ["threat", "help", "advantage"],
+    correct: 0,
+  },
+  {
+    question: "The roof of the house was covered with solar ------------- to generate electricity from sunlight.",
+    options: ["windows", "panels", "doors"],
+    correct: 1,
+  },
+  {
+    question: "The new software greatly improved the team's -------------, allowing them to complete tasks faster.",
+    options: ["effective", "efficiency", "creativity"],
+    correct: 1,
+  },
+  {
+    question: "Solar power is considered a ------------- to traditional fossil fuels, as it is cleaner and more sustainable.",
+    options: ["traditional option", "expensive solution", "green alternative"],
+    correct: 2,
+  },
+  {
+    question: "The company plans to ------------- its old factory into a modern office building.",
+    options: ["destroy", "convert", "maintain"],
+    correct: 1,
+  },
+  {
+    question: "If you don’t save some of the water, it will ------------- quickly during the summer months.",
+    options: ["get used up", "get stored", "get recycled"],
+    correct: 0,
+  },
+  {
+    question: "They decided to ------------- a new policy to reduce waste in the workplace.",
+    options: ["reject", "adopt", "accept"],
+    correct: 1,
+  },
+  {
+    question: "The plants in the garden are ------------- because they haven’t been watered for weeks.",
+    options: ["dead", "die", "died"],
+    correct: 0,
+  },
+  {
+    question: "The committee is ------------- volunteers from different departments to help with the event.",
+    options: ["composed with", "divided by", "made up of"],
+    correct: 2,
+  },
+  {
+    question: "Many people prefer to buy ------------- food because it is grown without chemicals or pesticides.",
+    options: ["organic", "processed", "synthetic"],
+    correct: 0,
+  },
+  {
+    question: "Composting is an effective way to recycle -------------, such as food scraps and plant material.",
+    options: ["plastic waste", "organic waste", "metal waste"],
+    correct: 1,
+  },
+  {
+    question: "The exam was ------------- easy compared to the one we had last semester.",
+    options: ["extremely", "relatively", "hardly"],
+    correct: 1,
+  },
+  {
+    question: "The hikers were ------------- in the cave after the entrance collapsed.",
+    options: ["escaped", "rescued", "trapped"],
+    correct: 2,
+  },
+  {
+    question: "Many people are hesitant to install solar panels because of the high -------------.",
+    options: ["final expenses", "initial costs", "running costs"],
+    correct: 1,
+  },
+  {
+    question: "When choosing a car, it's important to think about fuel efficiency and other -------------.",
+    options: ["running costs", "repair cost", "initial costs"],
+    correct: 0,
+  },
+  {
+    question: "Technology is advancing at a -------------, making it hard to keep up.",
+    options: ["rapid rate", "steady pace", "low level"],
+    correct: 0,
+  },
+  {
+    question: "Dams are often built on rivers to produce electricity through -------------.",
+    options: ["wind power", "solar energy", "hydropower"],
+    correct: 2,
+  },
+  {
+    question: "Turbines in open fields are used to generate electricity from -------------.",
+    options: ["wind power", "solar energy", "biomass energy"],
+    correct: 0,
+  },
+  {
+    question: "Rooftop panels are commonly used to capture ------------- for electricity and heating.",
+    options: ["geothermal energy", "wind power", "solar energy"],
+    correct: 2,
+  },
+  {
+    question: "Organic materials like wood and crop waste can be used to produce -------------.",
+    options: ["hydropower", "biomass energy", "geothermal energy"],
+    correct: 1,
+  },
+  {
+    question: "Heat from deep inside the Earth can be used to produce electricity through -------------.",
+    options: ["geothermal energy", "solar energy", "wind power"],
+    correct: 0,
+  },
+  {
+    question: "If it rains tomorrow, we ------------- indoors.",
+    options: ["will stay", "would stay", "stay"],
+    correct: 0,
+  },
+  {
+    question: "If you heat water to 100°C, it ------------- boil.",
+    options: ["boils", "will boil", "would boil"],
+    correct: 0,
+  },
+  {
+    question: "If I had studied harder, I ------------- the exam.",
+    options: ["will pass", "would have passed", "will have passed"],
+    correct: 1,
+  },
+  {
+    question: "If they had left earlier, they ------------- arrived on time.",
+    options: ["would arrived", "will have arrived", "would have arrived"],
+    correct: 2,
+  },
+  {
+    question: "If I won the lottery, I ------------- travel around the world.",
+    options: ["will", "would", "am"],
+    correct: 1,
+  },
     ],
 
     // GRAMMAR - Grammar rules and explanations
     grammar: [
-      {
-        front: "[Grammar Rule/Topic]",
-        back: "[Explanation and examples]",
-      },
-      // Add more grammar cards here
+  {
+    front: "Zero Conditional: If you (dial) my cell phone number, it (play) my favourite song.",
+    back: "If you dial my cell phone number, it plays my favourite song.",
+  },
+  {
+    front: "Zero Conditional: If people (have) more fruit, they (get) more vitamins.",
+    back: "If people have more fruit, they get more vitamins.",
+  },
+  {
+    front: "Zero Conditional: If you (burn) oil and coal, you (pollute) the environment.",
+    back: "If you burn oil and coal, you pollute the environment.",
+  },
+  {
+    front: "Zero Conditional: If children (eat) more protein, they (grow) taller.",
+    back: "If children eat more protein, they grow taller.",
+  },
+  {
+    front: "Zero Conditional: If it (not/rain) for a long time, the earth (get) dry.",
+    back: "If it does not rain for a long time, the earth gets dry.",
+  },
+
+  // B. FIRST CONDITIONAL
+  {
+    front: "First Conditional: If I (get) a new job, I (earn) a lot of money.",
+    back: "If I get a new job, I will earn a lot of money.",
+  },
+  {
+    front: "First Conditional: If she (not / hurry), she (miss) the bus.",
+    back: "If she does not hurry, she will miss the bus.",
+  },
+  {
+    front: "First Conditional: If global warming (get) worse, there (be) problems of rising sea levels.",
+    back: "If global warming gets worse, there will be problems of rising sea levels.",
+  },
+  {
+    front: "First Conditional: The ice caps (melt) if we (not / take care) of our planet.",
+    back: "The ice caps will melt if we do not take care of our planet.",
+  },
+  {
+    front: "First Conditional: Our cities (be) cleaner if we (use) public transport more.",
+    back: "Our cities will be cleaner if we use public transport more.",
+  },
+
+  // C. PRESENT UNREAL CONDITIONAL
+  {
+    front: "Present Unreal Conditional: If these shoes (fit) me, I (buy) them.",
+    back: "If these shoes fit me, I would buy them.",
+  },
+  {
+    front: "Present Unreal Conditional: It (not/surprise) me if he (not/know) the answer.",
+    back: "It would not surprise me if he did not know the answer.",
+  },
+  {
+    front: "Present Unreal Conditional: I (donate) to many charities if I (be) a billionaire.",
+    back: "I would donate to many charities if I were a billionaire.",
+  },
+  {
+    front: "Present Unreal Conditional: If I (own) a car, I (drive) to school.",
+    back: "If I owned a car, I would drive to school.",
+  },
+  {
+    front: "Present Unreal Conditional: If there (be) no paper, what (happen) to the world?",
+    back: "If there were no paper, what would happen to the world?",
+  },
+
+  // D. PAST UNREAL CONDITIONAL
+  {
+    front: "Past Unreal Conditional: If we (listen) to the radio, we (hear) the breaking news.",
+    back: "If we had listened to the radio, we would have heard the breaking news.",
+  },
+  {
+    front: "Past Unreal Conditional: She (come) to our party if she (not/be) on holiday.",
+    back: "She would have come to our party if she had not been on holiday.",
+  },
+  {
+    front: "Past Unreal Conditional: If you (ask) for directions, we (not/get) lost.",
+    back: "If you had asked for directions, we would not have got lost.",
+  },
+  {
+    front: "Past Unreal Conditional: If she (prepare) for the test well, she (pass).",
+    back: "If she had prepared for the test well, she would have passed.",
+  },
+  {
+    front: "Past Unreal Conditional: If we (develop) alternative sources earlier, fossil fuels (not/run out) so rapidly.",
+    back: "If we had developed alternative sources earlier, fossil fuels would not have run out so rapidly.",
+  },
+
+  // E. SECOND & THIRD CONDITIONALS
+  {
+    front: "Second/Third Conditional: She stayed at a hotel so it cost her a lot.",
+    back: "If she had not stayed at a hotel, it would not have cost her a lot.",
+  },
+  {
+    front: "Second/Third Conditional: Kaythi is not in Bagan now so I cannot see her tonight.",
+    back: "If Kaythi were in Bagan now, I would see her tonight.",
+  },
+  {
+    front: "Second/Third Conditional: You didn't submit your assignment in time so the teacher punished you.",
+    back: "If you had submitted your assignment in time, the teacher would not have punished you.",
+  },
+  {
+    front: "Second/Third Conditional: He doesn't have a debit card so he cannot buy a ticket.",
+    back: "If he had a debit card, he would buy a ticket.",
+  },
+  {
+    front: "Second/Third Conditional: Sue does not answer the phone because she is not in the office.",
+    back: "If Sue were in the office, she would answer the phone.",
+  },
+  {
+    front: "Second/Third Conditional: The waiters in that restaurant didn't serve well so I didn't go there.",
+    back: "If the waiters had served well, I would have gone there.",
+  },
     ],
   },
 
@@ -4623,6 +5275,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
