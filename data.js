@@ -4243,8 +4243,7 @@ grammar: [
     front: "The weather was extremely bad. The football match was cancelled. (owing to)",
     back: "The football match was cancelled owing to the extremely bad weather.",
   },
-];
-
+],
   },
 
 
@@ -4589,6 +4588,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
