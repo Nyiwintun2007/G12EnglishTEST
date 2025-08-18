@@ -2846,50 +2846,666 @@ grammar: [
     description: "ARTIFICIAL INTELLIGENCE",
 
     // VOCABULARY FLASHCARDS - Terms and definitions
-    vocabulary: [
-      {
-        front: "[Term]",
-        back: "[Definition and example]",
-      },
-      // Add more vocabulary cards here
-    ],
+vocabulary: [
+  // Column A & B
+  {
+    front: "Text editor",
+    back: "A computer programme that is used to change, or edit texts.",
+  },
+  {
+    front: "Auto-correction",
+    back: "A computer software application that corrects misspellings as you type.",
+  },
+  {
+    front: "Facial recognition",
+    back: "A computer software application that maps, analyses, and then confirms the identity of a face in a photograph or a video.",
+  },
+  {
+    front: "Security cameras",
+    back: "Video cameras that record people's activities in order to detect and prevent crimes.",
+  },
+  {
+    front: "Industrial robots",
+    back: "Robots used for manufacturing goods in factories.",
+  },
+  {
+    front: "Self-driving cars",
+    back: "Computer-controlled cars that drive themselves.",
+  },
+  {
+    front: "Google Maps",
+    back: "A location search tool to locate a specific point, calculate routes, and find the nearest places.",
+  },
+  {
+    front: "Unmanned spacecraft",
+    back: "Spacecraft without people on board, controlled by a robotic or autopilot system.",
+  },
+  {
+    front: "Hospital robots",
+    back: "Robots that can be used to deliver medications, food, and water.",
+  },
+
+  // Vocabulary Words
+  {
+    front: "Artificial",
+    back: "Made or produced by human beings rather than occurring naturally. Example: Artificial intelligence mimics human thinking.",
+  },
+  {
+    front: "Reasoning",
+    back: "The action of thinking about something in a logical, sensible way. Example: Lawyers use reasoning to win cases.",
+  },
+  {
+    front: "Breakthrough",
+    back: "A sudden, dramatic, and important discovery or development. Example: The discovery of penicillin was a medical breakthrough.",
+  },
+  {
+    front: "Electronics",
+    back: "Electronic components, devices, or equipment such as TV and computers. Example: She studies electronics at university.",
+  },
+  {
+    front: "Gadgets",
+    back: "Small, useful, and cleverly-designed machines or tools. Example: Smartphones are the most popular modern gadgets.",
+  },
+  {
+    front: "Unmanned",
+    back: "Not having or needing a driver or a pilot to control or steer a vehicle. Example: The military used an unmanned drone.",
+  },
+  {
+    front: "Robotic",
+    back: "Relating to robots; of the nature of robots. Example: The factory uses robotic arms to assemble cars.",
+  },
+  {
+    front: "Unemployment",
+    back: "The number of people who do not have paid jobs. Example: The government is trying to reduce unemployment.",
+  },
+  {
+    front: "Innovation",
+    back: "The use of new ideas and methods. Example: Innovation drives the success of technology companies.",
+  },
+  {
+    front: "Outperforming",
+    back: "Performing better than someone or something. Example: The new phone is outperforming its competitors in sales.",
+  },
+],
+
 
     // SHORT QUESTIONS - Question and answer pairs
-    shortQuestions: [
-      {
-        front: "[Your question here]",
-        back: "[Your answer here]",
-      },
-      // Add more short questions here
-    ],
+shortQuestions: [
+  // Text-based
+  {
+    front: "Why are we, human beings, thought to be the most intelligent?",
+    back: "Because we have made our dreams a reality from time immemorial, and as a result, the world has enormously and constantly changed.",
+  },
+  {
+    front: "How is intelligence defined in the passage?",
+    back: "It is defined as the ability to learn, understand, reason and make judgements.",
+  },
+  {
+    front: "What is AI?",
+    back: "- A machine's ability to perform cognitive functions such as perceiving, reasoning, and solving problems as humans do.\n- A branch of computer science focusing on creating machines with humanlike intelligence and capacity.\n- The science and engineering of making intelligent machines, especially intelligent computer programs. (John McCarthy)",
+  },
+  {
+    front: "How can text editor software help us with word processing?",
+    back: "It can suggest what we should write next.",
+  },
+  {
+    front: "How many industrial revolutions have we had so far? What are they?",
+    back: "Four: the First, Second, Third, and Fourth Industrial Revolutions.",
+  },
+  {
+    front: "When we type a text on a computer or on a mobile, why do pop-up messages suddenly appear on the screen?",
+    back: "They appear to suggest what we should write next.",
+  },
+  {
+    front: "Why are self-driving cars becoming more popular?",
+    back: "Because they can reduce driver error as well as the number of accidents.",
+  },
+  {
+    front: "What do hospital robots do during the COVID-19 pandemic period?",
+    back: "They deliver food, water, and medicine to patients with COVID-19.",
+  },
+  {
+    front: "How are AI tools used in space exploration?",
+    back: "They are used to study unknown stars and black holes.",
+  },
+  {
+    front: "What AI-powered machines and tools are mentioned in the passage?",
+    back: "Text editor, auto-correction, facial recognition, security cameras, industrial robots, self-driving cars, Google Maps, unmanned spacecraft, hospital robots, and robotic boats.",
+  },
+  {
+    front: "How are AI-powered robotic boats used in the conservation of the environment?",
+    back: "They are used to clean up lakes, rivers, and seas.",
+  },
+  {
+    front: "What is one of the drawbacks of using AI-powered machines in mass production?",
+    back: "A high risk of unemployment or redundancy in the future.",
+  },
+  {
+    front: "What do you think the nature of employment in the future will be like?",
+    back: "The workload of human workers will be reduced.",
+  },
+  {
+    front: "Would you like to have a more intelligent robot than you? Why or why not?",
+    back: "Yes, because it can help me.",
+  },
+  {
+    front: "If you were an AI scientist, what kind of AI machine would you like to invent?",
+    back: "Domestic robots that can cook and do housework.",
+  },
+
+  // Additional
+  {
+    front: "What have made our life easier and more comfortable?",
+    back: "Great advances in technology.",
+  },
+  {
+    front: "How was the term ‘artificial intelligence’ coined in 1956?",
+    back: "It was coined based on the concept of human intelligence.",
+  },
+  {
+    front: "What does AI mainly focus on?",
+    back: "Creating machines with humanlike intelligence and capacity.",
+  },
+  {
+    front: "What can a machine’s ability called AI do?",
+    back: "It can perform cognitive functions such as perceiving, reasoning, and solving problems as humans do.",
+  },
+  {
+    front: "What are the goals of AI scientists?",
+    back: "To make AI-powered machines perform human tasks, reduce the time needed to perform specific tasks, and enhance communication between humans and machines.",
+  },
+  {
+    front: "How have AI scientists created AI-powered machines and gadgets?",
+    back: "With reasoning, speech, and vision.",
+  },
+  {
+    front: "When do we notice pop-up messages on the screen?",
+    back: "When we are typing a text on a computer or on a mobile.",
+  },
+  {
+    front: "What can facial recognition systems and security cameras do in the security and surveillance sector?",
+    back: "They can help the police find missing persons, detect criminals, and protect our homes.",
+  },
+  {
+    front: "Why is it easy for us today to find a location in an unfamiliar place?",
+    back: "Because of Google Maps and GPS Navigation Apps.",
+  },
+  {
+    front: "What do space scientists use and why?",
+    back: "They use unmanned spacecraft with AI tools to study unknown stars and black holes.",
+  },
+  {
+    front: "How can AI be considered for today’s students who are digital natives?",
+    back: "It can be considered as a playmate, friend, tutor, advisor, or a personal classroom.",
+  },
+  {
+    front: "What are replacing human workers in mass production industries?",
+    back: "Robots, family members of AI-powered machines.",
+  },
+  {
+    front: "In which condition daren’t we imagine what will happen to the entire human race?",
+    back: "If powerful AI tools are in the hands of bad people.",
+  },
+  {
+    front: "Where can AI-powered machines outperform humans?",
+    back: "In transportation, security surveillance, healthcare management, and aeronautical engineering.",
+  },
+  {
+    front: "How can AI assist teachers in the field of education?",
+    back: "By grading tests, retrieving up-to-date information on their subject matter, and writing progress reports.",
+  },
+],
 
     // INITIAL LETTERS - Fill in the first letter(s)
-    initialLetters: [
-      {
-        question: "[Description]: [First letter(s)]_____",
-        correct: ["letter1", "letters2", "word"], // Array of acceptable answers
-      },
-      // Add more initial letter questions here
-    ],
+initialLetters: [
+  {
+    question: "The students are very i------------- and they are sure they can solve Maths problems.",
+    correct: ["intelligent"],
+  },
+  {
+    question: "The patient has been being kept alive by the a------------- kidney for about one year.",
+    correct: ["artificial"],
+  },
+  {
+    question: "The t------------- is free to the market from the playground in this city.",
+    correct: ["transportation"],
+  },
+  {
+    question: "Winning the championship cup is a r------------- achievement for our school football team.",
+    correct: ["remarkable"],
+  },
+  {
+    question: "There is a r------------- in telecommunication sectors during the last decade.",
+    correct: ["revolution"],
+  },
+  {
+    question: "The i------------- of electronics changed the lifestyles of people.",
+    correct: ["invention"],
+  },
+  {
+    question: "The AI-powered machines can enhance good c------------- between humans and machines.",
+    correct: ["communication"],
+  },
+  {
+    question: "Nowadays AI-powered machines and g------------- are popular among people.",
+    correct: ["gadgets"],
+  },
+  {
+    question: "She was p------------- as MD in a big company after working hard for five years.",
+    correct: ["promoted"],
+  },
+  {
+    question: "My friend helps me to i------------- software in my computer.",
+    correct: ["install"],
+  },
+  {
+    question: "Weather forecasters are trying to get up to date i------------- about the storm.",
+    correct: ["information"],
+  },
+  {
+    question: "We should maintain natural e------------- in order to become the better world.",
+    correct: ["environment"],
+  },
+  {
+    question: "Cutting down the trees means destroying n------------- environment.",
+    correct: ["natural"],
+  },
+  {
+    question: "C------------- of the natural environment is one of the main duties of the present generation.",
+    correct: ["Conservation"],
+  },
+  {
+    question: "Security c------------- are set at the schools of this town.",
+    correct: ["cameras"],
+  },
+  {
+    question: "The admin team of the company decided to set s------------- cameras in the meeting room.",
+    correct: ["security"],
+  },
+  {
+    question: "An u------------- spacecraft of India had successfully returned to the earth last week.",
+    correct: ["unmanned"],
+  },
+  {
+    question: "Thuta and I have been friends in this school from time i-------------.",
+    correct: ["immemorial"],
+  },
+  {
+    question: "They live in this town from time i-------------.",
+    correct: ["immemorial"],
+  },
+  {
+    question: "It is sure that a computer s------------- will be able to use the computer very well.",
+    correct: ["scientist"],
+  },
+  {
+    question: "Like humans, AI-powered machines can do c------------- functions.",
+    correct: ["cognitive"],
+  },
+  {
+    question: "One of the b------------- technology is AI in 21st century.",
+    correct: ["breakthrough"],
+  },
+  {
+    question: "Information, communication and t------------- play vital roles in the present world.",
+    correct: ["technology"],
+  },
+  {
+    question: "Before the a------------- of railway engines and automobiles, the transportation was slow and difficult.",
+    correct: ["advent"],
+  },
+  {
+    question: "The i------------- countries have the great advances in technology.",
+    correct: ["industrializing"],
+  },
+  {
+    question: "The e------------- calculators are being use to solve the difficult sums in science subjects.",
+    correct: ["electronic"],
+  },
+  {
+    question: "I think someone came into the bedroom, but it was just a d-------------.",
+    correct: ["dream"],
+  },
+  {
+    question: "Dinosaurs were e------------- creatures that no longer exist in this world.",
+    correct: ["enormous"],
+  },
+  {
+    question: "This shirt is a little bit small. I am not c------------- wearing it.",
+    correct: ["comfortable"],
+  },
+  {
+    question: "He saw his a------------- in the contest and won the gold medal.",
+    correct: ["ability"],
+  },
+  {
+    question: "The government plans to c------------- more jobs for unemployment.",
+    correct: ["create"],
+  },
+  {
+    question: "The two artists have never p------------- together before.",
+    correct: ["performed"],
+  },
+  {
+    question: "Giving up smoking r------------- the risk of heart disease.",
+    correct: ["reduces"],
+  },
+  {
+    question: "Public t------------- is essential for commuting in urban areas.",
+    correct: ["transportation"],
+  },
+  {
+    question: "In the past, all houses in the village used candles for light but now, they have e-------------.",
+    correct: ["electricity"],
+  },
+  {
+    question: "She is a bad woman, and I made a big m------------- by trusting her.",
+    correct: ["mistake"],
+  },
+  {
+    question: "Within a few years, the place has d------------- from a small village to a big city.",
+    correct: ["developed"],
+  },
+  {
+    question: "Nowadays, d------------- cars powered by AI can reduce diver error and the number of accidents.",
+    correct: ["driverless"],
+  },
+  {
+    question: "I cannot afford to buy these shoes because it is too e-------------.",
+    correct: ["expensive"],
+  },
+  {
+    question: "Replacing human workers with AI-powered machines can result in a high risk of u------------- problems.",
+    correct: ["unemployment"],
+  },
+  {
+    question: "The students should try to improve their learning a-------------.",
+    correct: ["ability"],
+  },
+  {
+    question: "Today, all mobile phones can p------------- so many functions such as taking photograph, storing videos and music, using social media, etc.",
+    correct: ["perform"],
+  },
+  {
+    question: "The m------------- team of this hospital is not good, so it is not successful yet.",
+    correct: ["management"],
+  },
+],
 
-    // MULTIPLE CHOICE QUESTIONS
-    multipleChoice: [
-      {
-        question: "[Your question here]",
-        options: ["[Option 1]", "[Option 2]", "[Option 3]", "[Option 4]"],
-        correct: 0, // Index of correct answer (0-3)
-      },
-      // Add more multiple choice questions here
-    ],
+// MULTIPLE CHOICE QUESTIONS
+multipleChoice: [
+  {
+    question: "She is one of the most ------------- students in the class and always scores high on tests.",
+    options: ["intelligent", "intelligence", "intelligently"],
+    correct: 0,
+  },
+  {
+    question: "Traditions that date back to time ------------- are still practiced in this village.",
+    options: ["immemorial", "immemorially", "memorial"],
+    correct: 0,
+  },
+  {
+    question: "The team was ------------- relieved when they finally completed the challenging project.",
+    options: ["greatly", "enormously", "tremendously"],
+    correct: 1,
+  },
+  {
+    question: "Recent ------------- in medical technology have made complex surgeries much safer and more effective.",
+    options: ["advents", "developments", "advances"],
+    correct: 2,
+  },
+  {
+    question: "Modern science ------------- the discoveries made by early researchers and inventors.",
+    options: ["results from", "depends on", "owes to"],
+    correct: 2,
+  },
+  {
+    question: "The teacher explained the difficult ------------- in a way that everyone could understand.",
+    options: ["opinion", "concept", "idea"],
+    correct: 1,
+  },
+  {
+    question: "The lab is known for its ------------- research in artificial intelligence and robotics.",
+    options: ["cutting-edge", "outperforming", "constant"],
+    correct: 0,
+  },
+  {
+    question: "Doctors must ------------- surgery with great precision to ensure the patient’s safety.",
+    options: ["perform", "create", "build"],
+    correct: 0,
+  },
+  {
+    question: "The robot's movements were so ------------- that it was hard to tell it wasn't a real person.",
+    options: ["artificial", "manmade", "humanlike"],
+    correct: 2,
+  },
+  {
+    question: "Her health improved -------------, thanks to the consistent care and treatment she received.",
+    options: ["day after day", "day by day", "day on day"],
+    correct: 1,
+  },
+  {
+    question: "Her ------------- achievement in overcoming such a challenging situation impressed everyone.",
+    options: ["ordinary", "expected", "remarkable"],
+    correct: 2,
+  },
+  {
+    question: "The conference will ------------- at the downtown hotel next month.",
+    options: ["happen", "occur", "take place"],
+    correct: 2,
+  },
+  {
+    question: "The ------------- of new technology has transformed the way we communicate.",
+    options: ["advance", "advent", "advence"],
+    correct: 1,
+  },
+  {
+    question: "The country is rapidly -------------, with new factories and technology changing its economy.",
+    options: ["urbanizing", "industrializing", "modernizing"],
+    correct: 1,
+  },
+  {
+    question: "The second industrial revolution is known as -------------.",
+    options: ["transportational revolution", "digital revolution", "technological revolution"],
+    correct: 2,
+  },
+  {
+    question: "During the conference, the new innovations in AI will ------------- and capture the audience's attention.",
+    options: ["take centre stage", "stand out", "play a role"],
+    correct: 0,
+  },
+  {
+    question: "The system adjusts the temperature ------------- as soon as it detects a change in the room.",
+    options: ["manually", "automatically", "intentionally"],
+    correct: 1,
+  },
+  {
+    question: "The security system can ------------- any unusual movement in the building.",
+    options: ["ignore", "avoid", "detect"],
+    correct: 2,
+  },
+  {
+    question: "The police have been working hard to catch the ------------- responsible for the recent robberies.",
+    options: ["criminal", "criminals", "crimes"],
+    correct: 1,
+  },
+  {
+    question: "She felt a bit uneasy when she entered the ------------- surroundings of the new city.",
+    options: ["unfamiliar", "strange", "unknown"],
+    correct: 0,
+  },
+  {
+    question: "The new policy will improve the company’s operations -------------, including better efficiency and customer satisfaction.",
+    options: ["in several ways", "in some ways", "in a few ways"],
+    correct: 0,
+  },
+  {
+    question: "It's important to keep your software ------------- to ensure that you have the latest security features.",
+    options: ["recent", "current", "up-to-date"],
+    correct: 2,
+  },
+  {
+    question: "The manager asked for regular ------------- to track the team's performance on the project.",
+    options: ["status updates", "progress reports", "performance reviews"],
+    correct: 1,
+  },
+  {
+    question: "Investing in volatile markets always involves a certain level of ------------, especially for inexperienced traders.",
+    options: ["threat", "danger", "risk"],
+    correct: 2,
+  },
+  {
+    question: "After switching to a healthier lifestyle, she realized she was ------------- both physically and mentally.",
+    options: ["better off", "well enough", "more stable"],
+    correct: 0,
+  },
+  {
+    question: "The cake looked delicious, but its bright colors were clearly the result of ------------- ingredients.",
+    options: ["artificial", "natural", "organic"],
+    correct: 0,
+  },
+  {
+    question: "The lawyer’s argument was based on solid ------------- that convinced the jury.",
+    options: ["guessing", "reasoning", "explanation"],
+    correct: 1,
+  },
+  {
+    question: "Scientists celebrated a major ------------- in cancer research that could lead to new treatments.",
+    options: ["experiment", "discovery", "breakthrough"],
+    correct: 2,
+  },
+  {
+    question: "The store sells a wide variety of -------------, including laptops, smartphones, and headphones.",
+    options: ["gadgets", "electronics", "appliances"],
+    correct: 1,
+  },
+  {
+    question: "The space agency successfully launched an ------------- spacecraft to explore the outer planets.",
+    options: ["unmanned", "automatic", "robotic"],
+    correct: 0,
+  },
+  {
+    question: "The factory improved efficiency by introducing ------------- arms to handle repetitive tasks.",
+    options: ["electric", "unmanned", "robotic"],
+    correct: 2,
+  },
+  {
+    question: "The government introduced new policies to reduce the rising rate of ------------- in the country.",
+    options: ["employment", "unemployment", "redundancy"],
+    correct: 1,
+  },
+  {
+    question: "The company’s success is largely due to its focus on ------------- and the development of new technologies.",
+    options: ["innovation", "creativity", "invention"],
+    correct: 0,
+  },
+  {
+    question: "The new software is ------------- its competitors, offering faster processing and better user experience.",
+    options: ["underperforming", "maintaining", "outperforming"],
+    correct: 2,
+  },
+  {
+    question: "The company improved its marketing strategy, and -------------, sales increased significantly.",
+    options: ["consequently", "as a result", "thus"],
+    correct: 1,
+  },
+  {
+    question: "The project was delayed due to unforeseen circumstances. -------------, we need to extend the deadline.",
+    options: ["In other words", "For example", "That is to say"],
+    correct: 0,
+  },
+  {
+    question: "There are many health benefits to eating fruits, ------------- apples, oranges, and bananas.",
+    options: ["for instance", "like", "such as"],
+    correct: 2,
+  },
+  {
+    question: "Technology has evolved rapidly ------------- the 21st century, transforming various industries.",
+    options: ["since the turn of", "after", "during"],
+    correct: 0,
+  },
+  {
+    question: "I don’t just enjoy reading books; -------------, I read at least one book every week.",
+    options: ["for example", "in fact", "as a matter of fact"],
+    correct: 2,
+  },
+  {
+    question: "She drove ------------- to the other side of the city just to visit her friend.",
+    options: ["to the way", "all the way", "in the way"],
+    correct: 1,
+  },
+  {
+    question: "The team has completed several tasks, but -------------, they haven't finished the project yet.",
+    options: ["so far", "yet", "then"],
+    correct: 0,
+  },
+  {
+    question: "The movie was ------------- long, and we couldn't sit through the entire thing.",
+    options: ["far too", "way too", "extremely too"],
+    correct: 1,
+  },
+  {
+    question: "She completed the project ahead of schedule. -------------, she also volunteered to help others with their tasks.",
+    options: ["although", "however", "on top of that"],
+    correct: 2,
+  },
+  {
+    question: "The new software improves efficiency, but -------------, it still has some bugs that need to be fixed.",
+    options: ["to a certain extent", "to full extent", "in some degree"],
+    correct: 0,
+  },
+  {
+    question: "There were small shops ------------- along the street, each with unique products.",
+    options: ["now and then", "here and there", "all around"],
+    correct: 1,
+  },
+],
 
-    // GRAMMAR - Grammar rules and explanations
-    grammar: [
-      {
-        front: "[Grammar Rule/Topic]",
-        back: "[Explanation and examples]",
-      },
-      // Add more grammar cards here
-    ],
+
+// GRAMMAR - Rewrite with "No matter"
+grammar: [
+  {
+    front: "You are not allowed to pass the gate. It does not matter who you are. (No matter who)",
+    back: "No matter who you are, you are not allowed to pass the gate.",
+  },
+  {
+    front: "Please don't neglect any details even though they seem to be unimportant. (No matter how)",
+    back: "No matter how unimportant details seem, please don't neglect them.",
+  },
+  {
+    front: "I don't care if you are rich or poor. I'll be your friend forever. (No matter whether)",
+    back: "No matter whether you are rich or poor, I'll be your friend forever.",
+  },
+  {
+    front: "Life is hard. Please do not give up. (No matter how)",
+    back: "No matter how hard life is, please do not give up.",
+  },
+  {
+    front: "Although I am hardworking, I am still weak in science subjects. (No matter how)",
+    back: "No matter how hardworking I am, I am still weak in science subjects.",
+  },
+  {
+    front: "She is very nice, but she sometimes loses her temper. (No matter how)",
+    back: "No matter how nice she is, she sometimes loses her temper.",
+  },
+  {
+    front: "You make a lot of mistakes, but you are better than those who do not work hard. (No matter how many)",
+    back: "No matter how many mistakes you make, you are better than those who do not work hard.",
+  },
+  {
+    front: "Wherever you go, there is always something new to learn about. (No matter where)",
+    back: "No matter where you go, there is always something new to learn about.",
+  },
+  {
+    front: "It is not very important what road you take. You will get there in time. (No matter what)",
+    back: "No matter what road you take, you will get there in time.",
+  },
+  {
+    front: "It does not matter how much I explain to them; they never listen to me. (No matter how much)",
+    back: "No matter how much I explain to them, they never listen to me.",
+  },
+],
+
   },
 
   // ==========================================
@@ -2899,51 +3515,736 @@ grammar: [
     title: "Unit 7: POLLUTION: A HAZARD TO OUR ENVIRONMENT",
     description: "[Your unit description here]",
 
-    // VOCABULARY FLASHCARDS - Terms and definitions
-    vocabulary: [
-      {
-        front: "[Term]",
-        back: "[Definition and example]",
-      },
-      // Add more vocabulary cards here
-    ],
+// VOCABULARY FLASHCARDS - Terms and definitions
+vocabulary: [
+  {
+    front: "Deforestation",
+    back: "The act of cutting down or burning the trees in an area. Example: Large-scale deforestation contributes to climate change.",
+  },
+  {
+    front: "Urbanisation",
+    back: "The process by which more and more people leave the countryside to live in cities. Example: Rapid urbanisation leads to crowded cities.",
+  },
+  {
+    front: "Industrialisation",
+    back: "The process by which an economy is transformed from agriculture to manufacturing. Example: Industrialisation boosted economic growth in the 19th century.",
+  },
+  {
+    front: "Digital wastes",
+    back: "Used electronic devices. Example: Recycling digital wastes reduces environmental harm.",
+  },
+  {
+    front: "Sleep deprivation",
+    back: "A condition that occurs when someone doesn’t get enough sleep. Example: Sleep deprivation can affect memory and focus.",
+  },
+  {
+    front: "Contaminated",
+    back: "Having been made impure by exposure to a poisonous or polluting substance. Example: Drinking contaminated water can cause illness.",
+  },
+  {
+    front: "Constrict",
+    back: "To become narrower. Example: Smoking can constrict blood vessels and increase blood pressure.",
+  },
+  {
+    front: "Ozone depletion",
+    back: "The steady thinning of the earth’s ozone layer. Example: Ozone depletion allows more harmful UV rays to reach the earth.",
+  },
+  {
+    front: "Fossil fuels",
+    back: "Fuels made from decomposing plants and animals. Example: Coal and oil are common fossil fuels.",
+  },
+  {
+    front: "Soil erosion",
+    back: "The process in which topsoil is worn away and transported by natural forces such as wind and water. Example: Planting trees helps prevent soil erosion.",
+  },
+],
 
-    // SHORT QUESTIONS - Question and answer pairs
-    shortQuestions: [
-      {
-        front: "[Your question here]",
-        back: "[Your answer here]",
-      },
-      // Add more short questions here
-    ],
 
-    // INITIAL LETTERS - Fill in the first letter(s)
-    initialLetters: [
-      {
-        question: "[Description]: [First letter(s)]_____",
-        correct: ["letter1", "letters2", "word"], // Array of acceptable answers
-      },
-      // Add more initial letter questions here
-    ],
+// SHORT QUESTIONS - Question and answer pairs
+shortQuestions: [
+  {
+    front: "Why are people experiencing hazardous environmental conditions?",
+    back: "Because they are inhaling polluted air, drinking impure water, and consuming contaminated foods now.",
+  },
+  {
+    front: "What is the result of the rise in the amount of greenhouse gases?",
+    back: "It makes the planet warmer.",
+  },
+  {
+    front: "What are some sources of air pollution?",
+    back: "Human activities such as fuel burning, logging, and natural events such as wildfires and volcanic eruptions.",
+  },
+  {
+    front: "What is the function of the ozone layer?",
+    back: "To protect the earth from the harmful ultraviolet rays of the sun.",
+  },
+  {
+    front: "How does water pollution occur?",
+    back: "When mining waste, agricultural and industrial runoff, and human and animal waste are dumped into lakes, rivers, seas, and oceans.",
+  },
+  {
+    front: "Why is the fertility of the earth's soil being degraded?",
+    back: "Because of excessive use of fertilizers and pesticides in agriculture and disposal of chemical wastes from factories.",
+  },
+  {
+    front: "How does our body respond to loud noise?",
+    back: "Heartbeat and respiration accelerate, blood vessels constrict, the skin pales, and muscles tense.",
+  },
+  {
+    front: "Which animals are active during night time? What are they called?",
+    back: "Leopards, cats, snakes, bats, and owls are active at night. They are called nocturnal.",
+  },
+  {
+    front: "Mention two possible solutions to reduce the effects of environmental pollution.",
+    back: "Reduce the use of fossil fuels and promote friendly sources of energy like the sun, wind, and water.",
+  },
+  {
+    front: "What can happen if we do not do something to combat pollution?",
+    back: "We will face dire consequences of it.",
+  },
+  {
+    front: "What are serious environmental problems mentioned in the passage?",
+    back: "Global warming and climate change.",
+  },
+  {
+    front: "What can human activities cause?",
+    back: "Many serious environmental problems, such as global warming and climate change.",
+  },
+  {
+    front: "Why are the world’s ecosystems changing faster than before?",
+    back: "Because of serious problems such as global warming and climate change.",
+  },
+  {
+    front: "What is happening to millions of people when they experience hazardous conditions?",
+    back: "They inhale polluted air, drink impure water, and consume contaminated foods.",
+  },
+  {
+    front: "What do you breathe and drink to live?",
+    back: "We breathe air and drink water.",
+  },
+  {
+    front: "What does the earth’s atmosphere contain?",
+    back: "Carbon dioxide, methane, nitrous oxide, ozone, fluorinated compounds, and water vapour.",
+  },
+  {
+    front: "Why are carbon dioxide and methane called greenhouse gases?",
+    back: "Because they operate like the glass of a greenhouse.",
+  },
+  {
+    front: "What are the actions of greenhouse gases?",
+    back: "They act as a blanket, trapping some of the sun's heat and preventing it from escaping back into space.",
+  },
+  {
+    front: "What is the result of increasing greenhouse gases in the atmosphere?",
+    back: "The greenhouse effect becomes stronger, making our planet warmer than usual.",
+  },
+  {
+    front: "How is our planet’s temperature kept at a safe level?",
+    back: "By greenhouse gases trapping some of the sun’s heat and preventing it from escaping into space.",
+  },
+  {
+    front: "How many types can environmental pollution be classified into?",
+    back: "Five: air, water, soil, noise, and light pollution.",
+  },
+  {
+    front: "What happens when the amount of greenhouse gases rises?",
+    back: "Global temperature increases, causing floods, acid rain, and ozone depletion.",
+  },
+  {
+    front: "Why does air pollution occur?",
+    back: "Because of fuel burning, logging, farming, mining, manufacturing, and construction.",
+  },
+  {
+    front: "When does acid rain occur?",
+    back: "When smoke and fumes from traffic and factories mix with water vapour in the atmosphere.",
+  },
+  {
+    front: "What are severe health problems caused by air pollutants?",
+    back: "Eye irritation, allergies, asthma, and lung cancer.",
+  },
+  {
+    front: "When does ozone depletion occur?",
+    back: "When greenhouse gases like CFCs are released into the atmosphere.",
+  },
+  {
+    front: "What can air pollution cause?",
+    back: "Eye irritation, allergies, asthma, and lung cancer.",
+  },
+  {
+    front: "What is air pollution?",
+    back: "The addition of undesirable substances in air.",
+  },
+  {
+    front: "What is the result of using large amounts of natural resources?",
+    back: "It produces too much waste, like mining waste, agricultural and industrial runoff, and human and animal waste.",
+  },
+  {
+    front: "When does water pollution occur?",
+    back: "When waste is dumped into lakes, rivers, seas, and oceans.",
+  },
+  {
+    front: "What does polluted water include?",
+    back: "Toxic chemicals, bacteria, and parasites that harm aquatic life.",
+  },
+  {
+    front: "What are the effects of water pollutants?",
+    back: "They cause diseases such as dysentery, diarrhoea, and cholera.",
+  },
+  {
+    front: "How many children die every day from drinking impure water?",
+    back: "Nearly 4,000 children.",
+  },
+  {
+    front: "What is the meaning of soil pollution?",
+    back: "Contamination of topsoil with hazardous substances like fertilizers, pesticides, and wastes.",
+  },
+  {
+    front: "Which can lead to soil degradation?",
+    back: "Excessive use of fertilizers and pesticides.",
+  },
+  {
+    front: "What causes soil pollution and soil erosion?",
+    back: "Digital wastes and rubbish from landfills cause soil pollution; deforestation causes soil erosion.",
+  },
+  {
+    front: "What hazardous substances cause soil pollution?",
+    back: "Fertilisers, pesticides, and wastes.",
+  },
+  {
+    front: "What happens because of soil erosion?",
+    back: "Unhealthy soil intensifies food and nutritional insecurity.",
+  },
+  {
+    front: "What is the result of soil erosion?",
+    back: "The planet loses millions of tons of topsoil.",
+  },
+  {
+    front: "How can noise be defined?",
+    back: "Unwanted or excessive sound.",
+  },
+  {
+    front: "Why does noise pollution occur?",
+    back: "Because of urbanisation, industrialisation, and technological advances.",
+  },
+  {
+    front: "What are the primary sources of noise pollution?",
+    back: "Construction sites, industrial areas, transport (cars, trains, planes), and cultural activities.",
+  },
+  {
+    front: "What does noise cause?",
+    back: "Physical and psychological harm.",
+  },
+  {
+    front: "How can heartbeat and respiration accelerate?",
+    back: "In response to loud noise.",
+  },
+  {
+    front: "What can long and loud noise cause?",
+    back: "Hypertension, hearing loss, and emotional problems like depression, aggression, and anxiety.",
+  },
+  {
+    front: "What is light pollution?",
+    back: "Overuse or under-use of artificial outdoor light.",
+  },
+  {
+    front: "What is the characteristic of diurnal people?",
+    back: "They work better during the day than at night.",
+  },
+  {
+    front: "Which people are nocturnal?",
+    back: "Those who work better during the night than the day.",
+  },
+  {
+    front: "Why are moths called crepuscular creatures?",
+    back: "Because they are active only during dawn or dusk.",
+  },
+  {
+    front: "What do diurnal, nocturnal, and crepuscular mean?",
+    back: "Diurnal = active in daytime, nocturnal = active at night, crepuscular = active at dawn/dusk.",
+  },
+  {
+    front: "Why can we say that tigers, lions, and birds are diurnal?",
+    back: "Because they hunt for food during the day.",
+  },
+  {
+    front: "What kind of people are nocturnal?",
+    back: "People who work better at night than during the day.",
+  },
+  {
+    front: "When can animals that are crepuscular be found?",
+    back: "During dawn or dusk.",
+  },
+  {
+    front: "What disturbs the food-hunting pattern of nocturnal and crepuscular creatures?",
+    back: "Bright artificial night light.",
+  },
+  {
+    front: "Which effects does light pollution have on your life?",
+    back: "It has ill effects.",
+  },
+  {
+    front: "What can insufficient light do to us?",
+    back: "It can damage our vision.",
+  },
+  {
+    front: "Describe what causes sleep deprivation.",
+    back: "Bright light.",
+  },
+  {
+    front: "What are the symptoms of sleep deprivation?",
+    back: "Stress, headaches, and increasing anxiety.",
+  },
+  {
+    front: "Why do you have to reduce the use of fossil fuels?",
+    back: "To minimise the effects of environmental pollution.",
+  },
+],
 
-    // MULTIPLE CHOICE QUESTIONS
-    multipleChoice: [
-      {
-        question: "[Your question here]",
-        options: ["[Option 1]", "[Option 2]", "[Option 3]", "[Option 4]"],
-        correct: 0, // Index of correct answer (0-3)
-      },
-      // Add more multiple choice questions here
-    ],
+
+// INITIAL LETTERS - Fill in the first letter(s)
+initialLetters: [
+  {
+    question: "One of the s------------- problems of the company is that staffs do not accomplish their tasks.",
+    correct: ["serious"],
+  },
+  {
+    question: "C------------- change is the effect of carbon dioxide emissions in industrialising countries.",
+    correct: ["climate"],
+  },
+  {
+    question: "E------------- are communities of organisms and their physical environments interacting together.",
+    correct: ["ecosystems"],
+  },
+  {
+    question: "It is a place to relax and recharge your batteries in peaceful s-------------.",
+    correct: ["surroundings"],
+  },
+  {
+    question: "Both the water and the air in their neighbourhood were c------------- for them to live.",
+    correct: ["contaminated"],
+  },
+  {
+    question: "There are h------------- chemicals that can cause death if we are careless.",
+    correct: ["hazardous"],
+  },
+  {
+    question: "A h------------- is anything which can harm or damage someone or something.",
+    correct: ["hazard"],
+  },
+  {
+    question: "Household combustion devices, motor vehicles, industrial facilities and forest fires are causes of air p-------------.",
+    correct: ["pollution"],
+  },
+  {
+    question: "The destruction of forests is contributing to the g------------- effect.",
+    correct: ["greenhouse"],
+  },
+  {
+    question: "According to scientists, the a------------- is getting warmer year after year.",
+    correct: ["atmosphere"],
+  },
+  {
+    question: "Global warming and its adverse effects are the major e------------- problems facing us.",
+    correct: ["environmental"],
+  },
+  {
+    question: "The introduction of harmful s------------- into the air is called air pollution.",
+    correct: ["substances"],
+  },
+  {
+    question: "In every summer, hot season, we hear the news of w------------- in some part of the world.",
+    correct: ["wildfires"],
+  },
+  {
+    question: "V------------- eruptions can result in additional threats such as floods, mudslides, power outages, etc.",
+    correct: ["volcanic"],
+  },
+  {
+    question: "We are now finding out the effects of ozone d------------- in the northern hemisphere.",
+    correct: ["depletion"],
+  },
+  {
+    question: "One of the c----------- of global warming in mountain regions is increasing risk of infectious diseases.",
+    correct: ["consequences"],
+  },
+  {
+    question: "The ozone layer protects the harmful u------------- rays of the sun.",
+    correct: ["ultraviolet"],
+  },
+  {
+    question: "Economics of Myanmar mainly depends on a------------- sector.",
+    correct: ["agricultural"],
+  },
+  {
+    question: "Polluted water includes toxic c-------------, bacteria and parasites.",
+    correct: ["chemicals"],
+  },
+  {
+    question: "Polluted water or i------------- water can cause many diseases such as cholera, typhoid, and polio.",
+    correct: ["impure"],
+  },
+  {
+    question: "The process of making the earth’s t--------------- contaminated with hazardous substances is called soil pollution.",
+    correct: ["topsoil"],
+  },
+  {
+    question: "We should educate the farmers to use fertilisers and p------------- effectively and safely.",
+    correct: ["pesticides"],
+  },
+  {
+    question: "Water pollution, air pollution and soil d------------- pose enormous threat to human health.",
+    correct: ["degradation"],
+  },
+  {
+    question: "The problem of that industry is how to get rid of d------------- wastes without harm.",
+    correct: ["digital", "wastes"],
+  },
+  {
+    question: "The disposals of wastes in the ground are referred to as l-------------.",
+    correct: ["landfills"],
+  },
+  {
+    question: "D------------- occurs when a forested area is transformed into a non-forested area.",
+    correct: ["deforestation"],
+  },
+  {
+    question: "Their efforts i------------- more and more as the competition is approaching.",
+    correct: ["intensify"],
+  },
+  {
+    question: "Future food and n------------- security is more critical in a world of uncontrollable population growth.",
+    correct: ["nutritional"],
+  },
+  {
+    question: "U------------- of the town can only occur if large employers move into the area.",
+    correct: ["urbanization"],
+  },
+  {
+    question: "The process of developing industries in a country is called i-------------.",
+    correct: ["industrialisation"],
+  },
+  {
+    question: "The machines that use powerful motors are one of the p------------- sources of noise pollution.",
+    correct: ["primary"],
+  },
+  {
+    question: "After he was sick, he felt p------------- weakness.",
+    correct: ["physical"],
+  },
+  {
+    question: "P------------- harm can include name calling, bully and harassment.",
+    correct: ["psychological"],
+  },
+  {
+    question: "If we do exercise, our heartbeat and respiration will a------------- and we can sweat.",
+    correct: ["accelerate"],
+  },
+  {
+    question: "These shoes are too small and they c------------- my feet and it makes my toes pain.",
+    correct: ["constrict"],
+  },
+  {
+    question: "Light pollution is the overuse or under-use of a------------- outdoor light.",
+    correct: ["artificial"],
+  },
+  {
+    question: "Depression, aggression, i-------------, frustration and anxiety are some of emotional problems.",
+    correct: ["irritation"],
+  },
+  {
+    question: "He always feels sleepy during the day becomes active at night. He is n-------------.",
+    correct: ["nocturnal"],
+  },
+  {
+    question: "Tiger is d------------- because they are more active during the day than at night.",
+    correct: ["diurnal"],
+  },
+  {
+    question: "To avoid d------------- in her classroom, she sets strict rules on cleaning up after free time.",
+    correct: ["disorder"],
+  },
+  {
+    question: "If you have sleep d-------------, you cannot concentrate on your lessons well.",
+    correct: ["deprivation"],
+  },
+],
+
+
+// MULTIPLE CHOICE QUESTIONS
+multipleChoice: [
+  {
+    question: "Working without proper safety equipment can pose a serious ------------- to employees.",
+    options: ["hazardous", "hazard", "hazardously"],
+    correct: 1,
+  },
+  {
+    question: "We must take action to protect the natural ------------- from further damage.",
+    options: ["environment", "surroundings", "habitat"],
+    correct: 0,
+  },
+  {
+    question: "Technology is advancing faster now than at any time in history, making life more convenient than -------------.",
+    options: ["ever before", "recently", "by far"],
+    correct: 0,
+  },
+  {
+    question: "Firefighters must wear masks because they could accidentally ------------- harmful smoke during a rescue.",
+    options: ["absorb", "consume", "inhale"],
+    correct: 2,
+  },
+  {
+    question: "Many rivers have become ------------- due to industrial waste and poor environmental regulations.",
+    options: ["pollution", "pollute", "polluted"],
+    correct: 2,
+  },
+  {
+    question: "Air and water ------------- have become major concerns for environmentalists around the world.",
+    options: ["polluted", "pollution", "pollutants"],
+    correct: 1,
+  },
+  {
+    question: "Factories release harmful ------------- into the air and water, causing serious environmental damage.",
+    options: ["pollutants", "pollution", "polluting"],
+    correct: 0,
+  },
+  {
+    question: "Many health issues have been ------------- high levels of stress.",
+    options: ["associated with", "linked to", "connected by"],
+    correct: 1,
+  },
+  {
+    question: "The school has a positive ------------- that made every student feel comfortable and relaxed.",
+    options: ["ambiance", "environment", "atmosphere"],
+    correct: 2,
+  },
+  {
+    question: "The technician will ------------- the machine to make sure it’s working correctly.",
+    options: ["operate", "manage", "plan"],
+    correct: 0,
+  },
+  {
+    question: "The manager helped his team, and the team members, -------------, assisted their colleagues.",
+    options: ["consequently", "in turn", "eventually"],
+    correct: 1,
+  },
+  {
+    question: "The animals are ------------- different categories based on their habitat and behavior.",
+    options: ["classified into", "classify to", "classified as"],
+    correct: 0,
+  },
+  {
+    question: "The chemicals in the factory's waste can be very ------------- to the local wildlife.",
+    options: ["harmless", "harm", "harmful"],
+    correct: 2,
+  },
+  {
+    question: "The lack of proper care can ------------- serious health issues.",
+    options: ["result in", "result by", "result with"],
+    correct: 0,
+  },
+  {
+    question: "Overconsumption of natural resources can lead to the ------------- of the environment.",
+    options: ["pollutants", "depletion", "reduction"],
+    correct: 1,
+  },
+  {
+    question: "Poor health habits can ------------- serious long-term medical problems.",
+    options: ["result", "cause", "lead to"],
+    correct: 2,
+  },
+  {
+    question: "The two ------------- of the magnet are marked as north and south.",
+    options: ["poles", "polars", "polliings"],
+    correct: 0,
+  },
+  {
+    question: "The actions of the company had severe ------------- on the environment.",
+    options: ["results", "consequences", "outcomes"],
+    correct: 1,
+  },
+  {
+    question: "The scientist studied various ------------- to understand their chemical properties.",
+    options: ["compound", "solutions", "mixtures"],
+    correct: 2,
+  },
+  {
+    question: "The harmful chemicals were ------------- the river, causing severe pollution.",
+    options: ["poured into", "dumped into", "released into"],
+    correct: 2,
+  },
+  {
+    question: "The patient was suffering from a ------------- case of the flu, requiring immediate medical attention.",
+    options: ["severe", "intense", "wild"],
+    correct: 0,
+  },
+  {
+    question: "The company made a ------------- investment in new technology to improve production.",
+    options: ["small", "huge", "minor"],
+    correct: 1,
+  },
+  {
+    question: "The waste was ------------- the river, causing significant environmental damage.",
+    options: ["poured into", "thrown into", "dumped into"],
+    correct: 2,
+  },
+  {
+    question: "The factory was fined for releasing ------------- waste into the river.",
+    options: ["toxically", "toxicity", "toxic"],
+    correct: 2,
+  },
+  {
+    question: "The water was found to be ------------- after the factory spilled chemicals into the river.",
+    options: ["polluted", "contaminated", "spoiled"],
+    correct: 1,
+  },
+  {
+    question: "The doctor warned against ------------- consumption of sugary foods, as it can lead to various health problems.",
+    options: ["unnecessary", "excessive", "overabundant"],
+    correct: 1,
+  },
+  {
+    question: "Over the years, the forest has been severely ------------- due to illegal logging and pollution.",
+    options: ["degradation", "degrading", "degraded"],
+    correct: 2,
+  },
+  {
+    question: "Coastal ------------- has become a major concern for environmentalists trying to protect marine ecosystems.",
+    options: ["erosion", "depletion", "pollution"],
+    correct: 0,
+  },
+  {
+    question: "The rapid rate of ------------- in the Amazon rainforest has alarmed scientists around the world.",
+    options: ["deforestation", "depletion", "erosion"],
+    correct: 0,
+  },
+  {
+    question: "Climate change continues to ------------- extreme weather events across the globe.",
+    options: ["intensity", "intense", "intensify"],
+    correct: 2,
+  },
+  {
+    question: "The medicine had several ------------- side effects that made patients stop using it.",
+    options: ["unwanted", "surprising", "accidental"],
+    correct: 0,
+  },
+  {
+    question: "Rapid ------------- has led to the expansion of cities and the decline of rural areas.",
+    options: ["ruralisation", "urbanization", "migration"],
+    correct: 1,
+  },
+  {
+    question: "The government introduced new policies ------------- growing concerns about climate change.",
+    options: ["due to", "because of", "in response to"],
+    correct: 2,
+  },
+  {
+    question: "The ------------- of antibiotics has led to the emergence of resistant bacteria.",
+    options: ["excess", "under-use", "overuse"],
+    correct: 2,
+  },
+  {
+    question: "The ------------- of public transport in rural areas results in higher reliance on private vehicles.",
+    options: ["under-use", "overuse", "misuse"],
+    correct: 0,
+  },
+  {
+    question: "Owls are ------------- animals, meaning they are most active during the night.",
+    options: ["diurnal", "nocturnal", "crepuscular"],
+    correct: 1,
+  },
+  {
+    question: "Unlike nocturnal creatures, squirrels are ------------- and are usually active during the day.",
+    options: ["nocturnal", "crepuscular", "diurnal"],
+    correct: 2,
+  },
+  {
+    question: "Deer are ------------- animals, typically becoming most active during dawn and dusk.",
+    options: ["nocturnal", "crepuscular", "diurnal"],
+    correct: 1,
+  },
+  {
+    question: "Ko Thu enjoys playing basketball, and ------------- his brother.",
+    options: ["so does", "neither does", "so is"],
+    correct: 0,
+  },
+  {
+    question: "The storm caused severe ------------- to the building's roof.",
+    options: ["damage", "damaging", "damaged"],
+    correct: 0,
+  },
+  {
+    question: "The new policy will impact the employees' salaries ------------- their working hours.",
+    options: ["but", "as well as", "also"],
+    correct: 1,
+  },
+  {
+    question: "The event was postponed ------------- the heavy rain.",
+    options: ["because", "as a result", "owing to"],
+    correct: 2,
+  },
+  {
+    question: "She missed several classes last week; -------------, she was unprepared for the test.",
+    options: ["due to", "consequently", "because"],
+    correct: 1,
+  },
+  {
+    question: "The company faced a lot of challenges ------------- the new policies implemented last month.",
+    options: ["due to", "as a result of", "because of"],
+    correct: 2,
+  },
+  {
+    question: "He stayed home from work ------------- he wasn’t feeling well.",
+    options: ["because", "due to", "consequently"],
+    correct: 0,
+  },
+];
+
 
     // GRAMMAR - Grammar rules and explanations
-    grammar: [
-      {
-        front: "[Grammar Rule/Topic]",
-        back: "[Explanation and examples]",
-      },
-      // Add more grammar cards here
-    ],
+// GRAMMAR - Linking words in sentences
+grammar: [
+  {
+    front: "A tornado blew the roof off the house. The family had to find another place to live. (as a result)",
+    back: "A tornado blew the roof off the house. As a result, the family had to find another place to live.",
+  },
+  {
+    front: "There has been an increase in greenhouse gases. The earth is getting warmer and warmer. (due to)",
+    back: "The earth is getting warmer and warmer due to an increase in greenhouse gases.",
+  },
+  {
+    front: "The crude oil spill polluted the ocean near the Gulf of Mexico in 2010. Coral reefs and aquatic animals died out. (because)",
+    back: "Coral reefs and aquatic animals died out because the crude oil spill polluted the ocean near the Gulf of Mexico in 2010.",
+  },
+  {
+    front: "The meal we ordered was cheaper than expected. We had extra money for dessert. (as a result)",
+    back: "The meal we ordered was cheaper than expected. As a result, we had extra money for dessert.",
+  },
+  {
+    front: "Thuzar completed the project successfully. She was promoted to manager. (as a consequence)",
+    back: "Thuzar completed the project successfully. As a consequence, she was promoted to manager.",
+  },
+  {
+    front: "The weather forecast called for rain. He took his raincoat. (Consequently)",
+    back: "The weather forecast called for rain. Consequently, he took his raincoat.",
+  },
+  {
+    front: "Nilar can play the drums well. She was trained by a professional drummer. (because)",
+    back: "Nilar can play the drums well because she was trained by a professional drummer.",
+  },
+  {
+    front: "There was a heavy rain. The roads were flooded. (as a result of)",
+    back: "The roads were flooded as a result of the heavy rain.",
+  },
+  {
+    front: "Thuta worked hard. He passed the exam with flying colours. (because of)",
+    back: "Thuta passed the exam with flying colours because of his hard work.",
+  },
+  {
+    front: "The weather was extremely bad. The football match was cancelled. (owing to)",
+    back: "The football match was cancelled owing to the extremely bad weather.",
+  },
+];
+
   },
 
 
@@ -3288,6 +4589,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
