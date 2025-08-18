@@ -2173,50 +2173,669 @@ grammar: [
     description: "COLOURS",
 
     // VOCABULARY FLASHCARDS - Terms and definitions
-    vocabulary: [
-      {
-        front: "[Term]",
-        back: "[Definition and example]",
-      },
-      // Add more vocabulary cards here
-    ],
+vocabulary: [
+  {
+    front: "In the red",
+    back: "In debt. Example: 'After the holiday expenses, he was in the red.'",
+  },
+  {
+    front: "In the pink",
+    back: "In the best of health. Example: 'Grandma is still in the pink at 80.'",
+  },
+  {
+    front: "Greengrocer",
+    back: "A person who sells fruit and vegetables. Example: 'We bought apples from the local greengrocer.'",
+  },
+  {
+    front: "Out of the blue",
+    back: "Unexpectedly. Example: 'She called me out of the blue after years of silence.'",
+  },
+  {
+    front: "A yellow card",
+    back: "A warning for having broken a rule. Example: 'The player received a yellow card for dangerous play.'",
+  },
+  {
+    front: "A blue collar worker",
+    back: "A person who does manual or unskilled work. Example: 'Many blue collar workers lost their jobs during the recession.'",
+  },
+  {
+    front: "Feel blue",
+    back: "To feel sad and lonely. Example: 'He was feeling blue after hearing the bad news.'",
+  },
+  {
+    front: "Red tape",
+    back: "Unnecessary rules and regulations. Example: 'We had to deal with a lot of red tape to get the permit.'",
+  },
+  {
+    front: "Greenhorn",
+    back: "An inexperienced person. Example: 'He was a greenhorn when he first started the job.'",
+  },
+  {
+    front: "Yellow-bellied",
+    back: "Cowardly. Example: 'He is too yellow-bellied to stand up for himself.'",
+  },
+],
 
-    // SHORT QUESTIONS - Question and answer pairs
-    shortQuestions: [
-      {
-        front: "[Your question here]",
-        back: "[Your answer here]",
-      },
-      // Add more short questions here
-    ],
 
-    // INITIAL LETTERS - Fill in the first letter(s)
-    initialLetters: [
-      {
-        question: "[Description]: [First letter(s)]_____",
-        correct: ["letter1", "letters2", "word"], // Array of acceptable answers
-      },
-      // Add more initial letter questions here
-    ],
+// SHORT QUESTIONS - Question and answer pairs
+shortQuestions: [
+  {
+    front: "Write three colour-based English expressions in the passage.",
+    back: "Feel blue, red-handed, black sheep.",
+  },
+  {
+    front: "What colour is most commonly associated with sadness or loneliness?",
+    back: "Blue is most commonly associated with sadness or loneliness.",
+  },
+  {
+    front: "What type of person is commonly referred to as a greenhorn?",
+    back: "A young and inexperienced person.",
+  },
+  {
+    front: "What colour expression can you use to say 'I'm in good health'?",
+    back: "In the pink.",
+  },
+  {
+    front: "What does 'a red letter day' mean?",
+    back: "An important or special day.",
+  },
+  {
+    front: "Which two colour expressions indicate a company's financial situation?",
+    back: "In the red and in the black.",
+  },
+  {
+    front: "What do the colours of a national flag represent?",
+    back: "A country's history, beliefs, values, glorious past, and hopeful future.",
+  },
+  {
+    front: "Why do advertisers choose bright and cheerful colours?",
+    back: "To suggest we will have a brighter future if we use their products.",
+  },
+  {
+    front: "What does feeling blue mean?",
+    back: "Feeling sad and lonely.",
+  },
+  {
+    front: "How do we feel when we are blue?",
+    back: "We feel sad and lonely.",
+  },
+  {
+    front: "What is the music of the African-Americans called?",
+    back: "Blues.",
+  },
+  {
+    front: "What does the music of the African-Americans express?",
+    back: "Sad and lonely feelings.",
+  },
+  {
+    front: "Why is the slow, sad, soulful music of the African-Americans called 'blues'?",
+    back: "Because it reflects their sad and lonely feelings.",
+  },
+  {
+    front: "What does 'out of the blue' mean?",
+    back: "Without warning; unexpectedly.",
+  },
+  {
+    front: "What does it mean by saying 'someone has green fingers'?",
+    back: "They have a natural skill for growing plants.",
+  },
+  {
+    front: "What does 'someone is given the green light' mean?",
+    back: "They are allowed by authority to go ahead with a project.",
+  },
+  {
+    front: "What is 'pinkie'?",
+    back: "The little finger.",
+  },
+  {
+    front: "What is a greengrocer?",
+    back: "A person who sells fruit and vegetables.",
+  },
+  {
+    front: "What does 'greenhouse effect' refer to?",
+    back: "The warming of Earth's surface due to trapped radiation by gases like CO₂ and ozone.",
+  },
+  {
+    front: "What does it mean when we say someone is pink?",
+    back: "They have mild left-wing, socialist views.",
+  },
+  {
+    front: "What is the significance of being in the pink?",
+    back: "It means being in the best of health.",
+  },
+  {
+    front: "What is the message conveyed in the song 'Enjoy Yourself'?",
+    back: "To enjoy life to the fullest as time passes quickly.",
+  },
+  {
+    front: "If you’re red instead of pink, what does it mean?",
+    back: "You’re a true leftist, a communist.",
+  },
+  {
+    front: "What does it mean when you see red?",
+    back: "You are very angry.",
+  },
+  {
+    front: "What does it mean when a company is in the red?",
+    back: "The company is losing money and in debt.",
+  },
+  {
+    front: "What happens when a footballer is shown a red card?",
+    back: "He is sent off the pitch for violating a rule.",
+  },
+  {
+    front: "What is the purpose of rolling out the red carpet?",
+    back: "To welcome and honour VIPs.",
+  },
+  {
+    front: "What does it mean when someone is caught red-handed?",
+    back: "They are caught in the act of committing a crime.",
+  },
+  {
+    front: "What is referred to as 'red tape'?",
+    back: "Unnecessary rules and regulations causing delay.",
+  },
+  {
+    front: "How is a person described if they are considered yellow?",
+    back: "Lacking courage; cowardly.",
+  },
+  {
+    front: "For whom is a yellow ribbon a symbol of welcome in the USA?",
+    back: "For those returning home after facing danger.",
+  },
+  {
+    front: "What is the significance of black in fashion and martial arts?",
+    back: "It’s the most preferred fashion colour and the highest martial arts belt.",
+  },
+  {
+    front: "What are some examples of frightening things associated with black?",
+    back: "Black holes, black magic, black spirits.",
+  },
+  {
+    front: "What does it mean when a company is in the black?",
+    back: "It has more money than it owes.",
+  },
+  {
+    front: "What does 'the black sheep of the family' mean?",
+    back: "A person who notoriously stands out or causes shame in the family.",
+  },
+  {
+    front: "What is the purpose of uniforms in schools, the army, or police?",
+    back: "To show belonging to a particular group.",
+  },
+  {
+    front: "What can we guess if football fans wave their national flags?",
+    back: "They are from the country represented by those flags.",
+  },
+  {
+    front: "What would happen if there were no colour in the world?",
+    back: "Life would be dull.",
+  },
+],
+
+// INITIAL LETTERS - Fill in the first letter(s)
+initialLetters: [
+  {
+    question: "1. She looked at him with a very annoyed e-------------.",
+    correct: ["expression"],
+  },
+  {
+    question: "2. My school uniform is as white as s-------------.",
+    correct: ["snow"],
+  },
+  {
+    question: "3. We lost the instruction m------------- and could not put our bikes together.",
+    correct: ["manual"],
+  },
+  {
+    question: "4. He was unqualified and totally i------------- for this position.",
+    correct: ["inexperienced"],
+  },
+  {
+    question: "5. A manager has the a------------- to revise employees’ work schedules.",
+    correct: ["authority"],
+  },
+  {
+    question: "6. The students are not a------------- to talk during the exam or the assembly.",
+    correct: ["allowed"],
+  },
+  {
+    question: "7. I have a political attitude, but I am certainly not a p-------------.",
+    correct: ["politician"],
+  },
+  {
+    question: "8. The president of China is a c------------- leader who strictly controls his citizens.",
+    correct: ["communist"],
+  },
+  {
+    question: "9. I paid my d------------- with all the money that I made this month.",
+    correct: ["debt"],
+  },
+  {
+    question: "10. Companies that v------------- the environmental laws will be fined.",
+    correct: ["violate"],
+  },
+  {
+    question: "11. The d------------- man fell down the street and sprained his ankle.",
+    correct: ["drunken"],
+  },
+  {
+    question: "12. The cyber-c------------- have been increasing in recent years.",
+    correct: ["crimes"],
+  },
+  {
+    question: "13. As a t-------------, he formed a strong attachment to one of his friends.",
+    correct: ["teenager"],
+  },
+  {
+    question: "14. I want to ask her out, but I don’t have the c-------------.",
+    correct: ["courage"],
+  },
+  {
+    question: "15. The National Flag and National Anthem are a s------------- of patriotism.",
+    correct: ["symbol"],
+  },
+  {
+    question: "16. Flags of all the participating countries are flying outside the s-------------.",
+    correct: ["stadium"],
+  },
+  {
+    question: "17. Many ethnic groups are trying to maintain their cultural i-------------.",
+    correct: ["identity"],
+  },
+  {
+    question: "18. Discussion is the process of people c------------- about an idea.",
+    correct: ["communicating"],
+  },
+  {
+    question: "19. In the sunny afternoon, the sun is shining brightly in the s-------------.",
+    correct: ["sky"],
+  },
+  {
+    question: "20. A student gives her teacher a r------------- orchid every morning.",
+    correct: ["red"],
+  },
+  {
+    question: "21. He remembers riding a y------------- school bus every morning as a child.",
+    correct: ["yellow"],
+  },
+  {
+    question: "22. The b------------- workers do not earn much money like white-collar workers.",
+    correct: ["blue-collar"],
+  },
+  {
+    question: "23. Jon recovered and is now in the p------------- of condition.",
+    correct: ["pink"],
+  },
+  {
+    question: "24. It is wonderful to see how she has g------------- as a person.",
+    correct: ["grown"],
+  },
+  {
+    question: "25. Most vegetables we bought from local g------------- were local products.",
+    correct: ["greengrocers"],
+  },
+  {
+    question: "26. Carbon dioxide is the largest contributor to g------------- effect.",
+    correct: ["greenhouse"],
+  },
+  {
+    question: "27. The business c------------- is simple but looks professional.",
+    correct: ["card"],
+  },
+  {
+    question: "28. The judges will a------------- a prize to the best speaker.",
+    correct: ["award"],
+  },
+  {
+    question: "29. This a------------- is for the most outstanding student.",
+    correct: ["award"],
+  },
+  {
+    question: "30. She was wearing a b------------- coat with a white collar.",
+    correct: ["black"],
+  },
+  {
+    question: "31. The problem with most garden books is they are written by g-------------.",
+    correct: ["gardeners"],
+  },
+  {
+    question: "32. I e------------- listening to music when I feel stressed.",
+    correct: ["enjoy"],
+  },
+  {
+    question: "33. We all need to obey the rules and r------------- of the company.",
+    correct: ["regulations"],
+  },
+  {
+    question: "34. Sometimes, we should not buy u------------- things to save money.",
+    correct: ["unnecessary"],
+  },
+  {
+    question: "35. The doctor wants to d------------- the surgery for a few weeks.",
+    correct: ["delay"],
+  },
+  {
+    question: "36. She often r------------- to her notes when giving a speech.",
+    correct: ["refers"],
+  },
+  {
+    question: "37. Cigarette smoking has been a------------- with lung cancer.",
+    correct: ["associated"],
+  },
+  {
+    question: "38. The general secretary may r------------- the president at ceremonies.",
+    correct: ["represent"],
+  },
+  {
+    question: "39. He has proven that he is both reliable and t-------------.",
+    correct: ["trustworthy"],
+  },
+  {
+    question: "40. She used the word with positive c------------- to sound better.",
+    correct: ["connotations"],
+  },
+  {
+    question: "41. The hotel has s------------- facilities for disabled people.",
+    correct: ["special"],
+  },
+  {
+    question: "42. The policemen can easily g------------- who the thieves are.",
+    correct: ["guess"],
+  },
+],
+
 
     // MULTIPLE CHOICE QUESTIONS
-    multipleChoice: [
-      {
-        question: "[Your question here]",
-        options: ["[Option 1]", "[Option 2]", "[Option 3]", "[Option 4]"],
-        correct: 0, // Index of correct answer (0-3)
-      },
-      // Add more multiple choice questions here
-    ],
+// Unit-5 (Colours)
+multipleChoice: [
+  {
+    question: "1. My father sees everything in a ------------- way, he thinks things are either good or bad.",
+    options: ["black and blue", "black and white", "black out"],
+    correct: 1,
+  },
+  {
+    question: "2. Some people buy rare things from the ------------- even though it's not legal.",
+    options: ["blue market", "black market", "grey shop"],
+    correct: 1,
+  },
+  {
+    question: "3. Everyone at the party treated her like royalty because she was known to be a -------------.",
+    options: ["grey matter", "red-eye", "blue blood"],
+    correct: 2,
+  },
+  {
+    question: "4. When she saw her friend’s brand new car, she was -------------.",
+    options: ["green with envy", "blue with envy", "green with envy"],
+    correct: 0,
+  },
+  {
+    question: "5. After months of saving and careful planning, the company is finally -------------.",
+    options: ["out of the red", "white elephant", "black and blue"],
+    correct: 0,
+  },
+  {
+    question: "6. The old office printer turned out to be a ------------- because it was expensive and never worked properly.",
+    options: ["blue blcak", "black market", "white elephant"],
+    correct: 2,
+  },
+  {
+    question: "7. He works a ------------- job in an office, mostly doing paperwork and attending meetings.",
+    options: ["hard labor", "white-collar", "blue-collar"],
+    correct: 1,
+  },
+  {
+    question: "8. He works a ------------- job at the factory, doing manual labor and operating machinery.",
+    options: ["grey-collar", "white-collar", "blue-collar"],
+    correct: 2,
+  },
+  {
+    question: "9. She passed the final exam -------------, scoring the highest marks in the class.",
+    options: ["with flying colours", "out of the blue", "a whit lie"],
+    correct: 0,
+  },
+  {
+    question: "10. Sometimes, telling ------------- can be necessary to avoid hurting someone's feelings.",
+    options: ["a red lie", "a white lie", "white elephant"],
+    correct: 1,
+  },
+  {
+    question: "11. After the accident, he was left ------------- from head to toe.",
+    options: ["black and blue", "black and white", "grey matter"],
+    correct: 0,
+  },
+  {
+    question: "12. She suddenly felt dizzy and nearly ------------- during the meeting.",
+    options: ["black market", "black out", "into the blue"],
+    correct: 1,
+  },
+  {
+    question: "13. I could not find my little cat. It seemed to be -------------.",
+    options: ["out of the red", "black market", "into the blue"],
+    correct: 2,
+  },
+  {
+    question: "14. After the long boat ride, she began to ------------- and looked like she might be seasick.",
+    options: ["look blue", "look black", "look green"],
+    correct: 2,
+  },
+  {
+    question: "15. Solving complex problems requires not only creativity but also the use of your -------------.",
+    options: ["grey matter", "white elephant", "blue blood"],
+    correct: 0,
+  },
+  {
+    question: "16. We had to catch the ------------- flight last night.",
+    options: ["red-eye", "grey matter", "out of the red"],
+    correct: 0,
+  },
+  {
+    question: "17. After a few weeks of rest and healthy eating, she was feeling ------------- again.",
+    options: ["in the black", "in the pink", "in the red"],
+    correct: 1,
+  },
+  {
+    question: "18. The thief was caught ------------- as he tried to escape with the stolen goods.",
+    options: ["blue blood", "grey matter", "red-handed"],
+    correct: 2,
+  },
+  {
+    question: "19. After years of losses, the company is finally ------------- and making a steady profit.",
+    options: ["in the red", "in the pink", "in the black"],
+    correct: 2,
+  },
+  {
+    question: "20. Due to declining sales and high expenses, the company has been operating ------------- for the past six months.",
+    options: ["in the pink", "in the red", "in the black"],
+    correct: 1,
+  },
+  {
+    question: "21. The referee showed the player ------------- for his unsportsmanlike behavior during the match.",
+    options: ["a yellow card", "a white card", "a blue card"],
+    correct: 0,
+  },
+  {
+    question: "22. We only get to see each other -------------, since we live in different countries.",
+    options: ["in a blue moon", "out of the red", "out of the bue"],
+    correct: 0,
+  },
+  {
+    question: "23. ------------- , she received a phone call from a friend she hadn’t spoken to in years.",
+    options: ["in a blue moon", "out of the red", "Out of the blue"],
+    correct: 2,
+  },
+  {
+    question: "24. The manager gave us ------------- to begin the new marketing campaign next week.",
+    options: ["a red light", "a green light", "a yellow light"],
+    correct: 1,
+  },
+  {
+    question: "25. After receiving the good news, she was in -------------, feeling happy and energetic all day.",
+    options: ["a blue mood", "a yellow mood", "a red mood"],
+    correct: 0,
+  },
+  {
+    question: "26. She stayed at home to study ------------- her friends went out to the movies.",
+    options: ["as", "because", "while"],
+    correct: 2,
+  },
+  {
+    question: "27. You won't pass the test ------------- you study for it.",
+    options: ["if", "although", "unless"],
+    correct: 2,
+  },
+  {
+    question: "28. She studied all night ------------- she could pass the exam.",
+    options: ["so that", "although", "because"],
+    correct: 0,
+  },
+  {
+    question: "29. You should try the new restaurant ------------- you get the chance; it's amazing.",
+    options: ["whenever", "once", "if"],
+    correct: 1,
+  },
+  {
+    question: "30. I haven’t seen her ------------- she moved to another city last year.",
+    options: ["since", "until", "before"],
+    correct: 0,
+  },
+  {
+    question: "31. I will call you ------------- I finish my meeting.",
+    options: ["when", "as soon as", "after"],
+    correct: 1,
+  },
+  {
+    question: "32. I will wait here ------------- you return from your meeting.",
+    options: ["before", "while", "until"],
+    correct: 2,
+  },
+  {
+    question: "33. She looked at me ------------- she had seen a ghost.",
+    options: ["although", "as if", "when"],
+    correct: 1,
+  },
+  {
+    question: "34. She sings ------------- beautifully as her mother.",
+    options: ["as", "so", "like"],
+    correct: 0,
+  },
+  {
+    question: "35. Ko Ko prefers to stay indoors, ------------- his brother loves outdoor activities.",
+    options: ["although", "whereas", "because"],
+    correct: 1,
+  },
+  {
+    question: "36. She was late to the meeting ------------- she missed the bus.",
+    options: ["because", "although", "unless"],
+    correct: 0,
+  },
+],
+
 
     // GRAMMAR - Grammar rules and explanations
-    grammar: [
-      {
-        front: "[Grammar Rule/Topic]",
-        back: "[Explanation and examples]",
-      },
-      // Add more grammar cards here
-    ],
+grammar: [
+  {
+    front: "I waited at the bus stop (until, after, unless) my friend arrived.",
+    back: "until",
+  },
+  {
+    front: "He shouted at me (although, as if, so that) it were all my fault.",
+    back: "as if",
+  },
+  {
+    front: "I am not as clever (so that, whereas, as) you are.",
+    back: "as",
+  },
+  {
+    front: "(Since, Although, Till) the price was low, she did not buy the scarf.",
+    back: "Although",
+  },
+  {
+    front: "The flight was cancelled (because, while, where) the weather was bad.",
+    back: "because",
+  },
+  {
+    front: "We ran into an old friend (where, while, before) we were waiting for the ferry.",
+    back: "while",
+  },
+  {
+    front: "The driver stopped the bus (unless, though, so that) the old man could cross the road.",
+    back: "so that",
+  },
+  {
+    front: "(As, Once, Where) my sister was busy, I washed all her clothes.",
+    back: "As",
+  },
+  {
+    front: "(Since, When, Although) she was not well, she prepared dinner for her son.",
+    back: "Although",
+  },
+  {
+    front: "I came here (so that, as soon as, until) I heard the news about you.",
+    back: "as soon as",
+  },
+  {
+    front: "We had to stand all the way. All the seats on the bus were occupied.",
+    back: "We had to stand all the way because all the seats on the bus were occupied.",
+  },
+  {
+    front: "My father devoted all his life to his work. He retired.",
+    back: "My father devoted all his life to his work until he retired.",
+  },
+  {
+    front: "We left rather late. We arrived on time.",
+    back: "Although we left rather late, we arrived on time.",
+  },
+  {
+    front: "She is overweight. She never takes any exercise.",
+    back: "She is overweight because she never takes any exercise.",
+  },
+  {
+    front: "You trust yourself. You will know how to live.",
+    back: "If you trust yourself, you will know how to live.",
+  },
+  {
+    front: "Moe Moe decided not to buy the dress. The colour didn't suit her.",
+    back: "Moe Moe decided not to buy the dress because the colour didn't suit her.",
+  },
+  {
+    front: "The film was boring. I changed the channel.",
+    back: "I changed the channel because the film was boring.",
+  },
+  {
+    front: "I visit my grandpa. I see him working in the garden.",
+    back: "Whenever I visit my grandpa, I see him working in the garden.",
+  },
+  {
+    front: "He went to bed. He had finished his homework.",
+    back: "He went to bed after he had finished his homework.",
+  },
+  {
+    front: "I broke my leg. I was playing football.",
+    back: "I broke my leg while I was playing football.",
+  },
+  {
+    front: "The maths questions are hard. I can only do one of them.",
+    back: "The maths questions are so hard that I can only do one of them.",
+  },
+  {
+    front: "Mum will be happy. You arrive home early.",
+    back: "Mum will be happy if you arrive home early.",
+  },
+  {
+    front: "Don't go out. I get ready.",
+    back: "Don't go out until I get ready.",
+  },
+  {
+    front: "You listen to me. You will be in trouble.",
+    back: "Unless you listen to me, you will be in trouble.",
+  },
+  {
+    front: "I left home early. I wouldn't be caught in the heavy traffic.",
+    back: "I left home early so that I wouldn't be caught in the heavy traffic.",
+  },
+]
+
   },
 
   // ==========================================
@@ -2669,6 +3288,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
