@@ -216,190 +216,174 @@ const unitsData = {
 
     // INITIAL LETTERS - Fill in the first letter(s)
     // INITIAL LETTERS - Fill in the exact word
-    initialLetters: [
-      {
-        question: "‘Manner’ refers to the way of doing s__________.",
-        correct: ["something"],
-      },
-      {
-        question:
-          "‘Manners’ refers to the way a person b__________ in society.",
-        correct: ["behaviour"],
-      },
-      {
-        question: "Manners can be good or bad, p__________ or impolite.",
-        correct: ["polite"],
-      },
-      {
-        question:
-          "In Myanmar culture, it is bad manners for a junior to start e__________ before a senior does.",
-        correct: ["eating"],
-      },
-      {
-        question:
-          "It is polite for a junior to listen with arms f__________ while spoken to by a senior.",
-        correct: ["folded"],
-      },
-      {
-        question:
-          "Every society and culture has its own list of good and bad m__________.",
-        correct: ["manners"],
-      },
-      {
-        question:
-          "Some manners are universal while some are c__________-specific.",
-        correct: ["culture-specific"],
-      },
-      {
-        question:
-          "Belching or b__________ wind may be acceptable in one society but not in another.",
-        correct: ["breaking"],
-      },
-      {
-        question:
-          "Good manners are vital for a pleasant a__________ in one’s home or elsewhere.",
-        correct: ["atmosphere"],
-      },
-      {
-        question:
-          "Showing r__________ to others is an example of good manners.",
-        correct: ["respect"],
-      },
-      {
-        question:
-          "Saying “I’m s__________” after doing something wrong is a sign of good manners.",
-        correct: ["sorry"],
-      },
-      {
-        question: "The home is considered the b__________ of manners.",
-        correct: ["birthplace"],
-      },
-      {
-        question: "Children acquire manners by i__________ their elders.",
-        correct: ["imitating"],
-      },
-      {
-        question:
-          "Fathers, mothers, or elder siblings may formally t__________ children to be polite.",
-        correct: ["teach"],
-      },
-      {
-        question:
-          "If elders are gentle and polite, children grow up to be g__________ and polite.",
-        correct: ["gentle"],
-      },
-      {
-        question:
-          "If elders are rude, children will also become c__________ and rude.",
-        correct: ["crude"],
-      },
-      {
-        question:
-          "The s__________ is another institution that imparts manners.",
-        correct: ["school"],
-      },
-      {
-        question: "Students imitate their teachers’ m__________ and behaviour.",
-        correct: ["manners"],
-      },
-      {
-        question:
-          "Teenagers and young adults are often influenced by c__________, films, and books.",
-        correct: ["celebrities"],
-      },
-      {
-        question:
-          "The w__________ domain also influences a person’s manners after getting a job.",
-        correct: ["workplace"],
-      },
-      {
-        question:
-          "The current g__________ is the most powerful in imparting manners.",
-        correct: ["generation"],
-      },
-      {
-        question:
-          "Elders should join h__________ to teach juniors law-abiding behaviour.",
-        correct: ["hands"],
-      },
-      {
-        question:
-          "A well-mannered society values h__________, discipline, and punctuality.",
-        correct: ["honesty"],
-      },
-      {
-        question:
-          "We are m__________ responsible for building a well-mannered society.",
-        correct: ["mutually"],
-      },
-      {
-        question:
-          "A junior should not i__________ others while they are speaking.",
-        correct: ["interrupt"],
-      },
-      {
-        question: "Greeting others a__________ is also a good manner.",
-        correct: ["appropriately"],
-      },
-      {
-        question:
-          "Being c__________ and forgiving are qualities of good manners.",
-        correct: ["charitable"],
-      },
-      {
-        question: "Politeness helps people get on well in l__________.",
-        correct: ["life"],
-      },
-      {
-        question:
-          "Negative views may be acquired if young people are m__________ by bad influences.",
-        correct: ["misled"],
-      },
-      {
-        question: "Teachers must be good role m__________ for students.",
-        correct: ["models"],
-      },
-       {
-    question: "The way a person b__________ in society is known as manners.",
-    correct: ["behaves"],
+// INITIAL LETTERS - Fill in the first letter(s)
+initialLetters: [
+  {
+    question: "It is a bad m------------- to talk with rude words and your mouth full.",
+    correct: ["manner"],
   },
   {
-    question: "It is p__________ manners for a junior to listen with arms folded while a parent or teacher speaks to him or her.",
-    correct: ["polite"],
+    question: "All youths must learn socially a------------- behaviour.",
+    correct: ["acceptable"],
   },
   {
-    question: "The list of good and bad manners is found in every society and c__________.",
-    correct: ["culture"],
+    question: "When we listen to music, we can feel a p------------- feeling.",
+    correct: ["pleasant"],
   },
   {
-    question: "Although some manners are culture-specific, some are u__________.",
-    correct: ["universal"],
+    question: "The boys are rude and lack of respect. Their behaviour will not be t-------------.",
+    correct: ["tolerated"],
   },
   {
-    question: "Some people may accept b__________ in their society.",
-    correct: ["belching"],
+    question: "The boys are r------------- and lack of respect. Their behaviour will not be tolerated.",
+    correct: ["rude"],
   },
   {
-    question: "For getting on well in life, good manners are v__________ everywhere.",
+    question: "All the people cannot t------------- as the noise is too loud.",
+    correct: ["tolerate"],
+  },
+  {
+    question: "Education plays a v------------- role in building a modern nation.",
     correct: ["vital"],
   },
   {
-    question: "We say 'I'm s__________' to show r__________ to the other person.",
-    correct: ["sorry", "respect"],
+    question: "Treating p------------- other people is a characteristic of high morale person.",
+    correct: ["politely"],
   },
   {
-    question: "Home may be said to be the b__________ of manners.",
-    correct: ["birthplace"],
+    question: "T------------- politely other people is a characteristic of high morale person.",
+    correct: ["treating", "politely"],
   },
   {
-    question: "Children i__________ their elder's manners.",
+    question: "The students are very keen to l------------- practical lessons of science subjects",
+    correct: ["learn"],
+  },
+  {
+    question: "Our teacher is very r-------------. He always thinks of the welfare of students.",
+    correct: ["respectful"],
+  },
+  {
+    question: "Everyone is r------------- to him, listening carefully to his long speech.",
+    correct: ["respectful"],
+  },
+  {
+    question: "His parents tried to i------------- her in her university choice.",
+    correct: ["influence"],
+  },
+  {
+    question: "The teacher is always p-------------. He always gets in the class in time.",
+    correct: ["punctual"],
+  },
+  {
+    question: "Asking someone’s personal information is i------------- in our society.",
+    correct: ["impolite"],
+  },
+  {
+    question: "It is a u------------- truth that the sun raises in the east.",
+    correct: ["universal"],
+  },
+  {
+    question: "We have no u------------- agreement about that project among the decision makers.",
+    correct: ["universal"],
+  },
+  {
+    question: "The students have a------- huge knowledge of English as the teachers are good at teaching in English.",
+    correct: ["acquired"],
+  },
+  {
+    question: "You are r------------- for your own happiness.",
+    correct: ["responsible"],
+  },
+  {
+    question: "The parents are r------------- for their children’s misbehavior.",
+    correct: ["responsible"],
+  },
+  {
+    question: "She is m------------- to animals so she never treats them cruelly.",
+    correct: ["merciful"],
+  },
+  {
+    question: "The new g------------- should maintain the cultural heritage of the nation.",
+    correct: ["generation"],
+  },
+  {
+    question: "Both the teachers and the parents should have m------------- respect in their relationship.",
+    correct: ["mutual"],
+  },
+  {
+    question: "Mutual r------------- is important in every relationship.",
+    correct: ["respect"],
+  },
+  {
+    question: "S------------- students have access to the library at weekends.",
+    correct: ["senior"],
+  },
+  {
+    question: "He graduated from a s------------- high school with honors.",
+    correct: ["senior"],
+  },
+  {
+    question: "The manners of the older are i------------- by the younger.",
+    correct: ["imitated"],
+  },
+  {
+    question: "They always do their job c-------------. They never did carelessly.",
+    correct: ["conscientiously"],
+  },
+  {
+    question: "The students should b------------- politely during the school assembly.",
+    correct: ["behave"],
+  },
+  {
+    question: "Understanding and appreciating different c------------- can promote tolerance and respect among diverse societies.",
+    correct: ["cultures"],
+  },
+  {
+    question: "He b------------- loudly after drinking too much soda drink.",
+    correct: ["belched"],
+  },
+  {
+    question: "The volcano b------------- out smoke and ashes.",
+    correct: ["belched"],
+  },
+  {
+    question: "Emotional management strategies are v------------- to achieve happiness.",
+    correct: ["vital"],
+  },
+  {
+    question: "The younger should act p------------- manners to the older according to culture.",
+    correct: ["polite"],
+  },
+  {
+    question: "Children i------------- their elders and they acquire good or bad manners from them.",
     correct: ["imitate"],
   },
   {
-    question: "If the elders around them are rude, they will grow up to be c__________.",
-    correct: ["crude"],
+    question: "School is a place where good manners and mutual respect are i-------------.",
+    correct: ["imparted"],
   },
-    ],
+  {
+    question: "Generally, it can be said that students imitate their parents’ and teachers’ manners and b-------------.",
+    correct: ["behaviours"],
+  },
+  {
+    question: "The increase in child abuse crime in the world has been a u------------- problem.",
+    correct: ["universal"],
+  },
+  {
+    question: "To a------------- a new skill, it can take many years of practice, tolerance, passion and dedication.",
+    correct: ["acquire"],
+  },
+  {
+    question: "It is important to a------------- with the law for all citizens to maintain social stability.",
+    correct: ["abide"],
+  },
+  {
+    question: "One aim of education is to produce d------------- students for the nation.",
+    correct: ["disciplined", "dutiful"],
+  },
+],
+
 
     // MULTIPLE CHOICE QUESTIONS
     multipleChoice: [
@@ -1609,6 +1593,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
