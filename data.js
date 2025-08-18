@@ -4197,7 +4197,7 @@ multipleChoice: [
     options: ["because", "due to", "consequently"],
     correct: 0,
   },
-];
+],
 
 
     // GRAMMAR - Grammar rules and explanations
@@ -4588,6 +4588,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
