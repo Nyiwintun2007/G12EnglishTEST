@@ -847,8 +847,8 @@ shortQuestions: [
     ],
   },
 unit4: {
-    title: "Unit 3: THE LIBRARY",
-    description: "THE LIBRARY",
+    title: "Unit 4: EMOTIONAL WELL-BEING",
+    description: "EMOTIONAL WELL-BEING",
 
     // VOCABULARY FLASHCARDS - Terms and definitions
     vocabulary: [
@@ -1545,6 +1545,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
