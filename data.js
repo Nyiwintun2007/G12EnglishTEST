@@ -4256,11 +4256,46 @@ grammar: [
 
     // VOCABULARY FLASHCARDS - Terms and definitions
     vocabulary: [
-      {
-        front: "[Term]",
-        back: "[Definition and example]",
-      },
-      // Add more vocabulary cards here
+   {
+    front: "emissions",
+    back: "Gases or other substances that are sent into the air. Example: Car emissions contribute to air pollution.",
+  },
+  {
+    front: "adopt",
+    back: "To start to use a particular method. Example: Many companies adopt new technologies to improve efficiency.",
+  },
+  {
+    front: "turbines",
+    back: "Machines that produce continuous turning power from a fast moving flow of a liquid or gas, using a set of vanes attached to a wheel or rotor. Example: Wind turbines generate renewable energy.",
+  },
+  {
+    front: "impact",
+    back: "A strong or powerful effect on something. Example: The new policy had a positive impact on the environment.",
+  },
+  {
+    front: "climatologists",
+    back: "Experts in the scientific study of climate. Example: Climatologists warn about the effects of global warming.",
+  },
+  {
+    front: "alarming",
+    back: "Causing worry or fear. Example: The alarming rise in sea levels concerns scientists worldwide.",
+  },
+  {
+    front: "fossil",
+    back: "The remains of an animal or a plant that have become hard and turned into rock. Example: Dinosaurs are studied through their fossils.",
+  },
+  {
+    front: "greenhouse gases",
+    back: "Gases such as carbon dioxide in the air surrounding the earth, which trap the heat of the sun. Example: Greenhouse gases cause global warming.",
+  },
+  {
+    front: "pollutants",
+    back: "Substances that make air, water, soil, etc. dangerously dirty. Example: Factories release pollutants into rivers.",
+  },
+  {
+    front: "inexhaustible",
+    back: "Existing in very great amounts that will never be finished or used up. Example: Solar energy is an inexhaustible resource.",
+  },
     ],
 
     // SHORT QUESTIONS - Question and answer pairs
@@ -4588,6 +4623,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
