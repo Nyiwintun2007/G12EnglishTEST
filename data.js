@@ -782,13 +782,49 @@ grammar: [
     description: "[Your unit description here]",
 
     // VOCABULARY FLASHCARDS - Terms and definitions
-    vocabulary: [
-      {
-        front: "[Term]",
-        back: "[Definition and example]",
-      },
-      // Add more vocabulary cards here
-    ],
+vocabulary: [
+  {
+    front: "Opposite of poor",
+    back: "healthy",
+  },
+  {
+    front: "Opposite of insignificant",
+    back: "important",
+  },
+  {
+    front: "Opposite of unwise",
+    back: "advisable",
+  },
+  {
+    front: "Opposite of ill",
+    back: "healthy",
+  },
+  {
+    front: "Opposite of unwholesome",
+    back: "nutritious",
+  },
+  {
+    front: "Opposite of natural",
+    back: "artificial",
+  },
+  {
+    front: "Opposite of negative",
+    back: "positive",
+  },
+  {
+    front: "Opposite of careless",
+    back: "careful",
+  },
+  {
+    front: "Opposite of local",
+    back: "global",
+  },
+  {
+    front: "Opposite of stale",
+    back: "fresh",
+  },
+],
+
 
     // SHORT QUESTIONS - Question and answer pairs
 shortQuestions: [
@@ -973,13 +1009,51 @@ shortQuestions: [
 
 
     // INITIAL LETTERS - Fill in the first letter(s)
-    initialLetters: [
-      {
-        question: "[Description]: [First letter(s)]_____",
-        correct: ["letter1", "letters2", "word"], // Array of acceptable answers
-      },
-      // Add more initial letter questions here
-    ],
+initialLetters: [
+  { question: "Food that contains artificial c------------- and flavourings are not good for health.", correct: ["colourings"] },
+  { question: "Peas, beans, chicken, and beef are nourishing source of p-------------.", correct: ["proteins"] },
+  { question: "My brother r------------- a laptop from U Lay who lives in U.S.", correct: ["received"] },
+  { question: "China and North Korea have m------------- their close relations.", correct: ["maintained"] },
+  { question: "Our teacher has always m------------- a high standard of professional ethics.", correct: ["maintained"] },
+  { question: "The f------------- requirement to live for a human is food, water and air.", correct: ["fundamental"] },
+  { question: "Foods such as bread, potatoes, rice contain a lot of c-------------.", correct: ["carbohydrates"] },
+  { question: "A h------------- person is happier than a wealthy person.", correct: ["healthy"] },
+  { question: "To be a h------------- life, we should eat more vegetables and fruit than ready-made food.", correct: ["healthy"] },
+  { question: "The meat was declared unfit for human c------------- by one research.", correct: ["consumption"] },
+  { question: "Diet and nutrition are e------------- for our health, energy and growth.", correct: ["essential"] },
+  { question: "We should have a good n------------- in order to possess a healthy life.", correct: ["nutrition"] },
+  { question: "We take m------------- if we feel sick.", correct: ["medicine"] },
+  { question: "She stressed the importance of basic health education and preventive m-------------.", correct: ["medicine"] },
+  { question: "We can get fatty a------------- from vegetable oil, fish, nuts, seeds, eggs, yogurt, etc.", correct: ["acids"] },
+  { question: "Eating a b------------- diet can make us healthy and strong.", correct: ["balanced"] },
+  { question: "Nowadays, most of the people have not got a b------------- life style between work and privacy.", correct: ["balanced"] },
+  { question: "Some of the high-c------------- foods are full-fat dairy products and red meat.", correct: ["cholesterol"] },
+  { question: "The doctor advised me to lower my s------------- fat intake.", correct: ["saturated"] },
+  { question: "The most important t------------- in student life is to study regularly.", correct: ["thing"] },
+  { question: "Inn Daw Gyi Lake is a paradise for b-------------.", correct: ["biodiversity"] },
+  { question: "The mining project and d------------- threaten one of the world’s richest areas of biodiversity.", correct: ["deforestation"] },
+  { question: "Air pollution, soil pollution and water pollution can cause environmental d-------------.", correct: ["damage"] },
+  { question: "Forests are a h------------- of biodiversity as there are excellent source of food there.", correct: ["haven"] },
+  { question: "The Ministry of Health must take serious action to fight this infectious d-------------.", correct: ["disease"] },
+  { question: "It is good for our health to start the day with a n------------- breakfast.", correct: ["nutritious"] },
+  { question: "One of the most fundamentals of human needs is n-------------.", correct: ["nutrition"] },
+  { question: "The soil in which they grow provides plants n-------------.", correct: ["nutrients"] },
+  { question: "We all need a nutritious diet that is a m------------- of all the nutrients that our body needs to survive.", correct: ["mixture"] },
+  { question: "Environmental factors have the i------------- on diet and nutrition.", correct: ["influence"] },
+  { question: "The nutrients which are e------------- for our body can be found in the food we eat.", correct: ["essential"] },
+  { question: "Diet and nutrition are strongly linked to environmental f-------------.", correct: ["factors"] },
+  { question: "Rice gives us c-------------.", correct: ["carbohydrates"] },
+  { question: "Fresh fruits and vegetables give us m-------------, vitamins and fibre.", correct: ["minerals"] },
+  { question: "We can get v------------- from lemon, lime and orange.", correct: ["vitamins"] },
+  { question: "The food that made up of c------------- can be harmful to our health.", correct: ["chemicals"] },
+  { question: "We can strengthen our i------------- system by having a healthy food.", correct: ["immune"] },
+  { question: "People should take vitamins or nutritional s------------- to combat illness.", correct: ["supplements"] },
+  { question: "Essential nutrients in refined foods are lost during food p-------------.", correct: ["processing"] },
+  { question: "If we consume high-cholesterol foods, the r------------- of getting heart disease will be higher.", correct: ["risk"] },
+  { question: "We should avoid eating high-cholesterol foods for they contain a high level of s------------- fat.", correct: ["saturated"] },
+  { question: "A third of global population is facing food i------------- and it is a global issue for all countries.", correct: ["insecurity"] },
+],
+
 
     // MULTIPLE CHOICE QUESTIONS
     multipleChoice: [
@@ -990,15 +1064,31 @@ shortQuestions: [
       },
       // Add more multiple choice questions here
     ],
+grammar: [
+  // Part A: Participle phrases
+  { front: "After she had finished the exam, she felt very happy.", back: "Having finished the exam, she felt very happy." },
+  { front: "Maung Maung knows that his friend enjoys reading. He has decided to buy her a book.", back: "Knowing that his friend enjoys reading, Maung Maung has decided to buy her a book." },
+  { front: "After she had been made redundant, she started looking for a new job.", back: "Having been made redundant, she started looking for a new job." },
+  { front: "I stood in a queue. I realised that I didn't have any money on me.", back: "Standing in a queue, I realised that I didn’t have any money on me." },
+  { front: "As she was shocked by the sad news, she didn't know what to do next.", back: "Shocked by the sad news, she didn’t know what to do next." },
+  { front: "Kyaw Aung was filled with pride, and he walked towards the stage to receive the prize.", back: "Filled with pride, Kyaw Aung walked towards the stage to receive the prize." },
+  { front: "After he had picked up his coat, he slowly went downstairs.", back: "Having picked up his coat, he slowly went downstairs." },
+  { front: "They become fully qualified doctors after they have finished their training.", back: "Having finished their training, they became fully qualified doctors." },
+  { front: "When he did not understand the lessons, he asked his teacher for help.", back: "Not understanding the lessons, he asked his teacher for help." },
+  { front: "When she realised that she had left her ticket, she went back home.", back: "Realising that she had left her ticket, she went back home." },
 
-    // GRAMMAR - Grammar rules and explanations
-    grammar: [
-      {
-        front: "[Grammar Rule/Topic]",
-        back: "[Explanation and examples]",
-      },
-      // Add more grammar cards here
-    ],
+  // Part C: Not only ... but also
+  { front: "They will paint the inside of the hall. They will paint the outside of the hall.", back: "They will paint not only the inside of the hall but also the outside." },
+  { front: "The circus comprises magicians and clowns. It also comprises tigers and lions.", back: "The circus comprises not only magicians and clowns but also tigers and lions." },
+  { front: "He will sing a song at the dinner party. He will also dance at the dinner party.", back: "He will not only sing a song at the dinner party but also dance." },
+  { front: "She enjoys learning English. She also enjoys learning French.", back: "She enjoys learning not only English but also French." },
+  { front: "The actress has long, curly blonde hair. She also has lovely blue eyes.", back: "The actress has not only long, curly blonde hair but also lovely blue eyes." },
+  { front: "My cousins are good at playing basketball. They are good at playing volleyball as well.", back: "My cousins are good at playing not only basketball but also volleyball." },
+  { front: "I washed my car yesterday. I cut the grass in my garden yesterday.", back: "I not only washed my car yesterday but also cut the grass in my garden." },
+  { front: "My brother can speak Spanish well. My sister can speak Spanish well.", back: "Not only my brother but also my sister can speak Spanish well." },
+  { front: "He likes to do exercise at the gym. He likes to go jogging in the park.", back: "He likes to not only do exercise at the gym but also go jogging in the park." },
+  { front: "It was raining heavily. The wind was blowing hard.", back: "Not only was it raining heavily but also the wind was blowing hard." },
+],
   },
 unit4: {
     title: "Unit 4: EMOTIONAL WELL-BEING",
@@ -1699,6 +1789,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
