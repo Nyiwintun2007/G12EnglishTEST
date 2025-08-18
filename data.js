@@ -414,47 +414,47 @@ initialLetters: [
         correct: 2,
       },
     ],
-// INITIAL LETTERS - Fill in the blank with the exact correct modal verb
-initialLetters: [
+
+  grammar: [
   {
-    question: "1. All applicants ____ take an entrance examination.",
-    correct: ["must"],
+    front: "1. All applicants ____ take an entrance examination.",
+    back: "must",
   },
   {
-    question: "2. ____ you ride a motorcycle?",
-    correct: ["can"],
+    front: "2. ____ you ride a motorcycle?",
+    back: "can",
   },
   {
-    question: "3. You look pale and sick. You ____ go and see a doctor.",
-    correct: ["should"],
+    front: "3. You look pale and sick. You ____ go and see a doctor.",
+    back: "should",
   },
   {
-    question: "4. The elders of this generation _____ teach their children to be polite.",
-    correct: ["should"],
+    front: "4. The elders of this generation _____ teach their children to be polite.",
+    back: "should",
   },
   {
-    question: "5. You ______ smoke in public areas.",
-    correct: ["must"],
+    front: "5. You ______ smoke in public areas.",
+    back: "must",
   },
   {
-    question: "6. The police have done as much as they ____ to find the missing boy.",
-    correct: ["can"],
+    front: "6. The police have done as much as they ____ to find the missing boy.",
+    back: "can",
   },
   {
-    question: "7. Students _____ leave the examination hall without permission.",
-    correct: ["must"],
+    front: "7. Students _____ leave the examination hall without permission.",
+    back: "must",
   },
   {
-    question: "8. Although she is young, she _____ speak three languages.",
-    correct: ["can"],
+    front: "8. Although she is young, she _____ speak three languages.",
+    back: "can",
   },
   {
-    question: "9. All passengers _____ wear seat belts when they are in a car or plane.",
-    correct: ["must"],
+    front: "9. All passengers _____ wear seat belts when they are in a car or plane.",
+    back: "must",
   },
   {
-    question: "10. If you are disturbed by this ringtone, you ____ change it.",
-    correct: ["can"],
+    front: "10. If you are disturbed by this ringtone, you ____ change it.",
+    back: "can",
   },
 ],
 
@@ -1622,6 +1622,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
