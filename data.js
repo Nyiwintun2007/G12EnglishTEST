@@ -92,6 +92,30 @@ const unitsData = {
         front: "Forgiving",
         back: "Willing to stop feeling angry toward someone who hurt you. Example: She is a forgiving person who never holds grudges.",
       },
+      {
+    front: "stressful",
+    back: "Causing a lot of anxiety and worry. Example: Preparing for exams can be very stressful.",
+  },
+  {
+    front: "sympathy",
+    back: "Feeling of being sorry for someone who is in a bad situation. Example: I felt sympathy for the flood victims.",
+  },
+  {
+    front: "downhearted",
+    back: "Feeling sad and disappointed, especially because you have tried to achieve something but have failed. Example: She was downhearted after losing the competition.",
+  },
+  {
+    front: "contentment",
+    back: "Feeling of happiness or satisfaction. Example: He felt a sense of contentment after finishing his work.",
+  },
+  {
+    front: "passionate",
+    back: "Showing strong feelings of enthusiasm for something. Example: She is passionate about teaching children.",
+  },
+  {
+    front: "encounter",
+    back: "Experience something, especially problems. Example: We encountered many difficulties on our trip.",
+  },
     ],
 
     // SHORT QUESTIONS - Question and answer pairs
@@ -1585,6 +1609,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
