@@ -385,35 +385,185 @@ initialLetters: [
 ],
 
 
-    // MULTIPLE CHOICE QUESTIONS
-    multipleChoice: [
-      {
-        question: "Which of the following is an example of a metaphor?",
-        options: [
-          "She runs like the wind",
-          "Time is money",
-          "The cat sat on the mat",
-          "He is as brave as a lion",
-        ],
-        correct: 1,
-      },
-      {
-        question:
-          "What literary device gives human qualities to non-human things?",
-        options: ["Metaphor", "Simile", "Personification", "Alliteration"],
-        correct: 2,
-      },
-      {
-        question: "Which sentence contains a simile?",
-        options: [
-          "The world is a stage",
-          "Her voice is music to my ears",
-          "He fights like a lion",
-          "Time flies",
-        ],
-        correct: 2,
-      },
-    ],
+// MULTIPLE CHOICE QUESTIONS
+multipleChoice: [
+  {
+    question: "In a well-functioning -------------, laws are created to protect the rights of all individuals.",
+    options: ["community", "civilization", "society"],
+    correct: 2,
+  },
+  {
+    question: "Children are expected to ------------- politely when attending formal events.",
+    options: ["act", "behave", "perform"],
+    correct: 1,
+  },
+  {
+    question: "It's important to be ------------- when speaking to teachers and elders.",
+    options: ["kind", "polite", "respectful"],
+    correct: 2,
+  },
+  {
+    question: "It is considered ------------- to interrupt someone while they are speaking.",
+    options: ["rude", "disrespectful", "impolite"],
+    correct: 0,
+  },
+  {
+    question: "When choosing a hotel, ------------- that location and safety are just as important as price.",
+    options: ["bear in mind", "run into", "make up"],
+    correct: 0,
+  },
+  {
+    question: "The local ------------- is deeply influenced by traditions that have been passed down for generations.",
+    options: ["society", "environment", "culture"],
+    correct: 2,
+  },
+  {
+    question: "When traveling abroad, it's important to practice --- manners to show respect to people from different cultures.",
+    options: ["universal", "culture-specific", "tolerated"],
+    correct: 0,
+  },
+  {
+    question: "It is important to understand what is ------------- behavior in different social settings.",
+    options: ["acceptable", "polite", "respectful"],
+    correct: 0,
+  },
+  {
+    question: "The soft colors and comfortable seating helped to create a ------- in the café, making it a great place to unwind.",
+    options: ["cozy environment", "cheerful vibe", "pleasant atmosphere"],
+    correct: 2,
+  },
+  {
+    question: "Over the years, she has ------------- a wealth of knowledge about the subject.",
+    options: ["gained", "collected", "acquired"],
+    correct: 2,
+  },
+  {
+    question: "The city of Paris is the ------------- of many famous artists and writers throughout history.",
+    options: ["birthplace", "home", "residence"],
+    correct: 0,
+  },
+  {
+    question: "Children often ------------- the behaviors of adults as they learn how to interact with the world.",
+    options: ["copy", "imitate", "follow"],
+    correct: 1,
+  },
+  {
+    question: "The doctor had a ------------- touch, which helped calm the nervous patient.",
+    options: ["gentle", "soft", "kind"],
+    correct: 0,
+  },
+  {
+    question: "His ------------- remarks during the meeting were considered offensive and unprofessional.",
+    options: ["crude and rude", "silly and fun", "smart and witty"],
+    correct: 0,
+  },
+  {
+    question: "The teacher praised the student for his excellent ------------- during the school assembly.",
+    options: ["attitude", "behaviour", "manners"],
+    correct: 1,
+  },
+  {
+    question: "It's important to be ------------- when speaking to someone older or in a position of authority.",
+    options: ["respectful", "polite", "kind"],
+    correct: 0,
+  },
+  {
+    question: "Out of respect, we always offer our seat to a ------------- citizen on the bus.",
+    options: ["active", "younger", "senior"],
+    correct: 2,
+  },
+  {
+    question: "After graduating from college, she started looking for a ------------- in her field of study.",
+    options: ["work", "job", "project"],
+    correct: 1,
+  },
+  {
+    question: "A good teacher should be able to ------------- knowledge and wisdom to their students.",
+    options: ["gather", "receive", "impart"],
+    correct: 2,
+  },
+  {
+    question: "The president delivered a ------------- speech that inspired the entire nation.",
+    options: ["powerful", "quiet", "simple"],
+    correct: 0,
+  },
+  {
+    question: "She is very ------------- and always completes her tasks on time without being reminded.",
+    options: ["responsible", "careful", "knowledgeable"],
+    correct: 0,
+  },
+  {
+    question: "The guests were impressed by how ------------- the children were during the dinner party.",
+    options: ["well-mannered", "cheerful", "stubborn"],
+    correct: 0,
+  },
+  {
+    question: "His ------------- manner at the meeting left a negative impression on everyone.",
+    options: ["universal", "culture-specific", "ill"],
+    correct: 2,
+  },
+  {
+    question: "When you arrive at the hotel, don't forget to ------------- at the front desk.",
+    options: ["check over", "check in", "check out"],
+    correct: 1,
+  },
+  {
+    question: "During the championship game, Sarah proved to be the ----------- player by scoring the winning goal.",
+    options: ["vital", "key", "major"],
+    correct: 1,
+  },
+  {
+    question: "He didn’t have time to cook, so he bought a ------------- meal from the grocery store.",
+    options: ["ready made", "slow cooked", "hand made"],
+    correct: 0,
+  },
+  {
+    question: "As an ------------- student, Maya is working toward her first degree in biology.",
+    options: ["undergraduate", "honorary", "postgraduate"],
+    correct: 0,
+  },
+  {
+    question: "After years of searching, he finally reunited with his ------------- brother.",
+    options: ["well-known", "next-door", "long-lost"],
+    correct: 2,
+  },
+  {
+    question: "He ------------- take a rest; he looks tired.",
+    options: ["can", "should", "must"],
+    correct: 1,
+  },
+  {
+    question: "We ------------- be at the airport two hours before our flight.",
+    options: ["can", "should", "must"],
+    correct: 2,
+  },
+  {
+    question: "I ------------- go to the dentist for my check-up.",
+    options: ["can", "should", "must"],
+    correct: 2,
+  },
+  {
+    question: "You ------------- clean your room before your friends come over.",
+    options: ["can", "should", "must"],
+    correct: 1,
+  },
+  {
+    question: "She ------------- stop working so late every day.",
+    options: ["can", "should", "must"],
+    correct: 1,
+  },
+  {
+    question: "She ------------- understand English, but she can't speak it very well.",
+    options: ["can", "should", "must"],
+    correct: 0,
+  },
+  {
+    question: "------------- you help me with this math question?",
+    options: ["can", "should", "must"],
+    correct: 0,
+  },
+],
+
 
   grammar: [
   {
@@ -679,30 +829,220 @@ initialLetters: [
 ],
 
 
-    // MULTIPLE CHOICE
-    multipleChoice: [
-      {
-        question:
-          "What is the rhyme scheme of a poem with the pattern: cat/bat/dog/log?",
-        options: ["ABAB", "AABB", "ABBA", "AAAA"],
-        correct: 1,
-      },
-      {
-        question: "Which is an example of alliteration?",
-        options: [
-          "The cat in the hat",
-          "Silly Sally sells seashells",
-          "Roses are red, violets are blue",
-          "Twinkle, twinkle, little star",
-        ],
-        correct: 1,
-      },
-      {
-        question: "How many stressed syllables are in iambic pentameter?",
-        options: ["3", "4", "5", "10"],
-        correct: 2,
-      },
-    ],
+// MULTIPLE CHOICE QUESTIONS
+multipleChoice: [
+  {
+    question: "We need to ------------- a new idea for the marketing campaign before Friday.",
+    options: ["come up with", "run away from", "break down"],
+    correct: 0,
+  },
+  {
+    question: "The evidence was so strong that the jury found the case to be -------------.",
+    options: ["clear-cut", "far-fetched", "open-ended"],
+    correct: 0,
+  },
+  {
+    question: "The teacher explained the difficult ------------- using simple examples to help the students understand.",
+    options: ["subject", "object", "concept"],
+    correct: 2,
+  },
+  {
+    question: "Preparing for final exams can be extremely ------------- for many students.",
+    options: ["stressful", "stressfully", "stress"],
+    correct: 0,
+  },
+  {
+    question: "After a long vacation, he felt completely ------------- and ready to return to work.",
+    options: ["relaxation", "relaxed", "relax"],
+    correct: 1,
+  },
+  {
+    question: "The manager gave a ------------- explanation for the delay in the project.",
+    options: ["reasoning", "reasonable", "reasonably"],
+    correct: 1,
+  },
+  {
+    question: "Many students prefer to complete their homework --------- to develop better time-management skills.",
+    options: ["in groups", "with help", "on their own"],
+    correct: 2,
+  },
+  {
+    question: "After hearing the sad news, he felt ------------- and spent the rest of the day alone.",
+    options: ["depress", "depressing", "depressed"],
+    correct: 2,
+  },
+  {
+    question: "The teacher will ------------- the assignments at the end of class.",
+    options: ["hand out", "hand on", "hand by"],
+    correct: 0,
+  },
+  {
+    question: "The movie was ------------- in theaters last Friday, and it's already getting great reviews.",
+    options: ["release", "released", "releasing"],
+    correct: 1,
+  },
+  {
+    question: "Wearing sunscreen can help ------------- harmful UV rays from the sun.",
+    options: ["to protect against", "protects against", "protect against"],
+    correct: 2,
+  },
+  {
+    question: "He is so ------------- about music that he spends hours every day practicing his guitar.",
+    options: ["passionate", "interested", "supportive"],
+    correct: 0,
+  },
+  {
+    question: "Hard work, determination, and strong communication skills are key factors in achieving ------------- success.",
+    options: ["career", "job", "office"],
+    correct: 0,
+  },
+  {
+    question: "The research project was ------------- by a team of international scientists over two years.",
+    options: ["managed", "undertaken", "organized"],
+    correct: 1,
+  },
+  {
+    question: "She is known to be very -----------, always willing to share her time and resources with those in need.",
+    options: ["friendly", "polite", "generous"],
+    correct: 2,
+  },
+  {
+    question: "The teacher showed her ------------- for the students' hard work by giving them extra credit.",
+    options: ["attention", "appreciation", "observation"],
+    correct: 1,
+  },
+  {
+    question: "She felt ------------- of her friend’s success, even though she tried to hide it.",
+    options: ["enviously", "envy", "envious"],
+    correct: 2,
+  },
+  {
+    question: "She feels anxious when she is -------------, especially in large crowds.",
+    options: ["around people", "by herself", "in solitude"],
+    correct: 0,
+  },
+  {
+    question: "People who exercise regularly are ------------- experience better health outcomes.",
+    options: ["less likely to", "more likely to", "equally likely to"],
+    correct: 1,
+  },
+  {
+    question: "She is very -------------, always understanding and supporting her friends when they go through tough times.",
+    options: ["empathetic", "confident", "humorous"],
+    correct: 0,
+  },
+  {
+    question: "After the long meeting, he felt exhausted both physically and -------------.",
+    options: ["psychologically", "emotionally", "mentally"],
+    correct: 2,
+  },
+  {
+    question: "She has been feeling ------------- because of the upcoming exams and all the work piling up.",
+    options: ["stressed in", "stressed in", "stressed out"],
+    correct: 2,
+  },
+  {
+    question: "After running the marathon, he experienced extreme ------------- and needed several days to recover.",
+    options: ["energy", "fatigue", "excitement"],
+    correct: 1,
+  },
+  {
+    question: "Regular exercise and a balanced diet are essential for maintaining ------------- as we age.",
+    options: ["physical vitality", "mental clarity", "emotional strength"],
+    correct: 0,
+  },
+  {
+    question: "After a long day of work, she felt a sense of ------------- as she sat down to enjoy a quiet dinner at home.",
+    options: ["excitement", "contentment", "frustration"],
+    correct: 1,
+  },
+  {
+    question: "His actions were driven by -------------, as he was always looking for ways to gain more wealth, regardless of the consequences.",
+    options: ["generosity", "ambition", "greed"],
+    correct: 2,
+  },
+  {
+    question: "Her advice was helpful, but it was only useful -------------, as every situation is unique.",
+    options: ["to some extent", "to full extent", "to what extent"],
+    correct: 0,
+  },
+  {
+    question: "He applied for the job ------------- landing a position that would allow him to advance in his career.",
+    options: ["in the hope of", "despite of", "with the intention of"],
+    correct: 0,
+  },
+  {
+    question: "She felt ------------- after hearing the disappointing news, but she tried to stay positive.",
+    options: ["frustrated", "excited", "downhearted"],
+    correct: 2,
+  },
+  {
+    question: "The company plans to ------------- a more flexible work policy to improve employee satisfaction.",
+    options: ["modify", "reject", "adopt"],
+    correct: 2,
+  },
+  {
+    question: "After a long day, she sat by the window, sipping her tea -------------, enjoying the quiet evening.",
+    options: ["anxiously", "contentedly", "angrily"],
+    correct: 1,
+  },
+  {
+    question: "Before purchasing the antique vase, she decided to ------------- to check for any damages.",
+    options: ["look inside", "look around", "look after"],
+    correct: 1,
+  },
+  {
+    question: "When you ------------- to your childhood, what is the first memory that comes to mind?",
+    options: ["think back", "look forward", "move away"],
+    correct: 0,
+  },
+  {
+    question: "The technician will ------------- the new air conditioning unit tomorrow morning.",
+    options: ["turn on", "take out", "put in"],
+    correct: 2,
+  },
+  {
+    question: "The new software was designed to ------------- the workload of employees by automating routine tasks.",
+    options: ["increase", "ease", "complicate"],
+    correct: 1,
+  },
+  {
+    question: "She ------------- searched the crowd for any sign of her lost child.",
+    options: ["calmly", "desperately", "leisurely"],
+    correct: 1,
+  },
+  {
+    question: "Before submitting your report, make sure to ------------- it for any errors.",
+    options: ["go over", "go under", "go through"],
+    correct: 0,
+  },
+  {
+    question: "The teacher ------------- teaches English is very kind.",
+    options: ["who", "whom", "whose"],
+    correct: 0,
+  },
+  {
+    question: "The man ------------- house was burned down is seeking help.",
+    options: ["who", "whom", "whose"],
+    correct: 2,
+  },
+  {
+    question: "The movie, Titanic, ------------- we watched last night was very tragic.",
+    options: ["that", "which", "what"],
+    correct: 1,
+  },
+  {
+    question: "The student ------------- the teacher praised won an award.",
+    options: ["which", "who", "whom"],
+    correct: 2,
+  },
+  {
+    question: "This is the dress ------------- I wore to the party.",
+    options: ["what", "how", "that"],
+    correct: 2,
+  },
+],
+
 
     // GRAMMAR
 grammar: [
@@ -1055,15 +1395,215 @@ initialLetters: [
 ],
 
 
-    // MULTIPLE CHOICE QUESTIONS
-    multipleChoice: [
-      {
-        question: "[Your question here]",
-        options: ["[Option 1]", "[Option 2]", "[Option 3]", "[Option 4]"],
-        correct: 0, // Index of correct answer (0-3)
-      },
-      // Add more multiple choice questions here
-    ],
+// MULTIPLE CHOICE QUESTIONS
+multipleChoice: [
+  {
+    question: "The average person should ------------- enough water daily to maintain proper hydration.",
+    options: ["ingest", "consume", "devour"],
+    correct: 1,
+  },
+  {
+    question: "Understanding the laws of motion is ------------- to mastering the principles of physics.",
+    options: ["fundamental", "essential", "necessary"],
+    correct: 0,
+  },
+  {
+    question: "Proper ------------- is vital for a child’s growth and development.",
+    options: ["nutritious", "nutrition", "nutrients"],
+    correct: 1,
+  },
+  {
+    question: "Fruits and vegetables are rich in essential ------------- that support overall health.",
+    options: ["nutrition", "nutritional", "nutrients"],
+    correct: 2,
+  },
+  {
+    question: "The animals in the study were ------------- different groups based on their habitat and diet.",
+    options: ["divided into", "grouped into", "classified into"],
+    correct: 2,
+  },
+  {
+    question: "Carbohydrates are considered ------------- foods because they help fuel the body's activities.",
+    options: ["energy-giving", "energy-boosting", "energy-rich"],
+    correct: 0,
+  },
+  {
+    question: "Fresh fruits and vegetables give us minerals, vitamins and -------------.",
+    options: ["carbonhydrates", "proteins", "fibre"],
+    correct: 2,
+  },
+  {
+    question: "Many people consult ------------- to get advice on healthy eating and balanced diets.",
+    options: ["nutritionists", "dietitians", "health coaches"],
+    correct: 0,
+  },
+  {
+    question: "To stay healthy, it's important to eat a ------------- diet that includes all food groups in the right proportions.",
+    options: ["nutritious", "balanced", "healthy"],
+    correct: 1,
+  },
+  {
+    question: "Beans, milk products and animal products are a rich source of -------------.",
+    options: ["minerals", "carbonhydrates", "proteins"],
+    correct: 2,
+  },
+  {
+    question: "A typical healthy meal should ------------- protein, vegetables, and whole grains.",
+    options: ["include", "consist of", "contain"],
+    correct: 1,
+  },
+  {
+    question: "The team’s poor performance was due to a ------------- of proper training and preparation.",
+    options: ["lack", "shortage", "absence"],
+    correct: 0,
+  },
+  {
+    question: "Regular exercise can ------------- your muscles and improve overall health.",
+    options: ["strength", "strong", "strengthen"],
+    correct: 2,
+  },
+  {
+    question: "Regular exercise and a balanced diet play an important role ------------- healthy throughout the year.",
+    options: ["in remaining", "to remain", "for remain"],
+    correct: 0,
+  },
+  {
+    question: "Regular health check-ups are an important ------------- measure to avoid serious illnesses.",
+    options: ["prevent", "prevention", "preventive"],
+    correct: 2,
+  },
+  {
+    question: "The doctor will ------------- you on the best treatment options for your condition.",
+    options: ["advice", "advise", "be adviced"],
+    correct: 1,
+  },
+  {
+    question: "The new policy will affect employees -------------, so it's important to stay informed.",
+    options: ["in some way", "somehow", "in any way"],
+    correct: 0,
+  },
+  {
+    question: "Corned beef, canned meat and fish are ------------- foods.",
+    options: ["processed", "refined", "high-cholesterol"],
+    correct: 0,
+  },
+  {
+    question: "White flour and table sugar are ------------- foods.",
+    options: ["processed", "refined", "high-cholesterol"],
+    correct: 1,
+  },
+  {
+    question: "Fried foods and full-fat dairy products are ------------- foods.",
+    options: ["processed", "refined", "high-cholesterol"],
+    correct: 2,
+  },
+  {
+    question: "Many people ------------- eating junk food with poor health and weight gain.",
+    options: ["relate to", "associate with", "connect with"],
+    correct: 1,
+  },
+  {
+    question: "The recipe for this soup does not ------------- any dairy products, making it suitable for lactose-intolerant individuals.",
+    options: ["include", "contain", "hold"],
+    correct: 1,
+  },
+  {
+    question: "It is ------------- to consult a professional before making any major financial decisions.",
+    options: ["advised", "advising", "advisable"],
+    correct: 2,
+  },
+  {
+    question: "The cake was decorated with ------------- flowers that looked just like the real ones.",
+    options: ["artificial", "natural", "organic"],
+    correct: 0,
+  },
+  {
+    question: "The workers had to ------------- the old paint from the walls before applying a fresh coat.",
+    options: ["strip", "clean", "remove"],
+    correct: 0,
+  },
+  {
+    question: "After the long hike, I realized I had ------------- my phone somewhere along the trail.",
+    options: ["losed", "lose", "lost"],
+    correct: 2,
+  },
+  {
+    question: "Some studies ------------- a high-sugar diet to an increased risk of heart disease.",
+    options: ["relate with", "link to", "connect for"],
+    correct: 1,
+  },
+  {
+    question: "Foods high in ------------- fats can raise cholesterol levels and increase the risk of heart disease.",
+    options: ["saturated", "greasy", "oily"],
+    correct: 0,
+  },
+  {
+    question: "Her symptoms were found to be ------------- a vitamin deficiency rather than a serious illness.",
+    options: ["associated on", "connected for", "related to"],
+    correct: 2,
+  },
+  {
+    question: "Children who ------------- malnutrition often experience stunted growth and weakened immunity.",
+    options: ["experience with", "suffer from", "struggle on"],
+    correct: 1,
+  },
+  {
+    question: "After years of traveling, they finally found a peaceful ------------- to settle down and relax.",
+    options: ["haven", "heaven", "paradise"],
+    correct: 0,
+  },
+  {
+    question: "The sudden ------------- of her pet left her feeling heartbroken for weeks.",
+    options: ["lose", "loss", "lost"],
+    correct: 1,
+  },
+  {
+    question: "The medication was effective, but it also caused some ------------- side effects in a few patients.",
+    options: ["positive", "advantage", "adverse"],
+    correct: 2,
+  },
+  {
+    question: "Lack of sleep can negatively ------------- your ability to concentrate during the day.",
+    options: ["affect", "effect", "is affected"],
+    correct: 0,
+  },
+  {
+    question: "Poor air quality can lead to the gradual ------------- of respiratory health over time.",
+    options: ["improvement", "deterioration", "development"],
+    correct: 1,
+  },
+  {
+    question: "Children in areas with limited access to food are at high risk of -------------, which can affect their growth and development.",
+    options: ["malnutrition", "obesity", "starvation"],
+    correct: 0,
+  },
+  {
+    question: "The doctor warned that the disease was highly ------------- and could spread quickly in crowded areas.",
+    options: ["contagious", "immune", "infectious"],
+    correct: 2,
+  },
+  {
+    question: "Water is a ------------- resource that is essential for the survival of all living organisms.",
+    options: ["life-sustaining", "energy-giving", "temporary"],
+    correct: 0,
+  },
+  {
+    question: "The ------------- species in the ecosystem plays a critical role in maintaining the balance of the environment.",
+    options: ["cornerstone", "keystone", "milestone"],
+    correct: 1,
+  },
+  {
+    question: "Certain health risks are ------------- with a poor diet and lack of exercise.",
+    options: ["associated", "connected", "linked"],
+    correct: 0,
+  },
+  {
+    question: "Based on the patient's condition, the doctor gave a ------------- to start physical therapy immediately.",
+    options: ["advice", "suggestion", "recommendation"],
+    correct: 2,
+  },
+],
+    
 grammar: [
   // Part A: Participle phrases
   { front: "After she had finished the exam, she felt very happy.", back: "Having finished the exam, she felt very happy." },
@@ -1096,10 +1636,46 @@ unit4: {
 
     // VOCABULARY FLASHCARDS - Terms and definitions
     vocabulary: [
-      {
-        front: "[Term]",
-        back: "[Definition and example]",
-      },
+{
+    front: "Resilient",
+    back: "Able to become strong, happy, or successful again after a difficult situation.",
+  },
+  {
+    front: "Recovery",
+    back: "A return to a normal state of health, mind, or strength.",
+  },
+  {
+    front: "Serene",
+    back: "Very calm or peaceful.",
+  },
+  {
+    front: "Deliberate",
+    back: "Intended or planned.",
+  },
+  {
+    front: "Modest",
+    back: "Not proud.",
+  },
+  {
+    front: "Induced",
+    back: "Caused.",
+  },
+  {
+    front: "Chronic",
+    back: "Long-lasting; persisting for a long time.",
+  },
+  {
+    front: "Touched",
+    back: "Emotionally influenced.",
+  },
+  {
+    front: "Cope With",
+    back: "Succeed in dealing with a difficult situation.",
+  },
+  {
+    front: "Integrity",
+    back: "The quality of being honest and having strong moral principles.",
+  },
       // Add more vocabulary cards here
     ],
 
@@ -1258,31 +1834,335 @@ shortQuestions: [
 
     // INITIAL LETTERS - Fill in the first letter(s)
     initialLetters: [
-      {
-        question: "[Description]: [First letter(s)]_____",
-        correct: ["letter1", "letters2", "word"], // Array of acceptable answers
-      },
+  { question: "Time does not heal e------------- pain. You need to learn how to let go.", correct: ["emotional"] },
+  { question: "People often express their e------------- nonverbally.", correct: ["emotions"] },
+  { question: "We can c------------- the problems as large, medium and small.", correct: ["classify"] },
+  { question: "The most beautiful things in the world cannot be seen or t-------------; they are felt with the heart.", correct: ["touched"] },
+  { question: "In Japan, it is p------------- to bow when you meet someone.", correct: ["proper"] },
+  { question: "Nothing could i------------- him to change his mind.", correct: ["induce"] },
+  { question: "Sound sleep can be i------------- by the moderate exercise before you sleep.", correct: ["induced"] },
+  { question: "Hope is a m------------- that can make you succeed in life.", correct: ["motivator"] },
+  { question: "We should participate in school a------------- for our all-round development.", correct: ["activities"] },
+  { question: "The governor decided to provide assistance for the v-------------.", correct: ["victims"] },
+  { question: "We can feel depressed in every difficult s-------------.", correct: ["situation"] },
+  { question: "You cannot expect much s------------- from selfish people.", correct: ["sympathy"] },
+  { question: "Positive attitude is a source of hope, e-------------, responsibility and authenticity.", correct: ["empathy"] },
+  { question: "Accept the c------------- so that you may feel the exhilaration of victory.", correct: ["challenges"] },
+  { question: "The well-being and w------------- of children should always be our focus.", correct: ["welfare"] },
+  { question: "Frank is s------------- from a nervous disorder.", correct: ["suffering"] },
+  { question: "According to Buddhism, life is s-------------.", correct: ["suffering"] },
+  { question: "Sometimes, u------------- people come into our life and leave suddenly.", correct: ["unexpected"] },
+  { question: "Her letter came as a complete s-------------.", correct: ["surprise"] },
+  { question: "The present that my friends gave me was so s-------------.", correct: ["surprising"] },
+  { question: "An emotion characterized by feelings of tension, worried thoughts and physical changes like increased blood pressure is a-------------.", correct: ["anxiety"] },
+  { question: "When we are e------------- to negative feelings, we can feel depression.", correct: ["exposed"] },
+  { question: "Russia is a major t------------- to the world peace.", correct: ["threat"] },
+  { question: "The two countries use their e------------- weapons in war.", correct: ["effective"] },
+  { question: "Some school rules are not u-------------, so most of the students do not want to obey.", correct: ["unfair"] },
+  { question: "He said that he had no a------------- towards the person who beat him.", correct: ["anger"] },
+  { question: "His boss c------------- him for his inactive work habits.", correct: ["criticized"] },
+  { question: "A feeling of sad which is prompted by the loss of something or tragic events is d-------------.", correct: ["distress"] },
+  { question: "They spent the m------------- days in this lonely and unpleasant place.", correct: ["miserable"] },
+  { question: "When we feel dislike something such as food or drink or smell, it can be called d-------------.", correct: ["disgust"] },
+  { question: "The government should use effective s------------- to improve economics.", correct: ["strategies"] },
+  { question: "We should not b------------- others without knowing all about them.", correct: ["blame"] },
+  { question: "If our wants and needs are not fulfilled, we feel distressed or f-------------.", correct: ["frustrated"] },
+  { question: "If the students have sheep deprivation, they cannot c------------- on their studies.", correct: ["concentrate"] },
+  { question: "The task will not feel so o------------- if you break it down into small, easy-to-accomplish steps.", correct: ["overwhelming"] },
+  { question: "The poor are more r------------- the ups and downs of life than the rich.", correct: ["resilient"] },
+  { question: "He was h------------- enough to admit that he made a mistake.", correct: ["honest"] },
+  { question: "Our teacher has a reputation for her honesty and i-------------.", correct: ["integrity"] },
+  { question: "We need to find a p------------- alternative to war.", correct: ["peaceful"] },
+  { question: "She looked as calm and s------------- as she always did even though she faced difficult situations.", correct: ["serene"] },
+  { question: "They said they were g------------- for the support that was given by the community.", correct: ["grateful"] },
+  { question: "My grandfather was a very m------------- and humble person.", correct: ["modest"] },
+  { question: "Take time to d-------------, but when the time for an action has arrived, stop thinking and go in.", correct: ["deliberate"] },
+  { question: "Staying i------------- is one of the ways to be happy in life.", correct: ["intentional"] },
+  { question: "We need a b------------- long term energy policy to protect natural environment.", correct: ["balanced"] },
+  { question: "Doing something that we enjoy can provide emotional r------------- if we feel emotional pain.", correct: ["recovery"] },
+  { question: "This paper can greatly c------------- to the field of education especially higher education.", correct: ["contribute"] },
       // Add more initial letter questions here
     ],
 
     // MULTIPLE CHOICE QUESTIONS
-    multipleChoice: [
-      {
-        question: "[Your question here]",
-        options: ["[Option 1]", "[Option 2]", "[Option 3]", "[Option 4]"],
-        correct: 0, // Index of correct answer (0-3)
-      },
-      // Add more multiple choice questions here
-    ],
+multipleChoice: [
+  {
+    question: "1. After moving to a new city, it took me a while to make friends beyond a few casual ________.",
+    options: ["acquaintances", "colleagues", "companions"],
+    correct: 0,
+  },
+  {
+    question: "2. The ancient symbols on the cave walls shimmered ________, as if holding secrets from another world.",
+    options: ["supernaturally", "spiritually", "mystically"],
+    correct: 2,
+  },
+  {
+    question: "3. She was deeply ________ by the kind words in the letter.",
+    options: ["touched", "moved", "affected"],
+    correct: 0,
+  },
+  {
+    question: "4. During their trip to the mountains, they hoped to ________ the thrill of hiking through untouched wilderness.",
+    options: ["encounter", "experience", "feel"],
+    correct: 1,
+  },
+  {
+    question: "5. The children's faces lit up with pure ________ when they saw the pile of presents under the tree.",
+    options: ["happiness", "joy", "delight"],
+    correct: 1,
+  },
+  {
+    question: "6. For many athletes, the desire to break personal records is a powerful ________ that keeps them training hard every day.",
+    options: ["drive", "incentive", "motivator"],
+    correct: 0,
+  },
+  {
+    question: "7. She expressed her ________ for the family after hearing about their loss.",
+    options: ["compassion", "sympathy", "empathy"],
+    correct: 1,
+  },
+  {
+    question: "8. He remained calm and focused, even though the ________ was getting more complicated by the minute.",
+    options: ["situation", "circumstance", "condition"],
+    correct: 0,
+  },
+  {
+    question: "9. Her ability to listen without judgment and truly understand others' feelings showed a deep sense of ________.",
+    options: ["loving-kindness", "sympathy", "empathy"],
+    correct: 2,
+  },
+  {
+    question: "10. Meditation is often considered ________ calming the mind and relieving stress.",
+    options: ["a way of", "a method of", "a form of"],
+    correct: 1,
+  },
+  {
+    question: "11. Despite the many ________ they faced, the team never gave up and continued working toward their goal.",
+    options: ["obstacles", "challenges", "difficulties"],
+    correct: 1,
+  },
+  {
+    question: "12. Her actions were always guided by a sense of ________, making her a beloved figure in the community.",
+    options: ["delight", "loving-kindness", "generosity"],
+    correct: 2,
+  },
+  {
+    question: "13. He chose to read a book ________ watching TV, as he wanted to relax in a quieter way.",
+    options: ["in place of", "rather", "instead of"],
+    correct: 2,
+  },
+  {
+    question: "14. The new policy could potentially ________ the environment if not carefully monitored.",
+    options: ["harm", "harmful", "harming"],
+    correct: 0,
+  },
+  {
+    question: "15. The party was a complete ________; no one expected such a grand celebration.",
+    options: ["astonishment", "shock", "surprise"],
+    correct: 2,
+  },
+  {
+    question: "16. The team's victory was ________, as they had been considered the underdogs in the competition.",
+    options: ["surprising", "unexpected", "unexpecting"],
+    correct: 1,
+  },
+  {
+    question: "17. She felt a wave of ________ before the big presentation, unsure of how the audience would react.",
+    options: ["anxiety", "stress", "nervousness"],
+    correct: 0,
+  },
+  {
+    question: "18. After moving to the city, she was ________ many new cultures and ways of life.",
+    options: ["exposed by", "exposed to", "exposed with"],
+    correct: 1,
+  },
+  {
+    question: "19. Once all the details are ________, we can proceed with the project.",
+    options: ["sorted out", "worked out", "figured out"],
+    correct: 0,
+  },
+  {
+    question: "20. The teacher gave extra homework ________ the students' requests for more practice.",
+    options: ["consequently", "as a result of", "in response to"],
+    correct: 2,
+  },
+  {
+    question: "21. She could feel her ________ rising when she heard the unfair criticism.",
+    options: ["annoyance", "frustration", "anger"],
+    correct: 1,
+  },
+  {
+    question: "22. She had to ________ the unexpected challenges that came up during the project.",
+    options: ["ignore", "deal with", "avoid"],
+    correct: 1,
+  },
+  {
+    question: "23. He decided to go for a walk ________ staying indoors all day.",
+    options: ["instead", "rather than", "than"],
+    correct: 1,
+  },
+  {
+    question: "24. The news of the earthquake caused widespread ________ among the Myanmar people.",
+    options: ["excitement", "disgust", "distress"],
+    correct: 2,
+  },
+  {
+    question: "25. Failing to follow safety protocols could ________ serious accidents at the workplace.",
+    options: ["result in", "lead to", "cause"],
+    correct: 0,
+  },
+  {
+    question: "26. The sudden loss of her childhood friend was a deeply ________ event for her.",
+    options: ["tragically", "tragic", "tragedy"],
+    correct: 1,
+  },
+  {
+    question: "27. His behavior at the party was met with ________ from all the guests.",
+    options: ["disgusted", "disgusting", "disgust"],
+    correct: 2,
+  },
+  {
+    question: "28. Many people seek help from ________ when dealing with stress, anxiety, or trauma.",
+    options: ["researchers", "psychologists", "physiologists"],
+    correct: 1,
+  },
+  {
+    question: "29. Drivers must always be ________ their surroundings to avoid accidents.",
+    options: ["aware of", "focused on", "thinking about"],
+    correct: 0,
+  },
+  {
+    question: "30. She looked visibly ________ after hearing the bad news about her friend.",
+    options: ["distress", "distressing", "distressed"],
+    correct: 2,
+  },
+  {
+    question: "31. He was ________ affected by the movie, as it reminded him of his own experiences.",
+    options: ["emotional", "emotionally", "emotion"],
+    correct: 1,
+  },
+  {
+    question: "32. After the failure of the project, the manager tried to shift the ________ onto his team.",
+    options: ["blaming", "blame", "blamer"],
+    correct: 1,
+  },
+  {
+    question: "33. She felt an ________ sense of gratitude when she saw how many people had come to help.",
+    options: ["overwhelming", "powerful", "intense"],
+    correct: 0,
+  },
+  {
+    question: "34. It's important to learn how to ________ stress in healthy ways.",
+    options: ["cope with", "avoid", "ignore"],
+    correct: 0,
+  },
+  {
+    question: "35. After facing a major setback, it took him months to finally ________ and regain his confidence.",
+    options: ["bounce back", "give up", "break down"],
+    correct: 0,
+  },
+  {
+    question: "36. After losing the final match, the team walked off the field looking completely ________.",
+    options: ["defeat", "defeating", "defeated"],
+    correct: 2,
+  },
+  {
+    question: "37. Despite facing many hardships, she remained ________ and continued to pursue her goals.",
+    options: ["resilience", "resilient", "resiliently"],
+    correct: 1,
+  },
+  {
+    question: "38. Regular exercise and a balanced diet both ________ good overall health.",
+    options: ["contribute to", "contribute with", "contribute for"],
+    correct: 0,
+  },
+  {
+    question: "39. The horror movie was so ________ that I couldn’t sleep all night.",
+    options: ["terrified", "terror", "terrifying"],
+    correct: 2,
+  },
+  {
+    question: "40. After a long day of hiking, the group found the climb up the mountain extremely ________.",
+    options: ["tired", "tire", "tiring"],
+    correct: 2,
+  },
+  {
+    question: "41. She looked ________ as she watched the puppies play in the yard.",
+    options: ["amusing", "amusement", "amused"],
+    correct: 2,
+  },
+  {
+    question: "42. The documentary about deep-sea creatures was absolutely ________ to watch.",
+    options: ["fascinated", "fascinating", "fascination"],
+    correct: 1,
+  },
+  {
+    question: "43. He felt deeply ________ his mistake during the presentation.",
+    options: ["embarrassed by", "proud of", "amused by"],
+    correct: 0,
+  },
+  {
+    question: "44. My mum was completely ________ the constant noise from the construction site.",
+    options: ["fed up with", "excited about", "interested in"],
+    correct: 0,
+  },
+  {
+    question: "45. She was clearly ________ her coworker for not completing the task on time.",
+    options: ["confused by", "annoyed with", "satisfied with"],
+    correct: 1,
+  },
+  {
+    question: "46. He was deeply ________ the news of his friend's sudden move to another city.",
+    options: ["excited by", "upset by", "surprised by"],
+    correct: 1,
+  },
+],
+
 
     // GRAMMAR - Grammar rules and explanations
-    grammar: [
-      {
-        front: "[Grammar Rule/Topic]",
-        back: "[Explanation and examples]",
-      },
-      // Add more grammar cards here
-    ],
+grammar: [
+  {
+    front: "1. As Kyaw Kyaw was ________ astronomy, he bought a small telescope.",
+    back: "interested in",
+  },
+  {
+    front: "2. He was very ________ driving again after the accident.",
+    back: "scared of",
+  },
+  {
+    front: "3. I am ________ my studies. I have to do a lot of lessons hour by hour without a break.",
+    back: "good at",
+  },
+  {
+    front: "4. We should be ________ the danger of taking narcotic drugs.",
+    back: "aware of",
+  },
+  {
+    front: "5. My father was really ________ me for teasing my younger sister.",
+    back: "angry with",
+  },
+  {
+    front: "6. She is very ________ playing chess. She always beats me when I play with her.",
+    back: "good at",
+  },
+  {
+    front: "7. He was deeply ________ his friend's insulting remarks.",
+    back: "upset by",
+  },
+  {
+    front: "8. Students were ________ the upcoming summer holidays.",
+    back: "excited about",
+  },
+  {
+    front: "9. My father is ________ my success. He gave me a watch as a reward.",
+    back: "pleased with",
+  },
+  {
+    front: "10. He was so ________ his friend's endless conversation that he nearly fell asleep.",
+    back: "fed up with",
+  },
+],
+
   },
 
   // ==========================================
@@ -1789,6 +2669,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
