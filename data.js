@@ -414,9 +414,9 @@ initialLetters: [
         correct: 2,
       },
     ],
-        // GRAMMAR
-    grammar: [
-      {
+// INITIAL LETTERS - Fill in the blank with the exact correct modal verb
+initialLetters: [
+  {
     question: "1. All applicants ____ take an entrance examination.",
     correct: ["must"],
   },
@@ -456,7 +456,8 @@ initialLetters: [
     question: "10. If you are disturbed by this ringtone, you ____ change it.",
     correct: ["can"],
   },
-    ],
+],
+
   },
 
 
@@ -1621,6 +1622,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
