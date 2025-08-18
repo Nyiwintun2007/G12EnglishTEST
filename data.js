@@ -353,11 +353,11 @@ const unitsData = {
   },
   {
     question: "Some people may accept b__________ in their society.",
-    correct: ["bad manners"],
+    correct: ["belching"],
   },
   {
     question: "For getting on well in life, good manners are v__________ everywhere.",
-    correct: ["valued"],
+    correct: ["vital"],
   },
   {
     question: "We say 'I'm s__________' to show r__________ to the other person.",
@@ -1585,6 +1585,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
