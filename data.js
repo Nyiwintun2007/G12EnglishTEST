@@ -95,107 +95,100 @@ const unitsData = {
     ],
 
     // SHORT QUESTIONS - Question and answer pairs
-    shortQuestions: [
-      {
-        front: "What is the difference between 'manner' and 'manners'?",
-        back: "The difference between 'manner' and 'manners' is that 'manner' refers to the way of doing something, while 'manners' refers to the way a person behaves in society.",
-      },
-      {
-        front: "If we accidentally hurt someone, what should we say?",
-        back: "If we accidentally hurt someone, we should say 'I'm sorry'.",
-      },
-      {
-        front: "Where do children's manners originate?",
-        back: "Children's manners originate at home.",
-      },
-      {
-        front: "How can children learn manners from their elders?",
-        back: "Children can learn manners from their elders by imitating them.",
-      },
-      {
-        front: "Apart from home, where do children acquire manners?",
-        back: "Apart from home, children acquire manners from their school.",
-      },
-      {
-        front:
-          "Why can we say that the work domain is an institution that imparts manners?",
-        back: "We can say that the work domain is an institution that imparts manners because once a person gets a job, his work domain becomes an added institution to influence him, for good or evil.",
-      },
-      {
-        front: "Who often influences children and teenagers today?",
-        back: "Children and teenagers today are often influenced by celebrities.",
-      },
-      {
-        front:
-          "Who are the most responsible persons for imparting good manners to children?",
-        back: "The most responsible persons for imparting good manners to children are all the elders of the present generation.",
-      },
-      {
-        front:
-          "Do you think good manners are the key to success in life? Why or why not?",
-        back: "Yes, I think good manners are the key to success in life because they are vital for a pleasant atmosphere and for getting on well in life.",
-      },
-      {
-        front:
-          "To build a well-mannered society, what should the elders of the present generation do?",
-        back: "To build a well-mannered society, the elders of the present generation should conscientiously join hands and teach juniors to be law-abiding, upright, honest, disciplined, charitable, helpful, merciful, and forgiving.",
-      },
-      {
-        front: "How should the youths behave at mealtimes?",
-        back: "The youths should behave at mealtimes by eating after the elders have started.",
-      },
-      {
-        front: "What does it mean that some manners are 'universal'?",
-        back: "When we say that some manners are 'universal', it means they are true or suitable in every situation and acceptable in every culture.",
-      },
-      {
-        front:
-          "What should a junior do while being spoken to by a parent or teacher?",
-        back: "While being spoken to by a parent or teacher, a junior should listen with arms folded.",
-      },
-      {
-        front: "What do we need to get well in life?",
-        back: "We need good manners to get well in life.",
-      },
-      {
-        front: "How can we show respect to others?",
-        back: "We can show respect to others by acting politely and speaking appropriately according to their position.",
-      },
-      {
-        front: "Why may 'Home' be considered the 'birthplace' of manners?",
-        back: "'Home' may be considered the 'birthplace' of manners because children hear what the elders say and see what they do.",
-      },
-      {
-        front: "When will children grow up to be crude and rude?",
-        back: "Children will grow up to be crude and rude when the elders around them are crude and rude.",
-      },
-      {
-        front:
-          "What else can children do at school besides learning school subjects?",
-        back: "Besides learning school subjects, children can imitate the teachers’ manners and behaviour at school.",
-      },
-      {
-        front: "From whom can students acquire ill manners?",
-        back: "Students can acquire ill manners from their classmates and senior students.",
-      },
-      {
-        front: "Why are teachers good role models for children at school?",
-        back: "Teachers are good role models for children at school because students imitate the teachers’ manners and behaviour.",
-      },
-      {
-        front: "How do celebrities influence the youths?",
-        back: "Celebrities influence the youths by misleading them.",
-      },
-      {
-        front:
-          "Who are responsible for imparting good manners to students in a school?",
-        back: "Teachers are responsible for imparting good manners to students in a school.",
-      },
-      {
-        front: "What does the quality of the next generation depend on?",
-        back: "The quality of the next generation depends on the hands of the present generation.",
-      },
-    ],
+  shortQuestions: [
+  {
+    front: "What is the difference between 'manner' and 'manners'?",
+    back: "The difference between 'manner' and 'manners' is that 'manner' refers to the way of doing something, while 'manners' refers to the way a person behaves in society.",
+  },
+  {
+    front: "If we accidentally hurt someone, what should we say?",
+    back: "If we accidentally hurt someone, we should say 'I'm sorry'.",
+  },
+  {
+    front: "Where do children's manners originate?",
+    back: "Children's manners originate at home.",
+  },
+  {
+    front: "How can children learn manners from their elders?",
+    back: "Children can learn manners from their elders by imitating them.",
+  },
+  {
+    front: "Apart from home, where do children acquire manners?",
+    back: "Apart from home, children acquire manners from their school.",
+  },
+  {
+    front: "Why can we say that the work domain is an institution that imparts manners?",
+    back: "We can say that the work domain is an institution that imparts manners because once a person gets a job, his work domain becomes an added institution to influence him, for good or evil.",
+  },
+  {
+    front: "Who often influences children and teenagers today?",
+    back: "Children and teenagers today are often influenced by celebrities.",
+  },
+  {
+    front: "Who are the most responsible persons for imparting good manners to children?",
+    back: "The most responsible persons for imparting good manners to children are all the elders of the present generation.",
+  },
+  {
+    front: "Do you think good manners are the key to success in life? Why or why not?",
+    back: "Yes, I think good manners are the key to success in life because they are vital for a pleasant atmosphere and for getting on well in life.",
+  },
+  {
+    front: "To build a well-mannered society, what should the elders of the present generation do?",
+    back: "To build a well-mannered society, the elders of the present generation should conscientiously join hands and teach juniors to be law-abiding, upright, honest, disciplined, charitable, helpful, merciful, and forgiving.",
+  },
+  {
+    front: "How should the youths behave at mealtimes?",
+    back: "The youths should behave at mealtimes by eating after the elders have started.",
+  },
+  {
+    front: "What does it mean that some manners are 'universal'?",
+    back: "When we say that some manners are 'universal', it means they are true or suitable in every situation and acceptable in every culture.",
+  },
+  {
+    front: "What should a junior do while being spoken to by a parent or teacher?",
+    back: "While being spoken to by a parent or teacher, a junior should listen with arms folded.",
+  },
+  {
+    front: "What do we need to get well in life?",
+    back: "We need good manners to get well in life.",
+  },
+  {
+    front: "How can we show respect to others?",
+    back: "We can show respect to others by acting politely and speaking appropriately according to their position.",
+  },
+  {
+    front: "Why may 'Home' be considered the 'birthplace' of manners?",
+    back: "'Home' may be considered the 'birthplace' of manners because children hear what the elders say and see what they do.",
+  },
+  {
+    front: "When will children grow up to be crude and rude?",
+    back: "Children will grow up to be crude and rude when the elders around them are crude and rude.",
+  },
+  {
+    front: "What else can children do at school besides learning school subjects?",
+    back: "Besides learning school subjects, children can imitate the teachers’ manners and behaviour at school.",
+  },
+  {
+    front: "From whom can students acquire ill manners?",
+    back: "Students can acquire ill manners from their classmates and senior students.",
+  },
+  {
+    front: "Why are teachers good role models for children at school?",
+    back: "Teachers are good role models for children at school because students imitate the teachers’ manners and behaviour.",
+  },
+  {
+    front: "How do celebrities influence the youths?",
+    back: "Celebrities influence the youths by misleading them.",
+  },
+  {
+    front: "Who are responsible for imparting good manners to students in a school?",
+    back: "Teachers are responsible for imparting good manners to students in a school.",
+  },
+  {
+    front: "What does the quality of the next generation depend on?",
+    back: "The quality of the next generation depends on the hands of the present generation.",
+  }
+],
 
     // INITIAL LETTERS - Fill in the first letter(s)
     // INITIAL LETTERS - Fill in the exact word
@@ -419,150 +412,141 @@ const unitsData = {
     ],
 
     // SHORT QUESTIONS
-    shortQuestions: [
-      {
-        front: "How do you feel when you are in a peaceful state of mind?",
-        back: "When we are in a peaceful state of mind, we feel relaxed and happy.",
-      },
-      {
-        front:
-          "Which do you prefer - living with a large family or living on your own? Why?",
-        back: "I prefer living on my own because living alone gives me freelance and helps me make my own decisions and develop my confidence.",
-      },
-      {
-        front: "How do you feel after helping other people?",
-        back: "After helping other people, I feel that it is not only good for them, it also makes me feel happier.",
-      },
-      {
-        front:
-          "Which do you think is better- having a wide circle of friends and family or having a lot money? Give your own reason(s).",
-        back: "I think having a wide circle of friends and family is better because when I am not in a good mood or feel depressed, I can hang out with my friends and family so that my stressful feelings will be released.",
-      },
-      {
-        front: "What will happen to you if you are envious of someone?",
-        back: "If I am envious of someone, I will experience negative emotions such as inferiority, dejection, and depression.",
-      },
-      {
-        front: "Explain how your mind and body are closely connected?",
-        back: "My mind and body are closely connected in that if I feel stressed out, I am likely to experience fatigue and muscle tension; similarly, if you feel happy and calm, you are likely to have more mental energy and more physical vitality.",
-      },
-      {
-        front:
-          "How do you feel if you see a beautiful sunset while walking in a park?",
-        back: "I feel happy and calm if I see a beautiful sunset while walking in a park.",
-      },
-      {
-        front:
-          "Do you agree with the statement 'Money is the best way to find happiness'? Why or why not?",
-        back: "I do not agree with the statement 'Money is the best way to find happiness' because I have met some rich people who are miserable and some poor people who are happy.",
-      },
-      {
-        front: "What can improve your mood and make you more cheerful?",
-        back: "Thinking back to pleasant incidents in the past can improve my mood and make me more cheerful.",
-      },
-      {
-        front:
-          "What will happen to your body and mind when you practise meditation?",
-        back: "When I practise meditation, it will ease the tension in my body, clear my mind of negative thoughts and give me a sense of inner peace and well-being.",
-      },
-      {
-        front: "What do people do to reduce stress?",
-        back: "Practise meditation.",
-      },
-      {
-        front:
-          "What does 'happiness' mean according to the Merriam-Webster Dictionary (2016)?",
-        back: "'Happiness' means 'a state of well-being and contentment'.",
-      },
-      {
-        front: "What do most people believe about money?",
-        back: "Most people believe that money is the best way to find happiness.",
-      },
-      {
-        front: "What is the biggest barrier to happiness?",
-        back: "Envy.",
-      },
-      {
-        front:
-          "Why don’t we have a clear-cut answer on the question 'What’s happiness?'",
-        back: "Because the definition of happiness may change over time – today’s view on happiness may be a different one tomorrow.",
-      },
-      {
-        front: "When are we most likely to feel relaxed and happy?",
-        back: "When we are in a peaceful state of mind.",
-      },
-      {
-        front: "What is the definition of 'happiness' for a pensioner?",
-        back: "A better quality of life.",
-      },
-      {
-        front:
-          "What should we do to release our stressful feelings when we feel depressed?",
-        back: "We should hang out with friends or spend time with our family.",
-      },
-      {
-        front: "What are important factors for your happiness?",
-        back: "Job satisfaction and career success.",
-      },
-      {
-        front: "When do you tend to achieve happiness?",
-        back: "When we can accomplish the tasks we have undertaken.",
-      },
-      {
-        front: "What is identified as another key element of happiness?",
-        back: "Treating everyone with kindness.",
-      },
-      {
-        front:
-          "According to studies by psychologists in different countries, what is the benefit of helping other people?",
-        back: "The benefit of helping other people on one’s own happiness is that when we help others, it not only good for them, it also makes us feel happier.",
-      },
-      {
-        front: "Who are more likely to experience negative emotions?",
-        back: "People who are envious of others.",
-      },
-      {
-        front: "What can we have when we fit physically and mentally?",
-        back: "We can have true happiness.",
-      },
-      {
-        front: "When are you likely to experience fatigue?",
-        back: "When we feel stressed out.",
-      },
-      {
-        front: "Why is contentment the key to happiness?",
-        back: "Because people who accept what they have are happier than people who crave for more career success and money.",
-      },
-      {
-        front: "Why do rich people consider that they are happy?",
-        back: "Because they can buy expensive houses, new cars, big yachts and designer clothes.",
-      },
-      {
-        front: "How are many people trying to get rich?",
-        back: "Many people are trying to get rich in every possible way in the hope of achieving happiness in life.",
-      },
-      {
-        front: "What is often said about life?",
-        back: "It is often said that life is composed of positive elements and negative elements.",
-      },
-      {
-        front:
-          "Why might you be in a bad mood or feel downhearted from time to time?",
-        back: "Because we are looking inside us, thinking about bad things.",
-      },
-      {
-        front: "How might you feel when facing difficulties in school or work?",
-        back: "When you encounter difficulties in your school or work, you may feel disappointed and downhearted.",
-      },
-      {
-        front: "What can sweet memories do to your mood?",
-        back: "Sweet memories can put us in a better mood by making us smile, laugh, or feel joyful.",
-      },
-      {
-        front: "What are the benefits of meditation?",
-        back: "Meditation can ease the tension in our body, clear our mind of negative thoughts, and give us a sense of inner peace and well-being.",
-      },
-    ],
+shortQuestions: [
+  {
+    front: "How do you feel when you are in a peaceful state of mind?",
+    back: "When we are in a peaceful state of mind, we feel relaxed and happy.",
+  },
+  {
+    front: "Which do you prefer - living with a large family or living on your own? Why?",
+    back: "I prefer living on my own because living alone gives me freelance and helps me make my own decisions and develop my confidence.",
+  },
+  {
+    front: "How do you feel after helping other people?",
+    back: "After helping other people, I feel that it is not only good for them, it also makes me feel happier.",
+  },
+  {
+    front: "Which do you think is better- having a wide circle of friends and family or having a lot money? Give your own reason(s).",
+    back: "I think having a wide circle of friends and family is better because when I am not in a good mood or feel depressed, I can hang out with my friends and family so that my stressful feelings will be released.",
+  },
+  {
+    front: "What will happen to you if you are envious of someone?",
+    back: "If I am envious of someone, I will experience negative emotions such as inferiority, dejection, and depression.",
+  },
+  {
+    front: "Explain how your mind and body are closely connected?",
+    back: "My mind and body are closely connected in that if I feel stressed out, I am likely to experience fatigue and muscle tension; similarly, if you feel happy and calm, you are likely to have more mental energy and more physical vitality.",
+  },
+  {
+    front: "How do you feel if you see a beautiful sunset while walking in a park?",
+    back: "I feel happy and calm if I see a beautiful sunset while walking in a park.",
+  },
+  {
+    front: "Do you agree with the statement 'Money is the best way to find happiness'? Why or why not?",
+    back: "I do not agree with the statement 'Money is the best way to find happiness' because I have met some rich people who are miserable and some poor people who are happy.",
+  },
+  {
+    front: "What can improve your mood and make you more cheerful?",
+    back: "Thinking back to pleasant incidents in the past can improve my mood and make me more cheerful.",
+  },
+  {
+    front: "What will happen to your body and mind when you practise meditation?",
+    back: "When I practise meditation, it will ease the tension in my body, clear my mind of negative thoughts and give me a sense of inner peace and well-being.",
+  },
+  {
+    front: "What do people do to reduce stress?",
+    back: "Practise meditation.",
+  },
+  {
+    front: "What does 'happiness' mean according to the Merriam-Webster Dictionary (2016)?",
+    back: "'Happiness' means 'a state of well-being and contentment'.",
+  },
+  {
+    front: "What do most people believe about money?",
+    back: "Most people believe that money is the best way to find happiness.",
+  },
+  {
+    front: "What is the biggest barrier to happiness?",
+    back: "Envy.",
+  },
+  {
+    front: "Why don’t we have a clear-cut answer on the question 'What’s happiness?'",
+    back: "Because the definition of happiness may change over time – today’s view on happiness may be a different one tomorrow.",
+  },
+  {
+    front: "When are we most likely to feel relaxed and happy?",
+    back: "When we are in a peaceful state of mind.",
+  },
+  {
+    front: "What is the definition of 'happiness' for a pensioner?",
+    back: "A better quality of life.",
+  },
+  {
+    front: "What should we do to release our stressful feelings when we feel depressed?",
+    back: "We should hang out with friends or spend time with our family.",
+  },
+  {
+    front: "What are important factors for your happiness?",
+    back: "Job satisfaction and career success.",
+  },
+  {
+    front: "When do you tend to achieve happiness?",
+    back: "When we can accomplish the tasks we have undertaken.",
+  },
+  {
+    front: "What is identified as another key element of happiness?",
+    back: "Treating everyone with kindness.",
+  },
+  {
+    front: "According to studies by psychologists in different countries, what is the benefit of helping other people?",
+    back: "The benefit of helping other people on one’s own happiness is that when we help others, it not only good for them, it also makes us feel happier.",
+  },
+  {
+    front: "Who are more likely to experience negative emotions?",
+    back: "People who are envious of others.",
+  },
+  {
+    front: "What can we have when we fit physically and mentally?",
+    back: "We can have true happiness.",
+  },
+  {
+    front: "When are you likely to experience fatigue?",
+    back: "When we feel stressed out.",
+  },
+  {
+    front: "Why is contentment the key to happiness?",
+    back: "Because people who accept what they have are happier than people who crave for more career success and money.",
+  },
+  {
+    front: "Why do rich people consider that they are happy?",
+    back: "Because they can buy expensive houses, new cars, big yachts and designer clothes.",
+  },
+  {
+    front: "How are many people trying to get rich?",
+    back: "Many people are trying to get rich in every possible way in the hope of achieving happiness in life.",
+  },
+  {
+    front: "What is often said about life?",
+    back: "It is often said that life is composed of positive elements and negative elements.",
+  },
+  {
+    front: "Why might you be in a bad mood or feel downhearted from time to time?",
+    back: "Because we are looking inside us, thinking about bad things.",
+  },
+  {
+    front: "How might you feel when facing difficulties in school or work?",
+    back: "When you encounter difficulties in your school or work, you may feel disappointed and downhearted.",
+  },
+  {
+    front: "What can sweet memories do to your mood?",
+    back: "Sweet memories can put us in a better mood by making us smile, laugh, or feel joyful.",
+  },
+  {
+    front: "What are the benefits of meditation?",
+    back: "Meditation can ease the tension in our body, clear our mind of negative thoughts, and give us a sense of inner peace and well-being.",
+  }
+],
+
 
     // INITIAL LETTERS
     initialLetters: [
@@ -653,198 +637,186 @@ const unitsData = {
     ],
 
     // SHORT QUESTIONS - Question and answer pairs
-    shortQuestions: [
-      {
-        front: "What is a nutritious diet?",
-        back: "A nutritious diet is a mixture of all the nutrients that our body needs to survive.",
-      },
-      {
-        front: "What should you eat to gain essential nutrients for your body?",
-        back: "We should eat grains, fruits, vegetables, milk products, animal products and beans, and oily foods to gain essential nutrients for our body.",
-      },
-      {
-        front: "What is a major cause of ill health?",
-        back: "A major cause of ill health is the lack of essential nutrients.",
-      },
-      {
-        front:
-          "How can you strengthen your immune system and protect against illness?",
-        back: "We can strengthen our immune system and protect against illness by eating a balanced diet.",
-      },
-      {
-        front: "What kinds of food should you avoid eating?",
-        back: "We should avoid eating processed foods, refined foods and high-cholesterol foods.",
-      },
-      {
-        front: "Why are forests beneficial to us?",
-        back: "Forests are beneficial to us because they can provide us with mushrooms, bamboo shoots, nuts, berries, leaves, and tubers.",
-      },
-      {
-        front:
-          "What can cause loss of biodiversity and loss of nutrition to many local communities? / What are the adverse effects of deforestation?",
-        back: "Deforestation can cause loss of biodiversity and loss of nutrition to many local communities.",
-      },
-      {
-        front: "Mention some nutrition-related health problems.",
-        back: "Some nutrition-related health problems are malnutrition and infectious diseases.",
-      },
-      {
-        front:
-          "Why is nutrition said to be closely related to the environment?",
-        back: "Nutrition is said to be closely related to the environment because environmental deterioration can cause nutrition-related health problems such as malnutrition and infectious diseases.",
-      },
-      {
-        front: "Why should we avoid eating processed foods?",
-        back: "We should avoid eating processed foods because they contain a lot of sodium which causes high blood pressure.",
-      },
-      {
-        front: "What is the difference between diet and nutrition?",
-        back: "The difference between diet and nutrition is that 'diet' is 'the food we consume regularly', while 'nutrition' is 'the process by which all living things receive the food necessary for them to grow and be healthy'.",
-      },
-      {
-        front: "What are the most fundamental of human needs?",
-        back: "Diet and nutrition.",
-      },
-      {
-        front: "Where do plants obtain nutrients?",
-        back: "From the soil in which they grow.",
-      },
-      {
-        front: "Why do we need to have a nutritious diet?",
-        back: "Because it helps us to survive.",
-      },
-      {
-        front: "Where can the nutrients essential for our body be found?",
-        back: "In the food we eat.",
-      },
-      {
-        front:
-          "Why are diet and nutrition important for our health, energy and growth?",
-        back: "Because they provide us with the necessary nutrients to survive.",
-      },
-      {
-        front: "How do we obtain nutrients for our body?",
-        back: "We obtain nutrients for our body by eating the diet.",
-      },
-      {
-        front: "What are the different food groups?",
-        back: "The different food groups are grains, fruits, vegetables, milk products and beans and oily foods.",
-      },
-      {
-        front: "What are the six kinds of nutrients found in food?",
-        back: "The six kinds of nutrients found in food are carbohydrates, vitamins, minerals, dietary fibre, proteins and lipids.",
-      },
-      {
-        front:
-          "What are examples of energy-giving foods that provide carbohydrates?",
-        back: "Examples of energy-giving foods that provide carbohydrates are rice, wheat, maize, millet, barley, and corn.",
-      },
-      {
-        front:
-          "What kinds of foods are considered energy-giving and provide carbohydrates? / What are grains and how can they provide us?",
-        back: "Grains such as rice, wheat, maize, millet, barley, and corn are considered energy-giving foods that provide carbohydrates.",
-      },
-      {
-        front:
-          "What do fresh fruits and vegetables provide us with? / What can we get from fresh fruits and vegetables?",
-        back: "Fresh fruits and vegetables provide us with minerals, vitamins and fibre.",
-      },
-      {
-        front: "What are some rich sources of protein?",
-        back: "Some rich sources of protein are beans, milk products and animal products such as fish and eggs.",
-      },
-      {
-        front: "What are animal products?",
-        back: "Meat, fish and eggs, yoghurt, milk, etc.",
-      },
-      {
-        front: "What kind of foods provide us fatty acids?",
-        back: "Beans, milk products, and animal products.",
-      },
-      {
-        front: "What is a balanced diet?",
-        back: "A balanced diet is eating more fruits, vegetables and grains, and consuming less food high in fat, sugar and cholesterol.",
-      },
-      {
-        front: "Why is a balanced diet important?",
-        back: "Because we get all our essential nutrients and it strengthens our immune system to protect us against illness.",
-      },
-      {
-        front: "What is preventive medicine?",
-        back: "Preventive medicine is a medicine that includes vitamins and other nutritional supplements to combat illness and stay healthy.",
-      },
-      {
-        front: "What leads a major cause of ill health?",
-        back: "Lack of essential nutrients.",
-      },
-      {
-        front:
-          "What should we do to strengthen our immune system and protect us against illness?",
-        back: "We should have a balanced diet.",
-      },
-      {
-        front: "How can we combat illness?",
-        back: "By taking vitamins or other nutritional supplements in another way.",
-      },
-      {
-        front: "What kinds of food are not good for us?",
-        back: "Processed foods, refined foods and high-cholesterol foods are not good for us.",
-      },
-      {
-        front: "What are processed foods?",
-        back: "Corned beef, canned meat and fish are processed foods.",
-      },
-      {
-        front: "Why are processed foods harmful to our health?",
-        back: "Because the artificial colourings and flavourings in processed foods are chemicals that can be harmful to our health.",
-      },
-      {
-        front: "What are refined foods? Give examples.",
-        back: "Foods that have been stripped of their original nutrient content and fibre. E.g. white flour, white rice, table sugar and high fructose corn syrup.",
-      },
-      {
-        front: "What can lead to heart disease in a higher risk?",
-        back: "High-cholesterol foods such as fried foods, full-fat dairy products and red meat.",
-      },
-      {
-        front: "Why should full-fat dairy products be avoided?",
-        back: "Because they contain saturated fat.",
-      },
-      {
-        front:
-          "What health problems can be associated with the consumption of processed foods?",
-        back: "Health problems such as high blood pressure and diabetes can be associated with the consumption of processed foods.",
-      },
-      {
-        front:
-          "What kinds of things are included in the processed foods?/ What can you find in the processed foods?",
-        back: "Artificial colourings and flavorings that can be harmful to our health are included in the processed foods.",
-      },
-      {
-        front:
-          "What will happen if national institutions and local communities fail to protect the environments around them?",
-        back: "Their hopes of thriving in the long run will be dashed and the human world will suffer from food insecurity.",
-      },
-      {
-        front: "Why are forests considered an excellent source of food?",
-        back: "Forests are considered an excellent source of food because foods such as mushrooms, bamboo shoots, nuts, berries, leaves, and tubers can be found in them.",
-      },
-      {
-        front:
-          "Who will be affected by the loss of biodiversity and nutrition?",
-        back: "Many local communities.",
-      },
-      {
-        front:
-          "What are the causes of adverse effects on plants, animals, and humans?",
-        back: "Air, water and soil pollutants.",
-      },
-      {
-        front:
-          "What kind of health problems can be caused by environmental deterioration?",
-        back: "Nutrition-related health problems such as malnutrition and infectious diseases.",
-      },
-    ],
+shortQuestions: [
+  {
+    front: "What is a nutritious diet?",
+    back: "A nutritious diet is a mixture of all the nutrients that our body needs to survive.",
+  },
+  {
+    front: "What should you eat to gain essential nutrients for your body?",
+    back: "We should eat grains, fruits, vegetables, milk products, animal products and beans, and oily foods to gain essential nutrients for our body.",
+  },
+  {
+    front: "What is a major cause of ill health?",
+    back: "A major cause of ill health is the lack of essential nutrients.",
+  },
+  {
+    front: "How can you strengthen your immune system and protect against illness?",
+    back: "We can strengthen our immune system and protect against illness by eating a balanced diet.",
+  },
+  {
+    front: "What kinds of food should you avoid eating?",
+    back: "We should avoid eating processed foods, refined foods and high-cholesterol foods.",
+  },
+  {
+    front: "Why are forests beneficial to us?",
+    back: "Forests are beneficial to us because they can provide us with mushrooms, bamboo shoots, nuts, berries, leaves, and tubers.",
+  },
+  {
+    front: "What can cause loss of biodiversity and loss of nutrition to many local communities? / What are the adverse effects of deforestation?",
+    back: "Deforestation can cause loss of biodiversity and loss of nutrition to many local communities.",
+  },
+  {
+    front: "Mention some nutrition-related health problems.",
+    back: "Some nutrition-related health problems are malnutrition and infectious diseases.",
+  },
+  {
+    front: "Why is nutrition said to be closely related to the environment?",
+    back: "Nutrition is said to be closely related to the environment because environmental deterioration can cause nutrition-related health problems such as malnutrition and infectious diseases.",
+  },
+  {
+    front: "Why should we avoid eating processed foods?",
+    back: "We should avoid eating processed foods because they contain a lot of sodium which causes high blood pressure.",
+  },
+  {
+    front: "What is the difference between diet and nutrition?",
+    back: "The difference between diet and nutrition is that 'diet' is 'the food we consume regularly', while 'nutrition' is 'the process by which all living things receive the food necessary for them to grow and be healthy'.",
+  },
+  {
+    front: "What are the most fundamental of human needs?",
+    back: "Diet and nutrition.",
+  },
+  {
+    front: "Where do plants obtain nutrients?",
+    back: "From the soil in which they grow.",
+  },
+  {
+    front: "Why do we need to have a nutritious diet?",
+    back: "Because it helps us to survive.",
+  },
+  {
+    front: "Where can the nutrients essential for our body be found?",
+    back: "In the food we eat.",
+  },
+  {
+    front: "Why are diet and nutrition important for our health, energy and growth?",
+    back: "Because they provide us with the necessary nutrients to survive.",
+  },
+  {
+    front: "How do we obtain nutrients for our body?",
+    back: "We obtain nutrients for our body by eating the diet.",
+  },
+  {
+    front: "What are the different food groups?",
+    back: "The different food groups are grains, fruits, vegetables, milk products and beans and oily foods.",
+  },
+  {
+    front: "What are the six kinds of nutrients found in food?",
+    back: "The six kinds of nutrients found in food are carbohydrates, vitamins, minerals, dietary fibre, proteins and lipids.",
+  },
+  {
+    front: "What are examples of energy-giving foods that provide carbohydrates?",
+    back: "Examples of energy-giving foods that provide carbohydrates are rice, wheat, maize, millet, barley, and corn.",
+  },
+  {
+    front: "What kinds of foods are considered energy-giving and provide carbohydrates? / What are grains and how can they provide us?",
+    back: "Grains such as rice, wheat, maize, millet, barley, and corn are considered energy-giving foods that provide carbohydrates.",
+  },
+  {
+    front: "What do fresh fruits and vegetables provide us with? / What can we get from fresh fruits and vegetables?",
+    back: "Fresh fruits and vegetables provide us with minerals, vitamins and fibre.",
+  },
+  {
+    front: "What are some rich sources of protein?",
+    back: "Some rich sources of protein are beans, milk products and animal products such as fish and eggs.",
+  },
+  {
+    front: "What are animal products?",
+    back: "Meat, fish and eggs, yoghurt, milk, etc.",
+  },
+  {
+    front: "What kind of foods provide us fatty acids?",
+    back: "Beans, milk products, and animal products.",
+  },
+  {
+    front: "What is a balanced diet?",
+    back: "A balanced diet is eating more fruits, vegetables and grains, and consuming less food high in fat, sugar and cholesterol.",
+  },
+  {
+    front: "Why is a balanced diet important?",
+    back: "Because we get all our essential nutrients and it strengthens our immune system to protect us against illness.",
+  },
+  {
+    front: "What is preventive medicine?",
+    back: "Preventive medicine is a medicine that includes vitamins and other nutritional supplements to combat illness and stay healthy.",
+  },
+  {
+    front: "What leads a major cause of ill health?",
+    back: "Lack of essential nutrients.",
+  },
+  {
+    front: "What should we do to strengthen our immune system and protect us against illness?",
+    back: "We should have a balanced diet.",
+  },
+  {
+    front: "How can we combat illness?",
+    back: "By taking vitamins or other nutritional supplements in another way.",
+  },
+  {
+    front: "What kinds of food are not good for us?",
+    back: "Processed foods, refined foods and high-cholesterol foods are not good for us.",
+  },
+  {
+    front: "What are processed foods?",
+    back: "Corned beef, canned meat and fish are processed foods.",
+  },
+  {
+    front: "Why are processed foods harmful to our health?",
+    back: "Because the artificial colourings and flavourings in processed foods are chemicals that can be harmful to our health.",
+  },
+  {
+    front: "What are refined foods? Give examples.",
+    back: "Foods that have been stripped of their original nutrient content and fibre. E.g. white flour, white rice, table sugar and high fructose corn syrup.",
+  },
+  {
+    front: "What can lead to heart disease in a higher risk?",
+    back: "High-cholesterol foods such as fried foods, full-fat dairy products and red meat.",
+  },
+  {
+    front: "Why should full-fat dairy products be avoided?",
+    back: "Because they contain saturated fat.",
+  },
+  {
+    front: "What health problems can be associated with the consumption of processed foods?",
+    back: "Health problems such as high blood pressure and diabetes can be associated with the consumption of processed foods.",
+  },
+  {
+    front: "What kinds of things are included in the processed foods?/ What can you find in the processed foods?",
+    back: "Artificial colourings and flavorings that can be harmful to our health are included in the processed foods.",
+  },
+  {
+    front: "What will happen if national institutions and local communities fail to protect the environments around them?",
+    back: "Their hopes of thriving in the long run will be dashed and the human world will suffer from food insecurity.",
+  },
+  {
+    front: "Why are forests considered an excellent source of food?",
+    back: "Forests are considered an excellent source of food because foods such as mushrooms, bamboo shoots, nuts, berries, leaves, and tubers can be found in them.",
+  },
+  {
+    front: "Who will be affected by the loss of biodiversity and nutrition?",
+    back: "Many local communities.",
+  },
+  {
+    front: "What are the causes of adverse effects on plants, animals, and humans?",
+    back: "Air, water and soil pollutants.",
+  },
+  {
+    front: "What kind of health problems can be caused by environmental deterioration?",
+    back: "Nutrition-related health problems such as malnutrition and infectious diseases.",
+  }
+],
+
+
 
     // INITIAL LETTERS - Fill in the first letter(s)
     initialLetters: [
@@ -874,7 +846,7 @@ const unitsData = {
       // Add more grammar cards here
     ],
   },
-  unit4: {
+unit4: {
     title: "Unit 3: THE LIBRARY",
     description: "THE LIBRARY",
 
@@ -888,166 +860,157 @@ const unitsData = {
     ],
 
     // SHORT QUESTIONS - Question and answer pairs
-    shortQuestions: [
-      {
-        front: "What are the two main types of emotions?",
-        back: "The two main types of emotions are positive emotion and negative emotion.",
-      },
-      {
-        front:
-          "“In daily life, we are more likely to experience negative emotions than positive ones.” Do you agree with this statement? Why or why not?",
-        back: "Yes, I agree with this statement because when we experience stressful situations, it is easier for us to get disappointed, worried, or distressed, especially if we are emotionally unhealthy.",
-      },
-      {
-        front:
-          "What do you usually do when something bad or unkind happens to us? / When do we blame others or criticise them?",
-        back: "We usually blame others or criticise them when something bad or unkind happens to us.",
-      },
-      {
-        front:
-          "How do we feel when we cannot fulfil our wants or needs? / When do we get disappointed, worried, or distressed?",
-        back: "We feel depressed, distressed or frustrated when we cannot fulfil our wants or needs.",
-      },
-      {
-        front:
-          "Why is emotional well-being so important in seeking happiness and life satisfaction?",
-        back: "Emotional well-being is so important in seeking happiness and life satisfaction because emotionally healthy people can cope with life’s challenges and they can even manage to bounce back after having been defeated.",
-      },
-      {
-        front:
-          "What is essential for us to enjoy a better quality of life? / What do we need to possess to enjoy a better quality of life?",
-        back: "A good sense of emotional well-being is essential for us to enjoy a better quality of life.",
-      },
-      {
-        front: "How do you usually manage your emotions?",
-        back: "I usually manage my emotions by staying peaceful, positive, intentional, and hopeful.",
-      },
-      {
-        front: "Suggest two other ways of achieving emotional well-being.",
-        back: "Two other ways of achieving emotional well-being are having better physical and mental health and practising meditation.",
-      },
-      {
-        front: "What does emotion mean?",
-        back: "Emotion means a strong human feeling such as love, hatred, anger or fear.",
-      },
-      {
-        front: "How are family members and friends mystically connected?",
-        back: "Family members and friends are mystically connected by a feeling of friendship, kindness or love.",
-      },
-      {
-        front: "What kind of impact do emotions have on our lives?",
-        back: "Emotions have a considerable impact on our lives.",
-      },
-      {
-        front: "What are some examples of positive emotions?",
-        back: "Delight, joy, sympathy, empathy, rapture, trust, and love.",
-      },
-      {
-        front: "What are some examples of negative emotions?",
-        back: "Anger, fear, anxiety, jealousy, grief, greed and hatred.",
-      },
-      {
-        front:
-          "Why do you need to know the basic emotions you experience in daily life?",
-        back: "In order to have a proper understanding of our emotions.",
-      },
-      {
-        front:
-          "What will happen if our negative emotions become chronic or overwhelming?",
-        back: "We will be faced with problems, like losing our loved ones.",
-      },
-      {
-        front: "What does the word “joy” mean?",
-        back: "A feeling of great happiness that can be induced by the simplest things, like a kind word, a beautiful mountain view or an interesting shop window.",
-      },
-      {
-        front:
-          "Which emotion is said to be the most positive emotion and a great motivator?",
-        back: "Joy.",
-      },
-      {
-        front: "What is empathy according to the text?",
-        back: "The feeling that we understand and share someone else’s emotions or experiences as if they were our own.",
-      },
-      {
-        front: "How does showing empathy help us manage our emotions?",
-        back: "By training our minds to prepare themselves for challenges.",
-      },
-      {
-        front: "What is loving-kindness defined?",
-        back: "A strong feeling of caring about someone.",
-      },
-      {
-        front: "What is surprise?",
-        back: "A feeling that is caused by something unexpected.",
-      },
-      {
-        front: "What is anxiety?",
-        back: "A normal human emotion that is found as a reaction to stress.",
-      },
-      {
-        front: "How many kinds of anxiety are there? What are they?",
-        back: "2 kinds: worry & fear.",
-      },
-      {
-        front: "What is normal anxiety? / When do you feel normal anxiety?",
-        back: "It is what we feel when we are exposed to external stresses such as losing a job, having difficulties in marriage or our children getting ill.",
-      },
-      {
-        front: "What is fear?",
-        back: "When anxiety occurs in response to a more immediate threat, like being attacked by a huge snarling dog or looking over a cliff edge.",
-      },
-      {
-        front: "What is anger?",
-        back: "A strong feeling that makes us want to hurt or criticise someone because of something bad or unfair that has happened.",
-      },
-      {
-        front: "What is distress?",
-        back: "A feeling of sadness which is prompted by the loss of something or tragic events.",
-      },
-      {
-        front: "What is disgust?",
-        back: "A strong feeling of dislike, annoyance or disapproval.",
-      },
-      {
-        front: "Why do people move away from disgusting things?",
-        back: "Because they may carry diseases.",
-      },
-      {
-        front: "How does disgust help protect us?",
-        back: "From harm or illness by guiding us to avoid things that may be dangerous or unhygienic.",
-      },
-      {
-        front: "What is the word 'emotional well-being' defined?",
-        back: "The ability to recognise our emotions, manage them and produce positive feelings or thoughts.",
-      },
-      {
-        front: "Mention three practical ways to achieve emotional well-being.",
-        back: "Stay honest, peaceful, grateful, intentional, balanced, positive, connected, determined, strong, and hopeful.",
-      },
-      {
-        front:
-          "Write the benefits of emotional well-being. / What feelings does emotional well-being bring?",
-        back: "Emotional well-being typically brings pleasant feelings such as excitement, happiness and love.",
-      },
-      {
-        front: "How can you try to be a peacemaker?",
-        back: "By developing fairness and conflict resolution skills.",
-      },
-      {
-        front:
-          "Why should a person find ways to improve their work-life balance?",
-        back: "To keep the right balance of both pleasant and unpleasant feelings.",
-      },
-      {
-        front: "What should you do to stay positive?",
-        back: "Keep a healthy, positive attitude to life. Smile, laugh and enjoy our lives.",
-      },
-      {
-        front: "What can Dr Hal Baumchen’s ten practical ways help you?",
-        back: "To achieve emotional well-being and stay resilient to emotionally stressful situations.",
-      },
-    ],
+shortQuestions: [
+  {
+    front: "What are the two main types of emotions?",
+    back: "The two main types of emotions are positive emotion and negative emotion.",
+  },
+  {
+    front: "“In daily life, we are more likely to experience negative emotions than positive ones.” Do you agree with this statement? Why or why not?",
+    back: "Yes, I agree with this statement because when we experience stressful situations, it is easier for us to get disappointed, worried, or distressed, especially if we are emotionally unhealthy.",
+  },
+  {
+    front: "What do you usually do when something bad or unkind happens to us? / When do we blame others or criticise them?",
+    back: "We usually blame others or criticise them when something bad or unkind happens to us.",
+  },
+  {
+    front: "How do we feel when we cannot fulfil our wants or needs? / When do we get disappointed, worried, or distressed?",
+    back: "We feel depressed, distressed or frustrated when we cannot fulfil our wants or needs.",
+  },
+  {
+    front: "Why is emotional well-being so important in seeking happiness and life satisfaction?",
+    back: "Emotional well-being is so important in seeking happiness and life satisfaction because emotionally healthy people can cope with life’s challenges and they can even manage to bounce back after having been defeated.",
+  },
+  {
+    front: "What is essential for us to enjoy a better quality of life? / What do we need to possess to enjoy a better quality of life?",
+    back: "A good sense of emotional well-being is essential for us to enjoy a better quality of life.",
+  },
+  {
+    front: "How do you usually manage your emotions?",
+    back: "I usually manage my emotions by staying peaceful, positive, intentional, and hopeful.",
+  },
+  {
+    front: "Suggest two other ways of achieving emotional well-being.",
+    back: "Two other ways of achieving emotional well-being are having better physical and mental health and practising meditation.",
+  },
+  {
+    front: "What does emotion mean?",
+    back: "Emotion means a strong human feeling such as love, hatred, anger or fear.",
+  },
+  {
+    front: "How are family members and friends mystically connected?",
+    back: "Family members and friends are mystically connected by a feeling of friendship, kindness or love.",
+  },
+  {
+    front: "What kind of impact do emotions have on our lives?",
+    back: "Emotions have a considerable impact on our lives.",
+  },
+  {
+    front: "What are some examples of positive emotions?",
+    back: "Delight, joy, sympathy, empathy, rapture, trust, and love.",
+  },
+  {
+    front: "What are some examples of negative emotions?",
+    back: "Anger, fear, anxiety, jealousy, grief, greed and hatred.",
+  },
+  {
+    front: "Why do you need to know the basic emotions you experience in daily life?",
+    back: "In order to have a proper understanding of our emotions.",
+  },
+  {
+    front: "What will happen if our negative emotions become chronic or overwhelming?",
+    back: "We will be faced with problems, like losing our loved ones.",
+  },
+  {
+    front: "What does the word “joy” mean?",
+    back: "A feeling of great happiness that can be induced by the simplest things, like a kind word, a beautiful mountain view or an interesting shop window.",
+  },
+  {
+    front: "Which emotion is said to be the most positive emotion and a great motivator?",
+    back: "Joy.",
+  },
+  {
+    front: "What is empathy according to the text?",
+    back: "The feeling that we understand and share someone else’s emotions or experiences as if they were our own.",
+  },
+  {
+    front: "How does showing empathy help us manage our emotions?",
+    back: "By training our minds to prepare themselves for challenges.",
+  },
+  {
+    front: "What is loving-kindness defined?",
+    back: "A strong feeling of caring about someone.",
+  },
+  {
+    front: "What is surprise?",
+    back: "A feeling that is caused by something unexpected.",
+  },
+  {
+    front: "What is anxiety?",
+    back: "A normal human emotion that is found as a reaction to stress.",
+  },
+  {
+    front: "How many kinds of anxiety are there? What are they?",
+    back: "2 kinds: worry & fear.",
+  },
+  {
+    front: "What is normal anxiety? / When do you feel normal anxiety?",
+    back: "It is what we feel when we are exposed to external stresses such as losing a job, having difficulties in marriage or our children getting ill.",
+  },
+  {
+    front: "What is fear?",
+    back: "When anxiety occurs in response to a more immediate threat, like being attacked by a huge snarling dog or looking over a cliff edge.",
+  },
+  {
+    front: "What is anger?",
+    back: "A strong feeling that makes us want to hurt or criticise someone because of something bad or unfair that has happened.",
+  },
+  {
+    front: "What is distress?",
+    back: "A feeling of sadness which is prompted by the loss of something or tragic events.",
+  },
+  {
+    front: "What is disgust?",
+    back: "A strong feeling of dislike, annoyance or disapproval.",
+  },
+  {
+    front: "Why do people move away from disgusting things?",
+    back: "Because they may carry diseases.",
+  },
+  {
+    front: "How does disgust help protect us?",
+    back: "From harm or illness by guiding us to avoid things that may be dangerous or unhygienic.",
+  },
+  {
+    front: "What is the word 'emotional well-being' defined?",
+    back: "The ability to recognise our emotions, manage them and produce positive feelings or thoughts.",
+  },
+  {
+    front: "Mention three practical ways to achieve emotional well-being.",
+    back: "Stay honest, peaceful, grateful, intentional, balanced, positive, connected, determined, strong, and hopeful.",
+  },
+  {
+    front: "Write the benefits of emotional well-being. / What feelings does emotional well-being bring?",
+    back: "Emotional well-being typically brings pleasant feelings such as excitement, happiness and love.",
+  },
+  {
+    front: "How can you try to be a peacemaker?",
+    back: "By developing fairness and conflict resolution skills.",
+  },
+  {
+    front: "Why should a person find ways to improve their work-life balance?",
+    back: "To keep the right balance of both pleasant and unpleasant feelings.",
+  },
+  {
+    front: "What should you do to stay positive?",
+    back: "Keep a healthy, positive attitude to life. Smile, laugh and enjoy our lives.",
+  },
+  {
+    front: "What can Dr Hal Baumchen’s ten practical ways help you?",
+    back: "To achieve emotional well-being and stay resilient to emotionally stressful situations.",
+  }
+],
+
 
     // INITIAL LETTERS - Fill in the first letter(s)
     initialLetters: [
@@ -1190,7 +1153,7 @@ const unitsData = {
   // UNIT 3: TEMPLATE FOR NEW UNIT
   // ==========================================
   unit7: {
-    title: "Unit 7: POLLUTION",
+    title: "Unit 7: POLLUTION: A HAZARD TO OUR ENVIRONMENT",
     description: "[Your unit description here]",
 
     // VOCABULARY FLASHCARDS - Terms and definitions
@@ -1239,6 +1202,7 @@ const unitsData = {
       // Add more grammar cards here
     ],
   },
+
 
   // ==========================================
   // UNIT 3: TEMPLATE FOR NEW UNIT
@@ -1294,6 +1258,7 @@ const unitsData = {
     ],
   },
 
+
   // ==========================================
   // UNIT 3: TEMPLATE FOR NEW UNIT
   // ==========================================
@@ -1348,11 +1313,12 @@ const unitsData = {
     ],
   },
 
+
   // ==========================================
   // UNIT 3: TEMPLATE FOR NEW UNIT
   // ==========================================
   unit10: {
-    title: "Unit 10: COMMUNICATION SKILLS",
+    title: "Unit 10: WHY IMPORTANT COMMUNICATION SKILLS?",
     description: "WHY IMPORTANT COMMUNICATION SKILLS",
 
     // VOCABULARY FLASHCARDS - Terms and definitions
@@ -1460,7 +1426,7 @@ const unitsData = {
   // UNIT 3: TEMPLATE FOR NEW UNIT
   // ==========================================
   unit12: {
-    title: "Unit 12: INTERCULTURAL COMM.",
+    title: "Unit 12: INTERCELTURAL COMMUNICATION",
     description: "INTERCELTURAL COMMUNICATION",
 
     // VOCABULARY FLASHCARDS - Terms and definitions
@@ -1509,6 +1475,12 @@ const unitsData = {
       // Add more grammar cards here
     ],
   },
+
+
+
+
+
+
 
   // ==========================================
   // ADD MORE UNITS HERE
@@ -1573,3 +1545,9 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
+
+
+
+
+
