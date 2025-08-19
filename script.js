@@ -4,70 +4,6 @@ let currentSection = "vocabulary";
 let currentIndex = 0;
 let isFlipped = false;
 
-// Results Tracking System
-let sessionData = {
-  startTime: null,
-  endTime: null,
-  currentUnit: null,
-  sections: {
-    vocabulary: {
-      type: "flashcard",
-      startTime: null,
-      endTime: null,
-      cardsViewed: 0,
-      totalCards: 0,
-      timeSpent: 0,
-      completed: false,
-      cardTimes: [],
-    },
-    shortQuestions: {
-      type: "flashcard",
-      startTime: null,
-      endTime: null,
-      cardsViewed: 0,
-      totalCards: 0,
-      timeSpent: 0,
-      completed: false,
-      cardTimes: [],
-    },
-    grammar: {
-      type: "flashcard",
-      startTime: null,
-      endTime: null,
-      cardsViewed: 0,
-      totalCards: 0,
-      timeSpent: 0,
-      completed: false,
-      cardTimes: [],
-    },
-    initialLetters: {
-      type: "quiz",
-      startTime: null,
-      endTime: null,
-      questions: [],
-      correctAnswers: 0,
-      totalQuestions: 0,
-      timeSpent: 0,
-      completed: false,
-      questionTimes: [],
-    },
-    multipleChoice: {
-      type: "quiz",
-      startTime: null,
-      endTime: null,
-      questions: [],
-      correctAnswers: 0,
-      totalQuestions: 0,
-      timeSpent: 0,
-      completed: false,
-      questionTimes: [],
-    },
-  },
-};
-
-let sectionStartTime = null;
-let cardStartTime = null;
-
 // Section configurations
 const sections = {
   vocabulary: {
@@ -166,18 +102,6 @@ function setupEventListeners() {
   );
   grammarBtn.addEventListener("click", () => setSection("grammar"));
 
-  // View Results button
-  const viewResultsBtn = document.getElementById("view-results-section");
-  if (viewResultsBtn) {
-    viewResultsBtn.addEventListener("click", () => {
-      if (currentUnit) {
-        showResults();
-      } else {
-        alert("Please select a unit first to view results.");
-      }
-    });
-  }
-
   // Vocabulary flashcard controls
   setupFlashcardControls("vocabulary");
 
@@ -247,309 +171,9 @@ function handleUnitChange() {
   const selectedUnit = unitSelect.value;
   if (selectedUnit) {
     currentUnit = selectedUnit;
-    initializeSession(selectedUnit);
     loadSection(currentSection);
   } else {
     showScreen("welcome");
-  }
-}
-
-// Session Management Functions
-function initializeSession(unitKey) {
-  sessionData.startTime = new Date();
-  sessionData.currentUnit = unitKey;
-  sessionData.endTime = null;
-
-  // Reset all section data
-  Object.keys(sessionData.sections).forEach((sectionKey) => {
-    const section = sessionData.sections[sectionKey];
-    section.startTime = null;
-    section.endTime = null;
-    section.timeSpent = 0;
-    section.completed = false;
-    section.cardTimes = [];
-    section.questionTimes = [];
-
-    if (section.type === "flashcard") {
-      section.cardsViewed = 0;
-      section.totalCards = 0;
-    } else if (section.type === "quiz") {
-      section.questions = [];
-      section.correctAnswers = 0;
-      section.totalQuestions = 0;
-    }
-  });
-}
-
-function startSectionTracking(sectionName) {
-  const section = sessionData.sections[sectionName];
-  if (!section.startTime) {
-    section.startTime = new Date();
-    sectionStartTime = new Date();
-
-    // Set total items for the section
-    const unit = unitsData[currentUnit];
-    const sectionConfig = sections[sectionName];
-    const sectionData = unit[sectionConfig.dataKey];
-
-    if (section.type === "flashcard") {
-      section.totalCards = sectionData ? sectionData.length : 0;
-    } else if (section.type === "quiz") {
-      section.totalQuestions = sectionData ? sectionData.length : 0;
-    }
-  }
-}
-
-function trackCardView(sectionName) {
-  const section = sessionData.sections[sectionName];
-  if (section.type === "flashcard") {
-    // Track card start time
-    cardStartTime = new Date();
-
-    // Update cards viewed (unique cards)
-    const viewedCards = new Set(section.cardTimes.map((ct) => ct.cardIndex));
-    viewedCards.add(currentIndex);
-    section.cardsViewed = viewedCards.size;
-  }
-}
-
-function trackCardTime(sectionName) {
-  const section = sessionData.sections[sectionName];
-  if (section.type === "flashcard" && cardStartTime) {
-    const timeSpent = new Date() - cardStartTime;
-    section.cardTimes.push({
-      cardIndex: currentIndex,
-      timeSpent: timeSpent,
-      timestamp: new Date(),
-    });
-  }
-}
-
-function trackQuizAnswer(
-  sectionName,
-  questionIndex,
-  userAnswer,
-  correctAnswer,
-  isCorrect,
-  timeSpent
-) {
-  const section = sessionData.sections[sectionName];
-  if (section.type === "quiz") {
-    section.questions.push({
-      questionIndex: questionIndex,
-      userAnswer: userAnswer,
-      correctAnswer: correctAnswer,
-      isCorrect: isCorrect,
-      timeSpent: timeSpent,
-      timestamp: new Date(),
-    });
-
-    if (isCorrect) {
-      section.correctAnswers++;
-    }
-  }
-}
-
-function completeSectionTracking(sectionName) {
-  const section = sessionData.sections[sectionName];
-  section.endTime = new Date();
-  section.completed = true;
-
-  if (section.startTime) {
-    section.timeSpent = section.endTime - section.startTime;
-  }
-}
-
-function calculateResults() {
-  const results = {
-    unit: sessionData.currentUnit,
-    unitTitle: unitsData[sessionData.currentUnit]?.title || "Unknown Unit",
-    startTime: sessionData.startTime,
-    endTime: new Date(),
-    totalTime: new Date() - sessionData.startTime,
-    sections: {},
-  };
-
-  Object.keys(sessionData.sections).forEach((sectionKey) => {
-    const section = sessionData.sections[sectionKey];
-    const sectionConfig = sections[sectionKey];
-
-    if (section.type === "flashcard") {
-      results.sections[sectionKey] = {
-        name: sectionConfig.name,
-        type: "flashcard",
-        completed: section.completed,
-        cardsViewed: section.cardsViewed,
-        totalCards: section.totalCards,
-        completionRate:
-          section.totalCards > 0
-            ? (section.cardsViewed / section.totalCards) * 100
-            : 0,
-        timeSpent: section.timeSpent,
-        averageTimePerCard:
-          section.cardTimes.length > 0
-            ? section.cardTimes.reduce((sum, ct) => sum + ct.timeSpent, 0) /
-              section.cardTimes.length
-            : 0,
-      };
-    } else if (section.type === "quiz") {
-      results.sections[sectionKey] = {
-        name: sectionConfig.name,
-        type: "quiz",
-        completed: section.completed,
-        questionsAnswered: section.questions.length,
-        totalQuestions: section.totalQuestions,
-        correctAnswers: section.correctAnswers,
-        score:
-          section.questions.length > 0
-            ? (section.correctAnswers / section.questions.length) * 100
-            : 0,
-        timeSpent: section.timeSpent,
-        averageTimePerQuestion:
-          section.questions.length > 0
-            ? section.questions.reduce((sum, q) => sum + q.timeSpent, 0) /
-              section.questions.length
-            : 0,
-        questions: section.questions,
-      };
-    }
-  });
-
-  return results;
-}
-
-function showResults() {
-  const results = calculateResults();
-  sessionData.endTime = new Date();
-
-  // Update results screen
-  updateResultsDisplay(results);
-  showScreen("results");
-}
-
-function updateResultsDisplay(results) {
-  // Update basic results info
-  const finalScore = document.getElementById("final-score");
-  const correctCount = document.getElementById("correct-count");
-  const totalCount = document.getElementById("total-count");
-
-  // Calculate overall performance
-  const quizSections = Object.values(results.sections).filter(
-    (s) => s.type === "quiz"
-  );
-  const flashcardSections = Object.values(results.sections).filter(
-    (s) => s.type === "flashcard"
-  );
-
-  let overallScore = 0;
-  let totalQuizQuestions = 0;
-  let totalCorrectAnswers = 0;
-
-  quizSections.forEach((section) => {
-    totalQuizQuestions += section.questionsAnswered;
-    totalCorrectAnswers += section.correctAnswers;
-  });
-
-  if (totalQuizQuestions > 0) {
-    overallScore = (totalCorrectAnswers / totalQuizQuestions) * 100;
-  }
-
-  if (finalScore) {
-    finalScore.textContent =
-      totalQuizQuestions > 0 ? `${Math.round(overallScore)}%` : "N/A";
-  }
-  if (correctCount) {
-    correctCount.textContent = totalCorrectAnswers;
-  }
-  if (totalCount) {
-    totalCount.textContent = totalQuizQuestions;
-  }
-
-  // Add detailed results breakdown
-  addDetailedResults(results);
-}
-
-function addDetailedResults(results) {
-  // Find or create detailed results container
-  let detailedContainer = document.getElementById("detailed-results");
-  if (!detailedContainer) {
-    detailedContainer = document.createElement("div");
-    detailedContainer.id = "detailed-results";
-    detailedContainer.className = "detailed-results";
-
-    const resultsContainer = document.querySelector(".results-container");
-    const scoreDetails = document.querySelector(".score-details");
-    if (resultsContainer && scoreDetails) {
-      resultsContainer.insertBefore(
-        detailedContainer,
-        scoreDetails.nextSibling
-      );
-    }
-  }
-
-  // Clear previous content
-  detailedContainer.innerHTML = "";
-
-  // Add unit info
-  const unitInfo = document.createElement("div");
-  unitInfo.className = "unit-info";
-  unitInfo.innerHTML = `
-    <h3>📚 ${results.unitTitle}</h3>
-    <p>Total Time: ${formatTime(results.totalTime)}</p>
-  `;
-  detailedContainer.appendChild(unitInfo);
-
-  // Add section breakdown
-  const sectionsContainer = document.createElement("div");
-  sectionsContainer.className = "sections-breakdown";
-
-  Object.keys(results.sections).forEach((sectionKey) => {
-    const section = results.sections[sectionKey];
-    const sectionDiv = document.createElement("div");
-    sectionDiv.className = "section-result";
-
-    if (section.type === "flashcard") {
-      sectionDiv.innerHTML = `
-        <h4>${section.name}</h4>
-        <div class="section-stats">
-          <p>📖 Cards Viewed: ${section.cardsViewed} / ${section.totalCards}</p>
-          <p>📊 Completion: ${Math.round(section.completionRate)}%</p>
-          <p>⏱️ Time Spent: ${formatTime(section.timeSpent)}</p>
-          <p>⚡ Avg per Card: ${formatTime(section.averageTimePerCard)}</p>
-        </div>
-      `;
-    } else if (section.type === "quiz") {
-      sectionDiv.innerHTML = `
-        <h4>${section.name}</h4>
-        <div class="section-stats">
-          <p>❓ Questions: ${section.questionsAnswered} / ${
-        section.totalQuestions
-      }</p>
-          <p>✅ Correct: ${section.correctAnswers}</p>
-          <p>📊 Score: ${Math.round(section.score)}%</p>
-          <p>⏱️ Time Spent: ${formatTime(section.timeSpent)}</p>
-          <p>⚡ Avg per Question: ${formatTime(
-            section.averageTimePerQuestion
-          )}</p>
-        </div>
-      `;
-    }
-
-    sectionsContainer.appendChild(sectionDiv);
-  });
-
-  detailedContainer.appendChild(sectionsContainer);
-}
-
-function formatTime(milliseconds) {
-  const seconds = Math.floor(milliseconds / 1000);
-  const minutes = Math.floor(seconds / 60);
-  const remainingSeconds = seconds % 60;
-
-  if (minutes > 0) {
-    return `${minutes}m ${remainingSeconds}s`;
-  } else {
-    return `${remainingSeconds}s`;
   }
 }
 
@@ -595,9 +219,6 @@ function loadSection(sectionName) {
   currentIndex = 0;
   isFlipped = false;
 
-  // Start tracking for this section
-  startSectionTracking(sectionName);
-
   showScreen(sectionName);
 
   if (sectionConfig.type === "flashcard") {
@@ -639,9 +260,6 @@ function displayFlashcard(sectionName) {
   }
 
   const card = sectionData[currentIndex];
-
-  // Track card view for results
-  trackCardView(sectionName);
 
   // Convert camelCase to kebab-case for HTML IDs
   const htmlId =
@@ -711,9 +329,6 @@ function displayQuestion(sectionName) {
   }
 
   const question = sectionData[currentIndex];
-
-  // Track question start time for quiz sections
-  cardStartTime = new Date();
 
   if (sectionName === "initialLetters") {
     displayInitialLettersQuestion(question);
@@ -806,17 +421,6 @@ function submitInitialLettersAnswer() {
     (answer) => answer.toLowerCase() === userAnswer
   );
 
-  // Track the answer for results
-  const timeSpent = cardStartTime ? new Date() - cardStartTime : 0;
-  trackQuizAnswer(
-    "initialLetters",
-    currentIndex,
-    userAnswer,
-    question.correct,
-    isCorrect,
-    timeSpent
-  );
-
   // Show feedback
   if (feedback) {
     feedback.style.display = "block";
@@ -854,17 +458,6 @@ function submitMultipleChoiceAnswer() {
 
   const userAnswer = parseInt(selectedOption.dataset.value);
   const isCorrect = userAnswer === question.correct;
-
-  // Track the answer for results
-  const timeSpent = cardStartTime ? new Date() - cardStartTime : 0;
-  trackQuizAnswer(
-    "multipleChoice",
-    currentIndex,
-    userAnswer,
-    question.correct,
-    isCorrect,
-    timeSpent
-  );
 
   // Show feedback
   if (feedback) {
