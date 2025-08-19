@@ -4996,14 +4996,50 @@ grammar: [
     title: "Unit 9: HELEN KILLER",
     description: "HELEN KILLER",
 
-    // VOCABULARY FLASHCARDS - Terms and definitions
-    vocabulary: [
-      {
-        front: "[Term]",
-        back: "[Definition and example]",
-      },
-      // Add more vocabulary cards here
-    ],
+// VOCABULARY FLASHCARDS - Terms and definitions
+vocabulary: [
+  {
+    front: "spoilt",
+    back: "Rude and badly behaved because they are given everything they ask for and not enough discipline",
+  },
+  {
+    front: "excited",
+    back: "Happy and enthusiastic",
+  },
+  {
+    front: "mysterious",
+    back: "Difficult to explain or understand something",
+  },
+  {
+    front: "tour",
+    back: "Make a journey; travel around a place",
+  },
+  {
+    front: "violent",
+    back: "Using force to hurt or attack",
+  },
+  {
+    front: "screamed",
+    back: "Gave a loud, high cry, because you are hurt, frightened, excited, etc.",
+  },
+  {
+    front: "graduated",
+    back: "Got or obtained a first degree from college or university",
+  },
+  {
+    front: "treasure",
+    back: "A very valuable and important object, or a highly valued object",
+  },
+  {
+    front: "grab",
+    back: "Take hold of someone or something with a sudden or violent movement",
+  },
+  {
+    front: "miracle",
+    back: "An act or event that does not follow the laws of nature and is believed to be caused by God",
+  },
+],
+
 
     // SHORT QUESTIONS - Question and answer pairs
     shortQuestions: [
@@ -5518,50 +5554,562 @@ grammar: [
     description: "WHY IMPORTANT COMMUNICATION SKILLS",
 
     // VOCABULARY FLASHCARDS - Terms and definitions
-    vocabulary: [
-      {
-        front: "[Term]",
-        back: "[Definition and example]",
-      },
-      // Add more vocabulary cards here
-    ],
+// VOCABULARY FLASHCARDS - Terms and definitions
+vocabulary: [
+  {
+    front: "communication",
+    back: "The process of expressing ideas and feelings or giving people information",
+  },
+  {
+    front: "translate",
+    back: "To change written or spoken words into another language",
+  },
+  {
+    front: "interpret",
+    back: "To translate one language to another as you hear it",
+  },
+  {
+    front: "information",
+    back: "Facts or details about somebody or something",
+  },
+  {
+    front: "informative",
+    back: "Giving useful information",
+  },
+  {
+    front: "interact",
+    back: "To communicate with somebody, especially while you work, play, or spend time with them",
+  },
+  {
+    front: "conversation",
+    back: "An informal talk involving a small group of people or only two",
+  },
+  {
+    front: "comprehensible",
+    back: "Easy to understand",
+  },
+],
+
 
     // SHORT QUESTIONS - Question and answer pairs
-    shortQuestions: [
-      {
-        front: "[Your question here]",
-        back: "[Your answer here]",
-      },
-      // Add more short questions here
-    ],
+ // SHORT QUESTIONS - Question and answer pairs
+shortQuestions: [
+  {
+    front: "What is the purpose of using indirectness in communication?",
+    back: "The purpose of using indirectness in communication is to communicate different shades of meaning including the opposite of what is said.",
+  },
+  {
+    front: "According to the passage, communication skills are regarded as a vital life skill in the 21st century. Give one reason for this statement.",
+    back: "Because it would be extremely difficult to fulfill even our most basic needs and wants, as anyone who has had the experience of traveling in a foreign country whose language he or she does not know will attest to.",
+  },
+  {
+    front: "Why are communication skills important in our social dealings?",
+    back: "Communication skills are important in our social dealings because they can improve the relationship or worsen it.",
+  },
+  {
+    front: "Why does a person with a higher position need more expertise in communication?",
+    back: "A person with a higher position needs more expertise in communication as he or she has to interact with a wide spectrum of people, including those from other countries and cultures, in different situations.",
+  },
+  {
+    front: "How do most of the young people in cities spend their time?",
+    back: "Most of the young people in cities spend their time more with their cell phones playing games, and surfing the net, than talking with other people.",
+  },
+  {
+    front: "According to the writer, what are the two reasons why young people need to be trained?",
+    back: "The two reasons are to overcome their shyness and reticence to talk with persons of different generations, and to make appropriate use of the polite forms traditionally used in conversing with older persons and in more formal contexts.",
+  },
+  {
+    front: "What is the best place to train young people to develop communication skills?",
+    back: "The best place to train young people to develop communication skills is the home.",
+  },
+  {
+    front: "Why do parents need to talk with their children as often as possible?",
+    back: "Parents need to talk with their children as often as possible not only to stay connected with them but also to develop their language skills.",
+  },
+  {
+    front: "What are the advantages of parental talk?",
+    back: "Children can enrich their stock of vocabulary and sentence patterns and at the same time, develop critical thinking, satisfy their curiosity about their surroundings and expand their knowledge about the world around them.",
+  },
+  {
+    front: "Why are we required to use polite language in talking with other people?",
+    back: "We are required to use polite language in talking with other people to show our regard for the audience and to create rapport.",
+  },
+],
 
-    // INITIAL LETTERS - Fill in the first letter(s)
-    initialLetters: [
-      {
-        question: "[Description]: [First letter(s)]_____",
-        correct: ["letter1", "letters2", "word"], // Array of acceptable answers
-      },
-      // Add more initial letter questions here
-    ],
+
+// INITIAL LETTERS - Fill in the first letter(s)
+initialLetters: [
+  {
+    question: "Better c------------- is a huge step toward peace: c_____",
+    correct: ["communication"],
+  },
+  {
+    question: "The system has the a------------- to run more than one program: a_____",
+    correct: ["ability"],
+  },
+  {
+    question: "He tries to c------------- a sense of responsibility: c_____",
+    correct: ["convey"],
+  },
+  {
+    question: "My p------------- about this problem is simple: p_____",
+    correct: ["perception"],
+  },
+  {
+    question: "He bought a dog with the i------------- of training it: i_____",
+    correct: ["intention"],
+  },
+  {
+    question: "Meeting will be held through video-c-------------: c_____",
+    correct: ["conferencing"],
+  },
+  {
+    question: "There is no enough i------------- between management and workers: i_____",
+    correct: ["interaction"],
+  },
+  {
+    question: "Looking for someone with strong s------------- skills: s_____",
+    correct: ["spoken"],
+  },
+  {
+    question: "We cannot e------------- our feelings sometimes: e_____",
+    correct: ["express"],
+  },
+  {
+    question: "He caught different n------------- of expression: n_____",
+    correct: ["nuances"],
+  },
+  {
+    question: "Facial expressions, p-------------, gestures...: p_____",
+    correct: ["posture"],
+  },
+  {
+    question: "Order of words and o------------- of texts are important: o_____",
+    correct: ["organisation"],
+  },
+  {
+    question: "If you want to make an i-------------: i_____",
+    correct: ["interpretation"],
+  },
+  {
+    question: "This math problem is difficult and c-------------: c_____",
+    correct: ["complex"],
+  },
+  {
+    question: "An u------------- is the use of any piece of language: u_____",
+    correct: ["utterance"],
+  },
+  {
+    question: "Gestures and tone are non-verbal f-------------: f_____",
+    correct: ["features"],
+  },
+  {
+    question: "His unique p------------- makes him different: p_____",
+    correct: ["personality"],
+  },
+  {
+    question: "Attitude and mindset are more important than a-------------: a_____",
+    correct: ["appearance"],
+  },
+  {
+    question: "First i------------- is very important: i_____",
+    correct: ["impression"],
+  },
+  {
+    question: "We should improve s------------- dealings: s_____",
+    correct: ["social"],
+  },
+  {
+    question: "Relationship with friends and a-------------: a_____",
+    correct: ["acquaintances"],
+  },
+  {
+    question: "The a------------- of this school was popular: a_____",
+    correct: ["advertisement"],
+  },
+  {
+    question: "High position needs e------------- in communication: e_____",
+    correct: ["expertise"],
+  },
+  {
+    question: "Students learn different c------------- and customs: c_____",
+    correct: ["cultures"],
+  },
+  {
+    question: "Due to the a------------- of market economy: a_____",
+    correct: ["advent"],
+  },
+  {
+    question: "The e------------- of enterprises created jobs: e_____",
+    correct: ["expansion"],
+  },
+  {
+    question: "Ability to t------------- a language depends on effort: t_____",
+    correct: ["translate"],
+  },
+  {
+    question: "There was a dramatic r------------- in birth rate: r_____",
+    correct: ["reduction"],
+  },
+  {
+    question: "The g------------- gap is a major problem: g_____",
+    correct: ["generation"],
+  },
+  {
+    question: "Under the g------------- of teachers, students passed: g_____",
+    correct: ["guidance"],
+  },
+  {
+    question: "Most youths feel shyness and r-------------: r_____",
+    correct: ["reticence"],
+  },
+  {
+    question: "A child is a valuable g-------------: g_____",
+    correct: ["gift"],
+  },
+  {
+    question: "P------------- talk enriches vocabulary: p_____",
+    correct: ["Parental"],
+  },
+  {
+    question: "Students satisfied their c------------- about Bagan: c_____",
+    correct: ["curiosity"],
+  },
+  {
+    question: "Living in pleasant s------------- brings happiness: s_____",
+    correct: ["surroundings"],
+  },
+  {
+    question: "Learning together with negatives is a vital life s-------------: s_____",
+    correct: ["skill"],
+  },
+  {
+    question: "In student life, a------------- success is vital: a_____",
+    correct: ["academic"],
+  },
+  {
+    question: "Private sector is i------------- with public sector: i_____",
+    correct: ["integrated"],
+  },
+  {
+    question: "Every culture has its own n-------------: n_____",
+    correct: ["norms"],
+  },
+  {
+    question: "A master degree is a p------------- to be a teacher: p_____",
+    correct: ["prerequisite"],
+  },
+  {
+    question: "The a------------- is so silent during speech: a_____",
+    correct: ["audience"],
+  },
+  {
+    question: "Some students think rules are not r-------------: r_____",
+    correct: ["relevant"],
+  },
+  {
+    question: "This book is very i------------- with grammar rules: i_____",
+    correct: ["informative"],
+  },
+  {
+    question: "24 hour service is a------------- for customers: a_____",
+    correct: ["available"],
+  },
+  {
+    question: "Speaking clearly is c------------- for others: c_____",
+    correct: ["comprehensible"],
+  },
+  {
+    question: "Religion is a d------------- factor in societies: d_____",
+    correct: ["dominating"],
+  },
+  {
+    question: "Her e------------- to learn is delightful: e_____",
+    correct: ["eagerness"],
+  },
+],
+
 
     // MULTIPLE CHOICE QUESTIONS
-    multipleChoice: [
-      {
-        question: "[Your question here]",
-        options: ["[Option 1]", "[Option 2]", "[Option 3]", "[Option 4]"],
-        correct: 0, // Index of correct answer (0-3)
-      },
-      // Add more multiple choice questions here
-    ],
+multipleChoice: [
+  {
+    question: "Effective ------------- is key to building strong relationships in the workplace.",
+    options: ["interaction", "conversation", "communication"],
+    correct: 2,
+  },
+  {
+    question: "The software can easily ------------- text from English to Spanish.",
+    options: ["translate", "convert", "interpret"],
+    correct: 0,
+  },
+  {
+    question: "She was hired to ------------- the foreign language during the international conference.",
+    options: ["translate", "interpret", "convert"],
+    correct: 1,
+  },
+  {
+    question: "The manager asked for more ------------- before making a decision about the project.",
+    options: ["data", "information", "knowledge"],
+    correct: 1,
+  },
+  {
+    question: "The lecture was incredibly -------------, providing a deep understanding of the topic.",
+    options: ["informative", "interesting", "entertaining"],
+    correct: 0,
+  },
+  {
+    question: "In the workshop, participants were encouraged to ------------- with each other to solve the problems.",
+    options: ["communicate", "socialize", "interact"],
+    correct: 2,
+  },
+  {
+    question: "They had a long ------------- about the future of the company and its goals.",
+    options: ["discussion", "chat", "conversation"],
+    correct: 2,
+  },
+  {
+    question: "The teacher explained the complex topic in a way that was clear and ------------- to all the students.",
+    options: ["comprehensible", "understandable", "confusing"],
+    correct: 0,
+  },
+  {
+    question: "The speaker used powerful imagery to ------------- the emotions of the story to the audience.",
+    options: ["convey", "hide", "ignore"],
+    correct: 0,
+  },
+  {
+    question: "The training program aims to change the employees' ------------- towards customer service.",
+    options: ["habits", "behaviors", "attitudes"],
+    correct: 2,
+  },
+  {
+    question: "The professor's explanation was so ------------- that even the most difficult concepts seemed easy to understand.",
+    options: ["vague", "lucid", "complex"],
+    correct: 1,
+  },
+  {
+    question: "The seminar encouraged active ------------- between the speakers and the audience.",
+    options: ["interaction", "communication", "observation"],
+    correct: 0,
+  },
+  {
+    question: "She delivered the presentation in a clear and ------------- manner, making it easy to follow.",
+    options: ["written", "read", "spoken"],
+    correct: 2,
+  },
+  {
+    question: "The instructions were provided in both ------------- and verbal formats for clarity.",
+    options: ["spoken", "written", "heard"],
+    correct: 1,
+  },
+  {
+    question: "The artist's work is full of subtle ------------- that make each piece unique and thought-provoking.",
+    options: ["nuances", "features", "shapes"],
+    correct: 0,
+  },
+  {
+    question: "Maintaining good ------------- is important for preventing back pain while sitting at a desk for long hours.",
+    options: ["posture", "stance", "position"],
+    correct: 0,
+  },
+  {
+    question: "The lawyer's ------------- of the law was different from the judge's, leading to a lengthy debate.",
+    options: ["analysis", "interpretation", "observation"],
+    correct: 1,
+  },
+  {
+    question: "Her ------------- cues, like eye contact and body language, conveyed a lot more than her words.",
+    options: ["verbal", "non-verbal", "written"],
+    correct: 1,
+  },
+  {
+    question: "The company was accused of trying to ------------- its workers by paying them less than minimum wage.",
+    options: ["support", "help", "exploit"],
+    correct: 2,
+  },
+  {
+    question: "Her warm and approachable ------------- made her popular among her colleagues.",
+    options: ["personality", "appearance", "style"],
+    correct: 0,
+  },
+  {
+    question: "It is ------------- to stay hydrated during intense physical activity.",
+    options: ["helpful", "vital", "optional"],
+    correct: 1,
+  },
+  {
+    question: "She worked hard to ------------- her dream of becoming a doctor.",
+    options: ["maintain", "touch", "fulfil"],
+    correct: 2,
+  },
+  {
+    question: "The actor’s sudden ------------- at the event surprised everyone.",
+    options: ["style", "appearance", "image"],
+    correct: 1,
+  },
+  {
+    question: "She made a strong first ------------- during the job interview.",
+    options: ["impression", "suggestion", "expression"],
+    correct: 0,
+  },
+  {
+    question: "At the party, I saw a few familiar faces who were just casual -------------.",
+    options: ["strangers", "colleagues", "acquaintances"],
+    correct: 2,
+  },
+  {
+    question: "The company hired her for her marketing ------------- and proven track record.",
+    options: ["expertise", "interest", "experience"],
+    correct: 0,
+  },
+  {
+    question: "He is currently ------------- a degree in engineering at a prestigious university.",
+    options: ["following", "pursuing", "keeping"],
+    correct: 1,
+  },
+  {
+    question: "The debate over climate change has pushed environmental issues ------------- of global policy discussions.",
+    options: ["to the back", "to the forefront", "out of sight"],
+    correct: 1,
+  },
+  {
+    question: "The company announced a significant ------------- in its energy consumption to help reduce costs.",
+    options: ["reduction", "increase", "expansion"],
+    correct: 0,
+  },
+  {
+    question: "Her ------------- prevented her from speaking up during the meeting, even though she had great ideas.",
+    options: ["confidence", "outgoingness", "shyness"],
+    correct: 2,
+  },
+  {
+    question: "His ------------- during the interview made it difficult to gauge his true thoughts on the position.",
+    options: ["reticence", "confidence", "enthusiasm"],
+    correct: 0,
+  },
+  {
+    question: "She worked hard to ------------- the challenges of starting her own business.",
+    options: ["ignore", "overcome", "avoid"],
+    correct: 1,
+  },
+  {
+    question: "The school offers support programs to address ------------- involvement in children's education.",
+    options: ["parental", "student", "teacher"],
+    correct: 0,
+  },
+  {
+    question: "It is ------------- to stay focused and organized when you are working on a major project.",
+    options: ["optional", "effective", "critical"],
+    correct: 2,
+  },
+  {
+    question: "Her ------------- about the world around her led her to travel to many different countries.",
+    options: ["doubt", "curiosity", "fear"],
+    correct: 1,
+  },
+  {
+    question: "He was known for his strong ------------- achievements throughout his university years.",
+    options: ["personal", "academic", "extracurricular"],
+    correct: 1,
+  },
+  {
+    question: "In many cultures, social ------------- dictate the appropriate behavior in public settings.",
+    options: ["rules", "practices", "norms"],
+    correct: 2,
+  },
+  {
+    question: "A strong understanding of mathematics is a ------------- for enrolling in advanced physics courses.",
+    options: ["prerequisite", "option", "requirement"],
+    correct: 0,
+  },
+  {
+    question: "Despite her ------------- to participate, she was convinced to join the team for the competition.",
+    options: ["enthusiasm", "reluctance", "willingness"],
+    correct: 1,
+  },
+  {
+    question: "The teacher provided ------------- examples to help students understand the concept better.",
+    options: ["irrelevant", "unrelated", "relevant"],
+    correct: 2,
+  },
+  {
+    question: "He studied all night ------------- he could pass the final exam with a high grade.",
+    options: ["because", "in order to", "so that"],
+    correct: 2,
+  },
+  {
+    question: "She took extra notes during the lecture ------------- she could review them later for the exam.",
+    options: ["because", "in order that", "so as to"],
+    correct: 1,
+  },
+  {
+    question: "He spoke quietly ------------- disturb the other people in the library.",
+    options: ["in order that", "so as not to", "in order to"],
+    correct: 1,
+  },
+  {
+    question: "He left early ------------- be late for the important meeting.",
+    options: ["in order not to", "so as to", "so that"],
+    correct: 0,
+  },
+  {
+    question: "The teacher spoke slowly ------------- ensure all the students understood the instructions.",
+    options: ["so as to", "in order that", "so as not to"],
+    correct: 0,
+  },
+],
 
-    // GRAMMAR - Grammar rules and explanations
-    grammar: [
-      {
-        front: "[Grammar Rule/Topic]",
-        back: "[Explanation and examples]",
-      },
-      // Add more grammar cards here
-    ],
+// GRAMMAR - Grammar rules and explanations
+grammar: [
+  {
+    front: "Mum whispered. She did not want to wake up her children. (not to)",
+    back: "Mum whispered not to wake up her children.",
+  },
+  {
+    front: "I took my camera. I wanted to take some photos for my assignment. (to)",
+    back: "I took my camera to take some photos for my assignment.",
+  },
+  {
+    front: "Lwin Lwin turned on the lights. She wanted to see more clearly. (so that)",
+    back: "Lwin Lwin turned on the lights so that she could see more clearly.",
+  },
+  {
+    front: "I will come with you. I want to help you. (in order to)",
+    back: "I will come with you in order to help you.",
+  },
+  {
+    front: "You must take an umbrella. You will not get wet. (so that)",
+    back: "You must take an umbrella so that you will not get wet.",
+  },
+  {
+    front: "He wants to finish his homework today. He will be free at the weekends. (in order that)",
+    back: "He wants to finish his homework today in order that he will be free at the weekends.",
+  },
+  {
+    front: "The teacher spoke slowly. The students could take down the notes. (so that)",
+    back: "The teacher spoke slowly so that the students could take down the notes.",
+  },
+  {
+    front: "Concentrate on your exercises. You would not make any mistake. (not to)",
+    back: "Concentrate on your exercises not to make any mistake.",
+  },
+  {
+    front: "She does not eat much. She does not want to gain weight. (not to)",
+    back: "She does not eat much not to gain weight.",
+  },
+  {
+    front: "We are saving money. We want to go to Bangkok on holiday. (in order to)",
+    back: "We are saving money in order to go to Bangkok on holiday.",
+  },
+  {
+    front: "Ko Aung drives very carefully. He wants to avoid accidents. (in order to)",
+    back: "Ko Aung drives very carefully in order to avoid accidents.",
+  },
+  {
+    front: "They surfed the internet. They wanted to gather more information for their assignment. (in order to)",
+    back: "They surfed the internet in order to gather more information for their assignment.",
+  },
+],
   },
 
   // ==========================================
@@ -5741,6 +6289,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
