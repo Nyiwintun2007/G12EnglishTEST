@@ -6646,51 +6646,561 @@ grammar: [
     title: "Unit 12: INTERCELTURAL COMMUNICATION",
     description: "INTERCELTURAL COMMUNICATION",
 
-    // VOCABULARY FLASHCARDS - Terms and definitions
-    vocabulary: [
-      {
-        front: "[Term]",
-        back: "[Definition and example]",
-      },
-      // Add more vocabulary cards here
-    ],
+// VOCABULARY FLASHCARDS - Terms and definitions
+vocabulary: [
+  // --- Part 1: Words ---
+  {
+    front: "Subject",
+    back: "Area of knowledge",
+  },
+  {
+    front: "Subtle",
+    back: "Not very noticeable or obvious",
+  },
+  {
+    front: "Diverse",
+    back: "Very different from each other",
+  },
+  {
+    front: "Perceive",
+    back: "Understand or think of someone or something in a particular way",
+  },
+  {
+    front: "Affect",
+    back: "Cause a change in someone or something",
+  },
+  {
+    front: "Initiates",
+    back: "Makes something begin",
+  },
+  {
+    front: "Gesture",
+    back: "A movement that you make with your hands, head, or face to show a particular meaning",
+  },
+
+  // --- Part 2: Phrasal Verbs ---
+  {
+    front: "Ask for",
+    back: "Say that you would like someone to give you something; make someone remember something or think about it again",
+  },
+  {
+    front: "Bring back",
+    back: "Make someone remember something or think about it again",
+  },
+  {
+    front: "Come forward",
+    back: "Offer help, services, etc.",
+  },
+  {
+    front: "Deal with",
+    back: "Take action to achieve something or solve a problem",
+  },
+  {
+    front: "Depend on",
+    back: "To rely on someone or something",
+  },
+  {
+    front: "Get together",
+    back: "Meet with someone socially or to discuss something",
+  },
+  {
+    front: "Go through",
+    back: "Undergo a difficult period and experience",
+  },
+  {
+    front: "Hang out",
+    back: "Spend a lot of time in a place",
+  },
+  {
+    front: "Put up with",
+    back: "Accept someone or something that is annoying or unpleasant without complaining",
+  },
+  {
+    front: "Set up",
+    back: "Start running a business",
+  },
+],
 
     // SHORT QUESTIONS - Question and answer pairs
     shortQuestions: [
-      {
-        front: "[Your question here]",
-        back: "[Your answer here]",
-      },
-      // Add more short questions here
+  {
+    front: "1. Why is intercultural communication important in the 21st Century World?",
+    back: "Intercultural communication is important in the 21st Century World because there has been more contact among people who are from different religious, social, ethnic, and educational backgrounds.",
+  },
+  {
+    front: "2. What is intercultural communication?",
+    back: "Intercultural communication is a discipline that studies communication across different cultures and social groups, or how culture affects communication.",
+  },
+  {
+    front: "3. Why did Japanese colleagues avoid saying 'no' directly to Megan when she asked for some suggestions on her lecture?",
+    back: "Japanese colleagues avoided saying 'no' directly to Megan because they felt that saying 'no' directly would make her embarrassed or even make her lose face.",
+  },
+  {
+    front: "4. Why was Jose hesitant to respond to Emma's request for a date?",
+    back: "Jose was hesitant to respond because in his homeland Brazil, it is unusual for a woman to start asking for a date.",
+  },
+  {
+    front: "5. Does the gesture 'holding up the index finger' mean the same in Italy and in the U.S? Why?",
+    back: "No, it does not. In the U.S., it means 'We are No. 1', while in Italy it is an offensive gesture.",
+  },
+  {
+    front: "6. Why was Lee Yoo-Mi not happy with the name which her Myanmar friend used to call her?",
+    back: "She felt uncomfortable when her friend used her family name 'Lee'.",
+  },
+  {
+    front: "7. According to the author, how can we get to a better world?",
+    back: "We can get to a better world by raising intercultural awareness among us.",
+  },
     ],
 
-    // INITIAL LETTERS - Fill in the first letter(s)
-    initialLetters: [
-      {
-        question: "[Description]: [First letter(s)]_____",
-        correct: ["letter1", "letters2", "word"], // Array of acceptable answers
-      },
-      // Add more initial letter questions here
-    ],
+// INITIAL LETTERS - Fill in the first letter(s)
+initialLetters: [
+  {
+    question: "1. I had got an e------------- experience from this journey.",
+    correct: ["exciting"],
+  },
+  {
+    question: "2. They unite people of different ages and d------------- groups.",
+    correct: ["diverse"],
+  },
+  {
+    question: "3. Between 1870 and 1914, the industrial geography of the world was in ------------- change.",
+    correct: ["rapid"],
+  },
+  {
+    question: "4. You should have a more c------------- with your best friend when you part after school life.",
+    correct: ["contact"],
+  },
+  {
+    question: "5. This organization has so many people who come from diffident r-------------, social, ethnic, and educational backgrounds.",
+    correct: ["religious"],
+  },
+  {
+    question: "6. In Myanmar, there are over 130 e------------- groups according to survey research papers.",
+    correct: ["ethnic"],
+  },
+  {
+    question: "7. I------------- communication refers to communications take place between people of different cultures or backgrounds.",
+    correct: ["intercultural"],
+  },
+  {
+    question: "8. Economic organization is to a great extent shaped by historical and c------------- contexts.",
+    correct: ["cultural"],
+  },
+  {
+    question: "9. Psychology is a d------------- that studies the human mind and its functions especially those affecting behaviour in a given context.",
+    correct: ["discipline"],
+  },
+  {
+    question: "10. My hobby is to study customs and traditions from different c-------------.",
+    correct: ["cultures"],
+  },
+  {
+    question: "11. Nowadays, c------------- management is a popular subject among the organizations.",
+    correct: ["conflict"],
+  },
+  {
+    question: "12. M------------- between us are the main causes of the problems.",
+    correct: ["misunderstandings"],
+  },
+  {
+    question: "13. Literature and arts are some enduring cultural v------------- of the nation.",
+    correct: ["values"],
+  },
+  {
+    question: "14. Opinions, ideas and perceptions of people may depend on their cultural b-------------.",
+    correct: ["backgrounds"],
+  },
+  {
+    question: "15. Smoking tobacco can adversely a------------- your lungs and blood flow.",
+    correct: ["affect"],
+  },
+  {
+    question: "16. Sometimes, we can face some c------------- problems of life and we need to solve successfully.",
+    correct: ["challenging"],
+  },
+  {
+    question: "17. My c------------- and I had planned to go a trip to Kalaw.",
+    correct: ["colleagues"],
+  },
+  {
+    question: "18. We often need good s------------- about the work from our friends and family to do it better.",
+    correct: ["suggestions"],
+  },
+  {
+    question: "19. Most of the celebrities usually neglect negative c------------- of the public.",
+    correct: ["comments"],
+  },
+  {
+    question: "20. He did not want to e------------- her by asking personal questions.",
+    correct: ["embarrass"],
+  },
+  {
+    question: "21. Although he is strict, he has a s------------- mind.",
+    correct: ["subtle"],
+  },
+  {
+    question: "22. We can easily know about his emotions by looking at his facial e-------------.",
+    correct: ["expressions"],
+  },
+  {
+    question: "23. In Harvard, many i------------- students are studying their respective majors.",
+    correct: ["international"],
+  },
+  {
+    question: "24. My best c------------- won the first prizes in essay and impromptu talk competitions.",
+    correct: ["classmate"],
+  },
+  {
+    question: "25. If you are h-----------, you cannot do something immediately because you are nervous or not certain.",
+    correct: ["hesitant"],
+  },
+  {
+    question: "26. He returned to his h------------- for the first time in many years.",
+    correct: ["homeland"],
+  },
+  {
+    question: "27. The company i------------- a management training program for the leaders of all departments.",
+    correct: ["initiates"],
+  },
+  {
+    question: "28. Most societies accept that talking during meal time is an o------------- manner.",
+    correct: ["offensive"],
+  },
+  {
+    question: "29. Holding up the index finger is one of the worst i------------- for every person.",
+    correct: ["insults"],
+  },
+  {
+    question: "30. Body language and eye contact are some examples of n------------- communication.",
+    correct: ["nonverbal"],
+  },
+  {
+    question: "31. Our teacher always makes g------------- when he teaches us.",
+    correct: ["gestures"],
+  },
+  {
+    question: "32. This is not an a------------- behaviour from the students for a teacher.",
+    correct: ["acceptable"],
+  },
+  {
+    question: "33. A behaviour which is suitable for one culture may not be t------------- for another one.",
+    correct: ["tolerated"],
+  },
+  {
+    question: "34. A v------------- is a person who freely offers to take part in an enterprise or undertake a task.",
+    correct: ["volunteer"],
+  },
+  {
+    question: "35. The chair is u------------- to sit for me the whole day.",
+    correct: ["uncomfortable"],
+  },
+  {
+    question: "36. You can only p------------- the real beauty in a person as he/she gets older.",
+    correct: ["perceive"],
+  },
+  {
+    question: "37. To avoid social b-------------, intercultural awareness should be raised among the children.",
+    correct: ["blunders"],
+  },
+  {
+    question: "38. A person’s values and b------------- mainly rely on his or her religion.",
+    correct: ["beliefs"],
+  },
+  {
+    question: "39. There are a great number of cultural n------------- follow in our society.",
+    correct: ["norms"],
+  },
+  {
+    question: "40. Today, there is a growing a------------- of the seriousness of this disease.",
+    correct: ["awareness"],
+  },
+  {
+    question: "41. One European country has five n------------- and seven languages.",
+    correct: ["nationalities"],
+  },
+],
 
-    // MULTIPLE CHOICE QUESTIONS
-    multipleChoice: [
-      {
-        question: "[Your question here]",
-        options: ["[Option 1]", "[Option 2]", "[Option 3]", "[Option 4]"],
-        correct: 0, // Index of correct answer (0-3)
-      },
-      // Add more multiple choice questions here
-    ],
+// MULTIPLE CHOICE QUESTIONS
+multipleChoice: [
+  {
+    question: "In many cultures, it is considered the ------------- to greet others with a handshake.",
+    options: ["norm", "tradition", "culture"],
+    correct: 0,
+  },
+  {
+    question: "The tribe gathers around the fire every full moon to perform a sacred ------------- that has been passed down for generations.",
+    options: ["tradition", "ritual", "ceremony"],
+    correct: 1,
+  },
+  {
+    question: "The dove is often used as a ------------- of peace in many cultures around the world.",
+    options: ["image", "symbol", "picture"],
+    correct: 1,
+  },
+  {
+    question: "Many people today are beginning to understand the true ------------- of mental health in overall well-being.",
+    options: ["price", "meaning", "value"],
+    correct: 2,
+  },
+  {
+    question: "In Myanmar, the Thingyan Water Festival is a deeply rooted ------------- that marks the Burmese New Year.",
+    options: ["tradition", "culture", "ceremony"],
+    correct: 0,
+  },
+  {
+    question: "The city is known for its ------------- population, with people from various ethnic and cultural backgrounds.",
+    options: ["identical", "diverse", "ordinary"],
+    correct: 1,
+  },
+  {
+    question: "The local ------------- came together to clean up the park after the festival.",
+    options: ["community", "society", "organization"],
+    correct: 0,
+  },
+  {
+    question: "The city has experienced ------------- growth in the last decade due to technological advancements.",
+    options: ["slow", "steady", "rapid"],
+    correct: 2,
+  },
+  {
+    question: "Climate change is a ------------- issue that requires cooperation from all countries.",
+    options: ["local", "global", "regional"],
+    correct: 1,
+  },
+  {
+    question: "The festival celebrates the ------------- traditions of the community, honoring its beliefs and customs.",
+    options: ["cultural", "spiritual", "religious"],
+    correct: 2,
+  },
+  {
+    question: "The country is known for its ------------- diversity, with people from various backgrounds living together harmoniously.",
+    options: ["cultural", "ethnic", "racial"],
+    correct: 1,
+  },
+  {
+    question: "The university accepts students from diverse ------------- , which enhances the learning environment.",
+    options: ["cultures", "origins", "backgrounds"],
+    correct: 2,
+  },
+  {
+    question: "In today's globalized world, --- communication is crucial for successful collaboration across different cultures.",
+    options: ["intercultural", "cross-cultural", "multicultural"],
+    correct: 0,
+  },
+  {
+    question: "Effective ------------- is key to understanding and collaborating in a multicultural environment.",
+    options: ["interaction", "communication", "conversation"],
+    correct: 1,
+  },
+  {
+    question: "Understanding ------------- is essential for effective communication across different societies.",
+    options: ["cultural contexts", "social settings", "cultural environments"],
+    correct: 0,
+  },
+  {
+    question: "The university offers a wide range of ------------- such as engineering, economics, and political science.",
+    options: ["techniques", "practices", "disciplines"],
+    correct: 2,
+  },
+  {
+    question: "Throughout history, different ------------- have influenced art, music, and food across the world.",
+    options: ["civilizations", "societies", "cultures"],
+    correct: 2,
+  },
+  {
+    question: "The weather can significantly ------------- our mood and energy levels.",
+    options: ["affect", "be affected", "effect"],
+    correct: 0,
+  },
+  {
+    question: "The organization works to resolve international ------------- through peaceful negotiation and dialogue.",
+    options: ["disputes", "conflicts", "disagreements"],
+    correct: 1,
+  },
+  {
+    question: "Poor communication between team members can often lead to ------------- that affect productivity.",
+    options: ["arguments", "mistakes", "misunderstandings"],
+    correct: 2,
+  },
+  {
+    question: "Unexpected problems may ------------- during the final stages of the project, so it's important to stay prepared.",
+    options: ["arise", "occur", "emerge"],
+    correct: 0,
+  },
+  {
+    question: "Schools play an important role in passing down ------- to younger generations through education and tradition.",
+    options: ["social norms", "cultural values", "moral beliefs"],
+    correct: 1,
+  },
+  {
+    question: "In many rural areas, people still follow ------------- that have been passed down for generations.",
+    options: ["ancient customs", "cultural rituals", "traditional practices"],
+    correct: 2,
+  },
+  {
+    question: "Climbing the mountain was a ------------- experience, both physically and mentally demanding.",
+    options: ["difficult", "challenging", "exhausting"],
+    correct: 1,
+  },
+  {
+    question: "During the conference, I had the opportunity to network with several ------------- from different departments.",
+    options: ["colleagues", "coworkers", "teammates"],
+    correct: 0,
+  },
+  {
+    question: "Please don’t say anything that might ------------- her in front of the entire class.",
+    options: ["shame", "embarrass", "humiliate"],
+    correct: 1,
+  },
+  {
+    question: "The artist used ------------- hints of color to create a beautiful and harmonious painting.",
+    options: ["faint", "delicate", "subtle"],
+    correct: 2,
+  },
+  {
+    question: "After many years abroad, she finally returned to her ------------- to reconnect with her roots.",
+    options: ["home", "homeland", "place"],
+    correct: 1,
+  },
+  {
+    question: "She felt ----------- to speak up during the meeting because she was unsure if her ideas would be well received.",
+    options: ["hesitant", "reluctant", "uncertain"],
+    correct: 0,
+  },
+  {
+    question: "The project leader ------------- the first step of the plan by assigning tasks to the team members.",
+    options: ["plans", "design", "initiates"],
+    correct: 2,
+  },
+  {
+    question: "The speech was ------------- differently by various audiences, depending on their cultural backgrounds.",
+    options: ["understood", "interpreted", "explained"],
+    correct: 1,
+  },
+  {
+    question: "His comments were considered ------------- by many people in the audience, causing discomfort.",
+    options: ["offensive", "inappropriate", "universal"],
+    correct: 0,
+  },
+  {
+    question: "The manager warned the team that any ----------- towards colleagues would not be tolerated in the workplace.",
+    options: ["competitions", "requests", "insults"],
+    correct: 2,
+  },
+  {
+    question: "His kind ------------- of helping the elderly woman with her bags was greatly appreciated.",
+    options: ["word", "gesture", "movement"],
+    correct: 1,
+  },
+  {
+    question: "How we ------------- a situation can greatly affect our response to it.",
+    options: ["understand", "interpret", "perceive"],
+    correct: 2,
+  },
+  {
+    question: "His comment at the dinner party was a major -------------, making everyone feel uncomfortable.",
+    options: ["social blunder", "mistake", "weakness"],
+    correct: 0,
+  },
+  {
+    question: "She decided to ------------- help from her colleagues when she couldn't solve the problem on her own.",
+    options: ["bring back", "ask for", "come forward"],
+    correct: 1,
+  },
+  {
+    question: "In times of crisis, it’s important that people ------------- to offer help and support to those in need.",
+    options: ["bring back", "ask for", "come forward"],
+    correct: 2,
+  },
+  {
+    question: "Our success in the project will ------------- the team's ability to collaborate effectively.",
+    options: ["depend on", "deal with", "get together"],
+    correct: 0,
+  },
+  {
+    question: "Before finalizing the report, you should ------------- it carefully to check for any mistakes.",
+    options: ["get together", "hang out", "go through"],
+    correct: 2,
+  },
+  {
+    question: "It's difficult to ------------- the constant noise in the city, but I’ve learned to adapt over time.",
+    options: ["put up with", "keep up with", "come up with"],
+    correct: 0,
+  },
+  {
+    question: "We need to ------------- the equipment before the event starts to ensure everything runs smoothly.",
+    options: ["bring back", "set up", "ask for"],
+    correct: 1,
+  },
+  {
+    question: "On weekends, I love to ------------- with my friends at the park or the local café.",
+    options: ["hang out", "hang up", "meet up"],
+    correct: 0,
+  },
+  {
+    question: "Every holiday season, our family tries to ------------- and celebrate with a big meal.",
+    options: ["go through", "come forward", "get together"],
+    correct: 2,
+  },
+  {
+    question: "As a manager, she has to ------------- many different challenges on a daily basis.",
+    options: ["bring back", "deal with", "hang out"],
+    correct: 1,
+  },
+  {
+    question: "Old songs often ------------- memories of childhood and special moments.",
+    options: ["bring back", "depend on", "ask for"],
+    correct: 0,
+  },
+],
 
-    // GRAMMAR - Grammar rules and explanations
-    grammar: [
-      {
-        front: "[Grammar Rule/Topic]",
-        back: "[Explanation and examples]",
-      },
-      // Add more grammar cards here
-    ],
+// GRAMMAR - Grammar rules and explanations
+grammar: [
+  // PART A - Relative pronouns/adverbs
+  {
+    front: "Nestle is a multinational food manufacturer. It produces dairy products, coffee and confectionery.",
+    back: "Nestle is a multinational food manufacturer which produces dairy products, coffee and confectionery.",
+  },
+  {
+    front: "Pathein Htee is a beautiful Myanmar traditional parasol. Many foreigners buy it as a souvenir.",
+    back: "Pathein Htee is a beautiful Myanmar traditional parasol which many foreigners buy as a souvenir.",
+  },
+  {
+    front: "Mg Mg Oo took a photo. It won the first prize in the International Photography Competition.",
+    back: "Mg Mg Oo took a photo which won the first prize in the International Photography Competition.",
+  },
+  {
+    front: "We interviewed the parents. They were really eager to improve education for their children.",
+    back: "We interviewed the parents who were really eager to improve education for their children.",
+  },
+  {
+    front: "The money does not belong to you. Don't take it.",
+    back: "The money which does not belong to you should not be taken.",
+  },
+
+  // PART B - Given relative pronouns/adverbs
+  {
+    front: "This is the village. I was born in this village. (where)",
+    back: "This is the village where I was born.",
+  },
+  {
+    front: "Patricia wanted to visit the Myeik Archipelago. This is the reason why she came to Myanmar. (why)",
+    back: "Patricia wanted to visit the Myeik Archipelago, which is why she came to Myanmar.",
+  },
+  {
+    front: "Thadingyut is the Lighting Festival of Myanmar. It is the time many Myanmar people decorate the buildings with colourful paper lanterns. (when)",
+    back: "Thadingyut is the Lighting Festival of Myanmar, when many people decorate buildings with colourful paper lanterns.",
+  },
+  {
+    front: "The souvenir was chosen today. Do you know the reason? (why)",
+    back: "Do you know the reason why the souvenir was chosen today?",
+  },
+  {
+    front: "She writes a guidebook. It has pictures of scenic spots in Myanmar. (which)",
+    back: "She writes a guidebook which has pictures of scenic spots in Myanmar.",
+  },
+],
   },
 
 
@@ -6762,6 +7272,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
