@@ -5640,191 +5640,191 @@ shortQuestions: [
 // INITIAL LETTERS - Fill in the first letter(s)
 initialLetters: [
   {
-    question: "Better c------------- is a huge step toward peace: c_____",
+    question: "Better c------------- is a huge step toward peace",
     correct: ["communication"],
   },
   {
-    question: "The system has the a------------- to run more than one program: a_____",
+    question: "The system has the a------------- to run more than one program",
     correct: ["ability"],
   },
   {
-    question: "He tries to c------------- a sense of responsibility: c_____",
+    question: "He tries to c------------- a sense of responsibility",
     correct: ["convey"],
   },
   {
-    question: "My p------------- about this problem is simple: p_____",
+    question: "My p------------- about this problem is simple",
     correct: ["perception"],
   },
   {
-    question: "He bought a dog with the i------------- of training it: i_____",
+    question: "He bought a dog with the i------------- of training it",
     correct: ["intention"],
   },
   {
-    question: "Meeting will be held through video-c-------------: c_____",
+    question: "Meeting will be held through video-c-------------",
     correct: ["conferencing"],
   },
   {
-    question: "There is no enough i------------- between management and workers: i_____",
+    question: "There is no enough i------------- between management and workers",
     correct: ["interaction"],
   },
   {
-    question: "Looking for someone with strong s------------- skills: s_____",
+    question: "Looking for someone with strong s------------- skills",
     correct: ["spoken"],
   },
   {
-    question: "We cannot e------------- our feelings sometimes: e_____",
+    question: "We cannot e------------- our feelings sometimes",
     correct: ["express"],
   },
   {
-    question: "He caught different n------------- of expression: n_____",
+    question: "He caught different n------------- of expression",
     correct: ["nuances"],
   },
   {
-    question: "Facial expressions, p-------------, gestures...: p_____",
+    question: "Facial expressions, p-------------, gestures...",
     correct: ["posture"],
   },
   {
-    question: "Order of words and o------------- of texts are important: o_____",
+    question: "Order of words and o------------- of texts are important",
     correct: ["organisation"],
   },
   {
-    question: "If you want to make an i-------------: i_____",
+    question: "If you want to make an i-------------",
     correct: ["interpretation"],
   },
   {
-    question: "This math problem is difficult and c-------------: c_____",
+    question: "This math problem is difficult and c-------------",
     correct: ["complex"],
   },
   {
-    question: "An u------------- is the use of any piece of language: u_____",
+    question: "An u------------- is the use of any piece of language",
     correct: ["utterance"],
   },
   {
-    question: "Gestures and tone are non-verbal f-------------: f_____",
+    question: "Gestures and tone are non-verbal f-------------",
     correct: ["features"],
   },
   {
-    question: "His unique p------------- makes him different: p_____",
+    question: "His unique p------------- makes him different",
     correct: ["personality"],
   },
   {
-    question: "Attitude and mindset are more important than a-------------: a_____",
+    question: "Attitude and mindset are more important than a-------------",
     correct: ["appearance"],
   },
   {
-    question: "First i------------- is very important: i_____",
+    question: "First i------------- is very important",
     correct: ["impression"],
   },
   {
-    question: "We should improve s------------- dealings: s_____",
+    question: "We should improve s------------- dealings",
     correct: ["social"],
   },
   {
-    question: "Relationship with friends and a-------------: a_____",
+    question: "Relationship with friends and a-------------",
     correct: ["acquaintances"],
   },
   {
-    question: "The a------------- of this school was popular: a_____",
+    question: "The a------------- of this school was popular",
     correct: ["advertisement"],
   },
   {
-    question: "High position needs e------------- in communication: e_____",
+    question: "High position needs e------------- in communication",
     correct: ["expertise"],
   },
   {
-    question: "Students learn different c------------- and customs: c_____",
+    question: "Students learn different c------------- and customs",
     correct: ["cultures"],
   },
   {
-    question: "Due to the a------------- of market economy: a_____",
+    question: "Due to the a------------- of market economy",
     correct: ["advent"],
   },
   {
-    question: "The e------------- of enterprises created jobs: e_____",
+    question: "The e------------- of enterprises created jobs",
     correct: ["expansion"],
   },
   {
-    question: "Ability to t------------- a language depends on effort: t_____",
+    question: "Ability to t------------- a language depends on effort",
     correct: ["translate"],
   },
   {
-    question: "There was a dramatic r------------- in birth rate: r_____",
+    question: "There was a dramatic r------------- in birth rate",
     correct: ["reduction"],
   },
   {
-    question: "The g------------- gap is a major problem: g_____",
+    question: "The g------------- gap is a major problem",
     correct: ["generation"],
   },
   {
-    question: "Under the g------------- of teachers, students passed: g_____",
+    question: "Under the g------------- of teachers, students passed",
     correct: ["guidance"],
   },
   {
-    question: "Most youths feel shyness and r-------------: r_____",
+    question: "Most youths feel shyness and r-------------",
     correct: ["reticence"],
   },
   {
-    question: "A child is a valuable g-------------: g_____",
+    question: "A child is a valuable g-------------",
     correct: ["gift"],
   },
   {
-    question: "P------------- talk enriches vocabulary: p_____",
+    question: "P------------- talk enriches vocabulary",
     correct: ["Parental"],
   },
   {
-    question: "Students satisfied their c------------- about Bagan: c_____",
+    question: "Students satisfied their c------------- about Bagan",
     correct: ["curiosity"],
   },
   {
-    question: "Living in pleasant s------------- brings happiness: s_____",
+    question: "Living in pleasant s------------- brings happiness",
     correct: ["surroundings"],
   },
   {
-    question: "Learning together with negatives is a vital life s-------------: s_____",
+    question: "Learning together with negatives is a vital life s-------------",
     correct: ["skill"],
   },
   {
-    question: "In student life, a------------- success is vital: a_____",
+    question: "In student life, a------------- success is vital",
     correct: ["academic"],
   },
   {
-    question: "Private sector is i------------- with public sector: i_____",
+    question: "Private sector is i------------- with public sector",
     correct: ["integrated"],
   },
   {
-    question: "Every culture has its own n-------------: n_____",
+    question: "Every culture has its own n-------------",
     correct: ["norms"],
   },
   {
-    question: "A master degree is a p------------- to be a teacher: p_____",
+    question: "A master degree is a p------------- to be a teacher",
     correct: ["prerequisite"],
   },
   {
-    question: "The a------------- is so silent during speech: a_____",
+    question: "The a------------- is so silent during speech",
     correct: ["audience"],
   },
   {
-    question: "Some students think rules are not r-------------: r_____",
+    question: "Some students think rules are not r-------------",
     correct: ["relevant"],
   },
   {
-    question: "This book is very i------------- with grammar rules: i_____",
+    question: "This book is very i------------- with grammar rules",
     correct: ["informative"],
   },
   {
-    question: "24 hour service is a------------- for customers: a_____",
+    question: "24 hour service is a------------- for customers",
     correct: ["available"],
   },
   {
-    question: "Speaking clearly is c------------- for others: c_____",
+    question: "Speaking clearly is c------------- for others",
     correct: ["comprehensible"],
   },
   {
-    question: "Religion is a d------------- factor in societies: d_____",
+    question: "Religion is a d------------- factor in societies",
     correct: ["dominating"],
   },
   {
-    question: "Her e------------- to learn is delightful: e_____",
+    question: "Her e------------- to learn is delightful",
     correct: ["eagerness"],
   },
 ],
@@ -6120,50 +6120,523 @@ grammar: [
     description: "A DAY'S WAIT",
 
     // VOCABULARY FLASHCARDS - Terms and definitions
-    vocabulary: [
-      {
-        front: "[Term]",
-        back: "[Definition and example]",
-      },
-      // Add more vocabulary cards here
-    ],
+vocabulary: [
+  {
+    front: "acid",
+    back: "A sour substance, often found in foods like lemon juice. Example: Vinegar has acid in it.",
+  },
+  {
+    front: "condition",
+    back: "A state of health or situation. Example: She is in good physical condition.",
+  },
+  {
+    front: "pills",
+    back: "Small round medicine you swallow. Example: He takes two pills a day.",
+  },
+  {
+    front: "influenza (flu)",
+    back: "A common illness with fever, cough, and tiredness. Example: Many people get the flu in winter.",
+  },
+  {
+    front: "pneumonia",
+    back: "A serious lung infection that makes it hard to breathe. Example: The doctor treated him for pneumonia.",
+  },
+  {
+    front: "capsules",
+    back: "Medicine in a small container that you swallow. Example: She takes vitamin capsules daily.",
+  },
+  {
+    front: "headache",
+    back: "Pain in the head. Example: Too much noise gives me a headache.",
+  },
+  {
+    front: "lightheaded",
+    back: "Feeling dizzy or weak, like you might faint. Example: He felt lightheaded after running.",
+  },
+  {
+    front: "purgative",
+    back: "Strong medicine that makes you go to the toilet quickly. Example: The doctor gave him a purgative for stomach problems.",
+  },
+],
 
-    // SHORT QUESTIONS - Question and answer pairs
-    shortQuestions: [
-      {
-        front: "[Your question here]",
-        back: "[Your answer here]",
-      },
-      // Add more short questions here
-    ],
+// SHORT QUESTIONS - Question and answer pairs
+shortQuestions: [
+  {
+    front: "What is the setting of the short story 'A Day's Wait'?",
+    back: "The setting of the short story 'A Day's Wait' is in a room with open windows.",
+  },
+  {
+    front: "How did the boy look when his father saw him?",
+    back: "The boy was shivering, and his face was white when his father saw him.",
+  },
+  {
+    front: "How did the father know his son had a high temperature?",
+    back: "The father knew his son had a high temperature by putting his hand on his forehead.",
+  },
+  {
+    front: "What medicines did the doctor give to the boy?",
+    back: "The doctor gave the boy three different medicines: one was to bring down the fever, another a purgative, and the third to overcome an acid condition.",
+  },
+  {
+    front: "Why didn't the boy follow what his father was reading to him?",
+    back: "The boy didn't follow what his father was reading to him because he did not want his father to stay beside him.",
+  },
+  {
+    front: "Where did the father go when the boy was resting in bed?",
+    back: "The father went hunting when the boy was resting in bed.",
+  },
+  {
+    front: "Why did the boy refuse to let anyone come into the room?",
+    back: "The boy refused to let anyone come into the room because he did not want them to get what he had or suffer like him.",
+  },
+  {
+    front: "How did the father explain to his son about the two different thermometers?",
+    back: "The father explained to his son about the two different thermometers by telling the difference between the two kinds of thermometers - the different temperatures in Celsius and Fahrenheit.",
+  },
+  {
+    front: "If you were in the place of the boy, how would you react?",
+    back: "Accept any relevant answer.",
+  },
+  {
+    front: "What do you understand by the title of the story — 'A Day's Wait'?",
+    back: "The story's title 'A Day's Wait' is about the day when the boy spent waiting to die.",
+  },
+],
 
-    // INITIAL LETTERS - Fill in the first letter(s)
-    initialLetters: [
-      {
-        question: "[Description]: [First letter(s)]_____",
-        correct: ["letter1", "letters2", "word"], // Array of acceptable answers
-      },
-      // Add more initial letter questions here
-    ],
+// INITIAL LETTERS - Fill in the first letter(s)
+initialLetters: [
+  {
+    question: "By the time they reached the house, she was s------------- and lying in the bed.",
+    correct: ["shivering"],
+  },
+  {
+    question: "Her head a------------- too much to respond his question.",
+    correct: ["ached"],
+  },
+  {
+    question: "It does not m------------- who you are. You must obey school rules.",
+    correct: ["matter"],
+  },
+  {
+    question: "I have had a terrible headache for the last two days.",
+    correct: ["headache"],
+  },
+  {
+    question: "The people were d------------- in old fashioned clothes for the party.",
+    correct: ["dressed"],
+  },
+  {
+    question: "He went d------------- to have his dinner and change his clothes for night out.",
+    correct: ["downstairs"],
+  },
+  {
+    question: "My f------------- is large and broad and it makes my appearance and look older.",
+    correct: ["forehead"],
+  },
+  {
+    question: "The day nights were still cold into April, but the t------------- increased into the 40 C during day.",
+    correct: ["temperature"],
+  },
+  {
+    question: "You should take m------------- if you feel sick.",
+    correct: ["medicines"],
+  },
+  {
+    question: "The doctor gave him different colored c------------- for his disease and general week.",
+    correct: ["capsules"],
+  },
+  {
+    question: "Before you use, please read the i------------- on the bottle.",
+    correct: ["instructions"],
+  },
+  {
+    question: "In 1935, a vaccine for yellow f------------- was created.",
+    correct: ["fever"],
+  },
+  {
+    question: "He was given a p------------- before the operation.",
+    correct: ["purgative"],
+  },
+  {
+    question: "Sometimes, you will meet some problems and difficulties and must try to o------------- them.",
+    correct: ["overcome"],
+  },
+  {
+    question: "The immune system can seek out and destroy disease g-------------, infected cells and tumor cells.",
+    correct: ["germs"],
+  },
+  {
+    question: "We should take together to improve preparedness for an i------------- pandemic.",
+    correct: ["influenza"],
+  },
+  {
+    question: "You do not have to w------------- about that problem. I can solve it alone.",
+    correct: ["worry"],
+  },
+  {
+    question: "The rainy season can be a light e------------- of flu for every year.",
+    correct: ["epidemic"],
+  },
+  {
+    question: "When your country is in d-------------, you should forget your own safety.",
+    correct: ["danger"],
+  },
+  {
+    question: "The pilots had to take emergency action to a------------- a disaster.",
+    correct: ["avoid"],
+  },
+  {
+    question: "We had been in hospital with p------------- and we were all concerned.",
+    correct: ["pneumonia"],
+  },
+  {
+    question: "She d------------- herself from the group and came to join me.",
+    correct: ["detached"],
+  },
+  {
+    question: "You will have to w------------- until the end of month before I can pay you.",
+    correct: ["wait"],
+  },
+  {
+    question: "She looked at me very s------------- and I had never seen that look in her before.",
+    correct: ["strangely"],
+  },
+  {
+    question: "Drinking coffee keeps him a------------- all the day without feeling sleepy.",
+    correct: ["awake"],
+  },
+  {
+    question: "If you start getting l------------- that is a bad sign and you should stop.",
+    correct: ["lightheaded"],
+  },
+  {
+    question: "The doctor p------------- three months of physical therapy for my leg injury.",
+    correct: ["prescribed"],
+  },
+  {
+    question: "Eating too much f------------- food is not good for health.",
+    correct: ["frozen"],
+  },
+  {
+    question: "Because of the rain, the surface of the road is g------------- and it is difficult to walk.",
+    correct: ["glassy"],
+  },
+  {
+    question: "Roger s------------- on the ice and hurt his leg.",
+    correct: ["slipped"],
+  },
+  {
+    question: "The soldiers s------------- across the rocks to fight the enemies suddenly.",
+    correct: ["slithered"],
+  },
+  {
+    question: "In our town, the roads are dark with o------------- trees.",
+    correct: ["overhanging"],
+  },
+  {
+    question: "It seemed impolite to r------------- when she invited me for dinner.",
+    correct: ["refuse"],
+  },
+  {
+    question: "Myanmar women always apply Thanakha on their c-------------.",
+    correct: ["cheeks"],
+  },
+  {
+    question: "Her face f------------- because the teacher scolded her in front of the class.",
+    correct: ["flushed"],
+  },
+  {
+    question: "At night, s------------- at the stars in the sky is a good feeling.",
+    correct: ["staring"],
+  },
+  {
+    question: "The president e------------- assumes that he will stay in power next year.",
+    correct: ["evidently"],
+  },
+  {
+    question: "After having his dinner, he c------------- to study his lessons.",
+    correct: ["commenced"],
+  },
+  {
+    question: "Since I was young, I could walk two m------------- at one time.",
+    correct: ["miles"],
+  },
+  {
+    question: "After running a half k-------------, I began to feel tired.",
+    correct: ["kilometer"],
+  },
+  {
+    question: "She g------------- at me and said slowly that she was so tired of trying.",
+    correct: ["gazed"],
+  },
+  {
+    question: "A h------------- years ago, life in both city and countryside was so simple.",
+    correct: ["hundred"],
+  },
+],
 
-    // MULTIPLE CHOICE QUESTIONS
-    multipleChoice: [
-      {
-        question: "[Your question here]",
-        options: ["[Option 1]", "[Option 2]", "[Option 3]", "[Option 4]"],
-        correct: 0, // Index of correct answer (0-3)
-      },
-      // Add more multiple choice questions here
-    ],
+// MULTIPLE CHOICE QUESTIONS
+multipleChoice: [
+  {
+    question: "The little boy stood outside in the snow, ------------- from the cold.",
+    options: ["sweating", "shivering", "yawning"],
+    correct: 1,
+  },
+  {
+    question: "His heart ------------- for days after she moved away.",
+    options: ["ached", "smiled", "froze"],
+    correct: 0,
+  },
+  {
+    question: "At the wedding, the bride ------------- in a beautiful white gown.",
+    options: ["is wore", "had put", "was dressed"],
+    correct: 2,
+  },
+  {
+    question: "The doctor prescribed several ------------- to help her recover from the infection.",
+    options: ["doses", "vitamins", "medicines"],
+    correct: 2,
+  },
+  {
+    question: "The children happily ------------- the drawings with bright crayons.",
+    options: ["colored", "washed", "folded"],
+    correct: 0,
+  },
+  {
+    question: "The pharmacist handed me a bottle filled with small, red -------------.",
+    options: ["tablets", "capsules", "candies"],
+    correct: 1,
+  },
+  {
+    question: "Before assembling the furniture, make sure to read the ------------- carefully.",
+    options: ["instructions", "decorations", "invitations"],
+    correct: 0,
+  },
+  {
+    question: "The doctor prescribed a strong ------------- to cleanse the patient's digestive system.",
+    options: ["vitamin", "purgative", "antibiotic"],
+    correct: 1,
+  },
+  {
+    question: "Washing your hands regularly helps to prevent the spread of harmful -------------.",
+    options: ["germs", "viruses", "bacteria"],
+    correct: 0,
+  },
+  {
+    question: "She wore a ------------- jacket because the weather was warm and sunny.",
+    options: ["heavy", "warm", "light"],
+    correct: 2,
+  },
+  {
+    question: "The city took immediate action to control the spread of the -------------.",
+    options: ["epidemic", "event", "disaster"],
+    correct: 0,
+  },
+  {
+    question: "The hikers were unaware of the ------------- lurking in the forest.",
+    options: ["danger", "opportunity", "safety"],
+    correct: 0,
+  },
+  {
+    question: "The doctor diagnosed her with --------- after she showed symptoms of a severe cough and difficulty breathing.",
+    options: ["bronchitis", "asthma", "pneumonia"],
+    correct: 2,
+  },
+  {
+    question: "He remained ------------- during the heated discussion, not taking sides or getting emotionally involved.",
+    options: ["engaged", "detached", "involved"],
+    correct: 1,
+  },
+  {
+    question: "We had to ------------- the bus to arrive before we could continue our journey.",
+    options: ["look for", "wait for", "call for"],
+    correct: 1,
+  },
+  {
+    question: "The park's beauty is enhanced by its ------------- landscape, which attracts many visitors each year.",
+    options: ["natural", "artificial", "manufactured"],
+    correct: 0,
+  },
+  {
+    question: "------------- enough, he didn't seem worried about the upcoming exam, even though he hadn’t studied at all.",
+    options: ["Normally", "Expectedly", "Strangely"],
+    correct: 2,
+  },
+  {
+    question: "After a long nap, she finally felt ------------- and ready to start the day.",
+    options: ["tired", "sleepy", "awake"],
+    correct: 2,
+  },
+  {
+    question: "Please don’t ------------- me while I’m working on this important project.",
+    options: ["bother", "ignore", "looked up"],
+    correct: 0,
+  },
+  {
+    question: "After standing up too quickly, she felt a bit ------------- and had to sit down for a moment.",
+    options: ["dizzy", "lightheaded", "faint"],
+    correct: 1,
+  },
+  {
+    question: "The doctor ------------- a new medication to help with the symptoms.",
+    options: ["prescribed", "recommended", "suggested"],
+    correct: 0,
+  },
+  {
+    question: "The weather was terrible, with ------------- falling from the sky, making the roads slippery.",
+    options: ["snow", "sleet", "rain"],
+    correct: 1,
+  },
+  {
+    question: "The wooden chair had been carefully ------------- to protect it from wear and give it a polished look.",
+    options: ["painted", "lacquered", "varnished"],
+    correct: 2,
+  },
+  {
+    question: "The lake was so cold that it was completely -------------, allowing people to skate on it.",
+    options: ["chilled", "iced", "frozen"],
+    correct: 2,
+  },
+  {
+    question: "We followed the narrow ------------- until we reached the waterfall.",
+    options: ["creek", "river", "stream"],
+    correct: 2,
+  },
+  {
+    question: "The lake was so ------------- that it looked like a mirror in the early morning.",
+    options: ["shiny", "glassy", "smooth"],
+    correct: 1,
+  },
+  {
+    question: "She ------------- on the ice and almost fell down.",
+    options: ["slipped", "tripped", "stumbled"],
+    correct: 0,
+  },
+  {
+    question: "The snake ------------- across the ground, moving silently.",
+    options: ["crawled", "slithered", "dragged"],
+    correct: 1,
+  },
+  {
+    question: "She was so embarrassed that her face turned bright red, and she quickly ------------- with shame.",
+    options: ["blushed", "reddened", "flushed"],
+    correct: 2,
+  },
+  {
+    question: "The branch above us was so large, it was ------------- the path, making it difficult to walk.",
+    options: ["extending", "overhanging", "projecting"],
+    correct: 1,
+  },
+  {
+    question: "The roads were so slippery because they were -------------, making driving very dangerous.",
+    options: ["ice-coated", "snow-covered", "frost-bitten"],
+    correct: 0,
+  },
+  {
+    question: "She stood at the edge of the stage, ------------- to deliver her speech.",
+    options: ["prepared", "ready", "poised"],
+    correct: 2,
+  },
+  {
+    question: "He ------------- to help with the project, despite being asked several times.",
+    options: ["refused", "accepted", "declined"],
+    correct: 0,
+  },
+  {
+    question: "She was ------------- at the painting for a long time, trying to understand its meaning.",
+    options: ["looking", "glancing", "staring"],
+    correct: 2,
+  },
+  {
+    question: "The meeting ------------- after everyone had arrived.",
+    options: ["hold", "commenced", "initiated"],
+    correct: 1,
+  },
+  {
+    question: "You should not think ------------- ideas. Keep studying.",
+    options: ["silly", "foolish", "absurd"],
+    correct: 1,
+  },
+  {
+    question: "She took some ------------- to help with her headache.",
+    options: ["tablets", "pills", "capsules"],
+    correct: 1,
+  },
+  {
+    question: "She couldn't focus because of the terrible -------------.",
+    options: ["headache", "migraine", "dizziness"],
+    correct: 0,
+  },
+],
 
-    // GRAMMAR - Grammar rules and explanations
-    grammar: [
-      {
-        front: "[Grammar Rule/Topic]",
-        back: "[Explanation and examples]",
-      },
-      // Add more grammar cards here
-    ],
+
+// GRAMMAR - Grammar rules and explanations
+grammar: [
+  // Part A: As if / As though
+  {
+    front: "He acts as if he (be) a king.",
+    back: "He acts as if he were a king.",
+  },
+  {
+    front: "Kyi Pyar looks as if she (not sleep) for the whole night.",
+    back: "Kyi Pyar looks as if she had not slept for the whole night.",
+  },
+  {
+    front: "She speaks English as if she (be) a native speaker.",
+    back: "She speaks English as if she were a native speaker.",
+  },
+  {
+    front: "He talked to them as though he (be) their close friend.",
+    back: "He talked to them as though he were their close friend.",
+  },
+  {
+    front: "Schatz walked slowly and his face was white as though he (have) a strong unhappy feeling.",
+    back: "Schatz walked slowly and his face was white as though he had a strong unhappy feeling.",
+  },
+
+  // Part C: Introductory Phrases
+  {
+    front: "We set up a camp near the riverbank.",
+    back: "Near the riverbank, we set up a camp.",
+  },
+  {
+    front: "You must turn left to get to the shopping mall.",
+    back: "To get to the shopping mall, you must turn left.",
+  },
+  {
+    front: "I saw several sunflowers along the way to my uncle's house.",
+    back: "Along the way to my uncle's house, I saw several sunflowers.",
+  },
+  {
+    front: "He opened the textbook, sitting down in his armchair.",
+    back: "Sitting down in his armchair, he opened the textbook.",
+  },
+  {
+    front: "We should plant more trees to prevent soil erosion.",
+    back: "To prevent soil erosion, we should plant more trees.",
+  },
+  {
+    front: "The old woman was going to rest by a small apple tree.",
+    back: "By a small apple tree, the old woman was going to rest.",
+  },
+  {
+    front: "U Soe listened to the footsteps coming towards him, standing completely still.",
+    back: "Standing completely still, U Soe listened to the footsteps coming towards him.",
+  },
+  {
+    front: "She saw a busking musician, driving to work.",
+    back: "Driving to work, she saw a busking musician.",
+  },
+  {
+    front: "I was completely exhausted at the end of the day.",
+    back: "At the end of the day, I was completely exhausted.",
+  },
+  {
+    front: "Nilar went to a restaurant to have lunch with her friends.",
+    back: "To have lunch with her friends, Nilar went to a restaurant.",
+  },
+],
+
   },
 
   // ==========================================
@@ -6289,6 +6762,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
