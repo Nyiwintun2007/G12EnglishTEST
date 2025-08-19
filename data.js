@@ -5007,40 +5007,506 @@ grammar: [
 
     // SHORT QUESTIONS - Question and answer pairs
     shortQuestions: [
-      {
-        front: "[Your question here]",
-        back: "[Your answer here]",
-      },
-      // Add more short questions here
+  // PART I
+  {
+    front: "1. Where and when was Helen Keller born?",
+    back: "Helen Keller was born in Tuscumbia, Alabama, on 27th June 1880.",
+  },
+  {
+    front: "2. What happened to Helen after her illness?",
+    back: "Helen became blind and deaf after her illness.",
+  },
+  {
+    front: "3. What did Helen do to other children?",
+    back: "Helen fought with other children and sometimes hurt them.",
+  },
+  {
+    front: "4. What did the director of the Perkins Institute for the Blind ask Annie Sullivan?",
+    back: "The director of the Perkins Institute for the Blind asked Annie Sullivan if she would like to become Helen's teacher.",
+  },
+  {
+    front: "5. What did the director of the Institute think Annie could do?",
+    back: "The director of the Institute thought Annie could teach language to Helen.",
+  },
+
+  // PART II
+  {
+    front: "1. What made Annie feel excited?",
+    back: "The idea of teaching a deaf-blind child made Annie feel excited.",
+  },
+  {
+    front: "2. What did Helen do to Annie's suitcase?",
+    back: "Helen grabbed Annie's suitcase and immediately pulled everything out of it.",
+  },
+  {
+    front: "3. How did Annie teach Helen language?",
+    back: "Annie taught Helen language by spelling into Helen's hand, using a special alphabet.",
+  },
+  {
+    front: "4. According to the author, what does language mean to Helen?",
+    back: "According to the author, language means the door to the world for Helen.",
+  },
+  {
+    front: "5. Why did Annie want the Kellers to leave her alone with Helen?",
+    back: "Annie wanted the Kellers to leave her alone with Helen because she could not teach her anything if they just let her do whatever she wanted.",
+  },
+
+  // PART III
+  {
+    front: "1. Where did Annie want to live with Helen? Why?",
+    back: "Annie wanted to live with Helen in the guesthouse in the Kellers' garden because she wanted Helen to depend on her for her food, her clothes, everything.",
+  },
+  {
+    front: "2. What does Helen's first word 'Wah-Wah' mean?",
+    back: "Helen's first word 'Wah-Wah' means 'water'.",
+  },
+  {
+    front: "3. Why does the author say 'The world was hers'?",
+    back: "The author says 'The world was hers' because Helen had a key to language.",
+  },
+  {
+    front: "4. What was Helen able to do later?",
+    back: "Helen was able to speak, read, and write later.",
+  },
+  {
+    front: "5. Do you think it would be easy to teach language to a blind and deaf person? Why?",
+    back: "Accept any relevant answer. (Sample: I don't think so because it is hard to teach language to a blind and deaf person.)",
+  },
     ],
 
     // INITIAL LETTERS - Fill in the first letter(s)
-    initialLetters: [
-      {
-        question: "[Description]: [First letter(s)]_____",
-        correct: ["letter1", "letters2", "word"], // Array of acceptable answers
-      },
-      // Add more initial letter questions here
-    ],
+initialLetters: [
+  {
+    question: "Although he won the first prize, he had no p_____.",
+    correct: ["proud"],
+  },
+  {
+    question: "A m_____ illness has been spreading through the city.",
+    correct: ["mysterious"],
+  },
+  {
+    question: "I was r_____ to hear that they had arrived safely from the trip.",
+    correct: ["relieved"],
+  },
+  {
+    question: "She s_____ for help when she saw the robber.",
+    correct: ["screamed"],
+  },
+  {
+    question: "We should not look directly at the sun even for a little while because it can make us b_____.",
+    correct: ["blind"],
+  },
+  {
+    question: "She has completely d_____ in her right ear due to an accident.",
+    correct: ["deaf"],
+  },
+  {
+    question: "S_____ place is the best for those who feel stressed and are so tired of working.",
+    correct: ["silent"],
+  },
+  {
+    question: "The problem is there is not enough c_____ between teachers and parents.",
+    correct: ["contact"],
+  },
+  {
+    question: "The company wants to hire a new d_____ for marketing.",
+    correct: ["director"],
+  },
+  {
+    question: "They gave support an i_____ for research into the causes of mental illness.",
+    correct: ["institute"],
+  },
+  {
+    question: "Last week, the professor e_____ the poem to the students in this class.",
+    correct: ["explained"],
+  },
+  {
+    question: "Knowledge is t_____ but practice is the key to it.",
+    correct: ["treasure"],
+  },
+  {
+    question: "The book was listed one of the best-sellers so it had been t_____ into several languages.",
+    correct: ["translated"],
+  },
+  {
+    question: "Staff got e_____ when they heard they were getting a bonus.",
+    correct: ["excited"],
+  },
+  {
+    question: "I meet with a d_____-b_____ young woman who is suffering from hearing loss and very little real sight left.",
+    correct: ["deaf-blind"],
+  },
+  {
+    question: "The two countries a_____ to establish full diplomatic relations by maintaining good relation.",
+    correct: ["agreed"],
+  },
+  {
+    question: "His job requires him to t_____ frequently.",
+    correct: ["travel"],
+  },
+  {
+    question: "She is a really good cook but she is always m_____.",
+    correct: ["messy"],
+  },
+  {
+    question: "S_____ children may refuse to do simple tasks like brushing their teeth or putting away their toys.",
+    correct: ["spoilt"],
+  },
+  {
+    question: "Special a_____ cards are used to teach blind and deaf children.",
+    correct: ["alphabet"],
+  },
+  {
+    question: "She g_____ a tissue from the box on the counter and blew her nose.",
+    correct: ["grabbed"],
+  },
+  {
+    question: "He k_____ quietly before entering the room.",
+    correct: ["knocked"],
+  },
+  {
+    question: "After many years of war, people in both countries desire for p_____.",
+    correct: ["peace"],
+  },
+  {
+    question: "It is good to study in a q_____ place, and it can help you concentrate more on your lessons.",
+    correct: ["quiet"],
+  },
+  {
+    question: "My parents f_____ me to choose the university that they want me to join.",
+    correct: ["forced"],
+  },
+  {
+    question: "He claims to have developed a new m_____ for growing vegetables for the farmers.",
+    correct: ["method"],
+  },
+  {
+    question: "With a sorrowful manner, she f_____ the letter and put it away.",
+    correct: ["folded"],
+  },
+  {
+    question: "She has lived a_____ in this house for almost five years now.",
+    correct: ["alone"],
+  },
+  {
+    question: "On vacation, he stayed at his friend’s g_____ for three nights.",
+    correct: ["guesthouse"],
+  },
+  {
+    question: "Robots can p_____ thousands of operations flawlessly every minute.",
+    correct: ["perform"],
+  },
+  {
+    question: "Look at the state of his car! It is m_____ that he didn’t die.",
+    correct: ["miracle"],
+  },
+  {
+    question: "The project will take for about four months to c_____.",
+    correct: ["complete"],
+  },
+  {
+    question: "You should read the book in order to u_____ more about the subject.",
+    correct: ["understand"],
+  },
+  {
+    question: "The years p_____ and almost nothing changed for me.",
+    correct: ["passed"],
+  },
+  {
+    question: "His m_____ changed when he saw his mother.",
+    correct: ["manner"],
+  },
+  {
+    question: "I had always believed that life was very s_____.",
+    correct: ["strange"],
+  },
+  {
+    question: "I g_____ with a degree in English literature from Harvard last year.",
+    correct: ["graduated"],
+  },
+  {
+    question: "My brother is an actor. He has a_____ in several films.",
+    correct: ["appeared"],
+  },
+  {
+    question: "If I had had a lot of money, I would have t_____ many countries.",
+    correct: ["toured"],
+  },
+  {
+    question: "Learning a f_____ language is one of the most interesting works for me.",
+    correct: ["foreign"],
+  },
+  {
+    question: "My mother asked me to water the plants by using water p_____ in the evening.",
+    correct: ["pump"],
+  },
+],
+
 
     // MULTIPLE CHOICE QUESTIONS
-    multipleChoice: [
-      {
-        question: "[Your question here]",
-        options: ["[Option 1]", "[Option 2]", "[Option 3]", "[Option 4]"],
-        correct: 0, // Index of correct answer (0-3)
-      },
-      // Add more multiple choice questions here
-    ],
+multipleChoice: [
+  {
+    question: "She felt very ------------- of her achievements after the ceremony.",
+    options: ["proud", "pride", "proudly"],
+    correct: 0,
+  },
+  {
+    question: "When the roller coaster dropped suddenly, I thought I ------------- shock.",
+    options: ["fainted out of", "lost my breath from", "almost died of"],
+    correct: 2,
+  },
+  {
+    question: "The old house at the end of the street had a ------------- atmosphere that made everyone feel uneasy.",
+    options: ["joyful", "mysterious", "cheerful"],
+    correct: 1,
+  },
+  {
+    question: "After hearing that the test was postponed, I felt completely -------------.",
+    options: ["frustrated", "relieved", "nervous"],
+    correct: 1,
+  },
+  {
+    question: "I felt really ------------- when I found my lost wallet on the street.",
+    options: ["luck", "luckily", "lucky"],
+    correct: 2,
+  },
+  {
+    question: "The child got scared and suddenly ------------- her mother in the middle of the night.",
+    options: ["screamed for", "looked after", "laughed at"],
+    correct: 0,
+  },
+  {
+    question: "The room was so ------------- that you could hear a pin drop.",
+    options: ["silent", "silence", "silently"],
+    correct: 0,
+  },
+  {
+    question: "The children were so excited that they started to ------------- in the park.",
+    options: ["walk", "stand still", "run about"],
+    correct: 2,
+  },
+  {
+    question: "The movie had a lot of ------------- scenes, which made it difficult to watch for some people.",
+    options: ["gentle", "violent", "calm"],
+    correct: 1,
+  },
+  {
+    question: "The ------------- animals in the jungle can sometimes be dangerous to humans.",
+    options: ["wild", "tame", "domestic"],
+    correct: 0,
+  },
+  {
+    question: "Her room was so ------------- that she couldn’t even find her shoes.",
+    options: ["messy", "tidy", "organized"],
+    correct: 0,
+  },
+  {
+    question: "The child became ------------- after always getting what he wanted.",
+    options: ["well-behaved", "spoilt", "content"],
+    correct: 1,
+  },
+  {
+    question: "After the intense match, he was completely ------------- and couldn't continue fighting.",
+    options: ["knocked down", "knocked over", "knocked out"],
+    correct: 2,
+  },
+  {
+    question: "The library is always so -------------, making it the perfect place to study.",
+    options: ["quiet", "calm", "noisy"],
+    correct: 0,
+  },
+  {
+    question: "He tried to avoid the meeting by ------------- attending the conference that day.",
+    options: ["getting into", "getting out of", "getting over"],
+    correct: 1,
+  },
+  {
+    question: "She carefully asked him to ------------- the letter before putting it in the envelope.",
+    options: ["keep", "fold", "bend"],
+    correct: 1,
+  },
+  {
+    question: "The scientist used a new ------------- to conduct the experiment more efficiently.",
+    options: ["method", "approach", "system"],
+    correct: 0,
+  },
+  {
+    question: "The doctors said it was a ------------- that she survived the accident with only minor injuries.",
+    options: ["mystery", "accident", "miracle"],
+    correct: 2,
+  },
+  {
+    question: "The situation definitely ------------- immediate action from the emergency team.",
+    options: ["asked for", "waited for", "called for"],
+    correct: 2,
+  },
+  {
+    question: "After four years of hard work, she finally ------------- from college with a degree in ESL.",
+    options: ["graduated", "enrolled", "dropped out"],
+    correct: 0,
+  },
+  {
+    question: "We need to ------------- a new strategy to attract more customers before the next quarter.",
+    options: ["come up with", "put up with", "keep up with"],
+    correct: 0,
+  },
+  {
+    question: "In today’s fast-changing world, it’s hard to ------------- the latest technological trends.",
+    options: ["put up with", "come up with", "keep up with"],
+    correct: 2,
+  },
+  {
+    question: "She had to ------------- the noise from the construction site every day.",
+    options: ["catch up with", "put up with", "come up with"],
+    correct: 1,
+  },
+  {
+    question: "The company decided to ------------- outdated policies to improve efficiency.",
+    options: ["cut down on", "get away with", "do away with"],
+    correct: 2,
+  },
+  {
+    question: "He cheated on the exam and somehow managed to ------------- it without getting caught.",
+    options: ["get away with", "do away with", "come down with"],
+    correct: 0,
+  },
+  {
+    question: "In order to live a healthier life, she decided to ------------- sugar and processed foods.",
+    options: ["cut down on", "catch up with", "come up with"],
+    correct: 0,
+  },
+  {
+    question: "During the meeting, she decided to ------------- the issue of staff scheduling.",
+    options: ["take up", "bring up", "come up"],
+    correct: 1,
+  },
+  {
+    question: "Can you ------------- the kids from school this afternoon?",
+    options: ["pick up", "drop off", "take in"],
+    correct: 0,
+  },
+  {
+    question: "During the phone call, we were suddenly ------------- because of bad reception.",
+    options: ["called out", "turned off", "cut off"],
+    correct: 2,
+  },
+  {
+    question: "It was a tough exam, but I managed to ------------- it with a passing grade.",
+    options: ["go over", "get through", "take on"],
+    correct: 1,
+  },
+  {
+    question: "The old bridge could ------------- if the pressure builds up any more.",
+    options: ["break down", "burn out", "blow up"],
+    correct: 2,
+  },
+  {
+    question: "Be careful on the icy sidewalk, or you might ______.",
+    options: ["fall down", "break up", "slip out"],
+    correct: 0,
+  },
+  {
+    question: "Don’t ------------- those papers—I still need to review them!",
+    options: ["put out", "give up", "throw away"],
+    correct: 2,
+  },
+  {
+    question: "The doctor advised her ------------- a few days off to recover fully.",
+    options: ["take", "to take", "taking"],
+    correct: 1,
+  },
+  {
+    question: "She reminded him ------------- the report before the deadline.",
+    options: ["submitting", "to submit", "submit"],
+    correct: 1,
+  },
+  {
+    question: "The teacher told the students ------------- their homework before class.",
+    options: ["to finish", "finish", "finishing"],
+    correct: 0,
+  },
+  {
+    question: "The manager will have the team ------------- overtime to meet the deadline.",
+    options: ["working", "to work", "work"],
+    correct: 2,
+  },
+  {
+    question: "Her parents finally let her ------------- out late for the party.",
+    options: ["stay", "staying", "to stay"],
+    correct: 0,
+  },
+  {
+    question: "She politely asked the waiter ------------- the check to the table.",
+    options: ["bringing", "to bring", "bring"],
+    correct: 1,
+  },
+  {
+    question: "We need to get someone ------------- the heating before it gets too cold.",
+    options: ["fix", "fixing", "to fix"],
+    correct: 2,
+  },
+  {
+    question: "He noticed the children ------------- outside in the rain without their coats.",
+    options: ["playing", "to play", "play"],
+    correct: 0,
+  },
+  {
+    question: "She didn’t expect him ------------- so late to the meeting.",
+    options: ["arrive", "to arrive", "arriving"],
+    correct: 1,
+  },
+  {
+    question: "I was truly shocked her -------------- so openly about such a sensitive topic.",
+    options: ["speaking", "speak", "to speak"],
+    correct: 1,
+  },
+],
+
 
     // GRAMMAR - Grammar rules and explanations
-    grammar: [
-      {
-        front: "[Grammar Rule/Topic]",
-        back: "[Explanation and examples]",
-      },
-      // Add more grammar cards here
-    ],
+grammar: [
+  {
+    front: "Our family doctor advised us (avoid / to avoid) eating fast food and sweets.",
+    back: "Correct: to avoid → Our family doctor advised us to avoid eating fast food and sweets.",
+  },
+  {
+    front: "Sandar reminded Thiri (buy / to buy) some flowers for their teacher.",
+    back: "Correct: to buy → Sandar reminded Thiri to buy some flowers for their teacher.",
+  },
+  {
+    front: "My mum told me (keep / to keep) in touch, so I call her every Sunday.",
+    back: "Correct: to keep → My mum told me to keep in touch, so I call her every Sunday.",
+  },
+  {
+    front: "Please have the waiter (bring / to bring) more bread.",
+    back: "Correct: bring → Please have the waiter bring more bread.",
+  },
+  {
+    front: "This restaurant lets customers (use / to use) credit cards to pay the bill.",
+    back: "Correct: use → This restaurant lets customers use credit cards to pay the bill.",
+  },
+  {
+    front: "The boss asked me (work / to work) at the weekend.",
+    back: "Correct: to work → The boss asked me to work at the weekend.",
+  },
+  {
+    front: "You should get Maryar (help / to help) you. She is not very busy now.",
+    back: "Correct: to help → You should get Maryar to help you. She is not very busy now.",
+  },
+  {
+    front: "I noticed a young boy (break / to break) all the kitchen windows.",
+    back: "Correct: break → I noticed a young boy break all the kitchen windows.",
+  },
+  {
+    front: "We can't expect robots (be / to be) as smart as human beings.",
+    back: "Correct: to be → We can't expect robots to be as smart as human beings.",
+  },
+  {
+    front: "I was shocked to see such a celebrity (behave / to behave) so badly in public.",
+    back: "Correct: behave → I was shocked to see such a celebrity behave so badly in public.",
+  },
+],
+
   },
 
 
@@ -5275,6 +5741,7 @@ TIPS:
 - You can have multiple acceptable answers for fill-in-the-blank questions
 - Test your changes by refreshing the website
 */
+
 
 
 
